@@ -1,0 +1,21 @@
+id,nombre,rut,edad,sexo,ocupacion
+1,Ruth Diez,22248283-6,20,F,empleado
+2,Marcela Alcalde,23308056-k,18,F,empleado
+3,Lydia Collado,19128155-1,25,F,empleado
+4,Ruben Salcedo,9367741-2,56,M,empleado
+5,Victorino Sabater,14513147-2,45,M,empleado
+6,Teodora Ramos,16422796-0,38,F,empleado
+7,Aranzazu Trigo,10945815-5,78,M,empleado
+8,Valentina Barrio,9834642-2,88,F,empleado
+9,Herminia Orozco,8902486-2,89,F,empleado
+10,Naira Lujan,5384717-k,96,F,empleado
+11,Martha Redondo,10380291-1,55,F,empleado
+12,Marcelino Arnau,15592734-8,34,M,empleado
+13,Inocencia Bolaños,6115534-1,64,F,empleado
+14,Melchor Frias,7709188-2,12,M,jefe
+15,Inmaculada Peinado,10410598-k,44,F,jefe
+16,Rachid Rial,20182387-0,29,M,jefe
+17,Consuelo Berenguer,9399196-6,54,F,jefe
+18,Aurora Viera,7473597-5,23,F,jefe
+19,Jean Giner,21117451-k,45,M,jefe
+20,Ana Ojeda,8140902-1,66,F,jefe
