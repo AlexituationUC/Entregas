@@ -17,7 +17,6 @@ id,nombre,id_direccion
 57,Luz Almacen,969
 19,Buqui Almacen,324
 14,Calle Antigua,377
-72,Algortimos Almacen,156
 59,Almacen Madera,494
 58,La Casa de la Abuela Antiguedades,1084
 22,Almacen Andares,648
@@ -25,268 +24,80 @@ id,nombre,id_direccion
 100,Casa Antigua,170
 99,El cofre del tesoro,787
 10,Almacen Caninos,97
-81,Propiedades Almacen,866
 94,Steak Almacen,858
 71,Couture Almacen,158
 24,Almacen Centrales,283
 66,Almacen Estilo,1055
 86,Almacen Intensas,400
 32,Paw Almacen,777
-48,Almacen Petalos,291
 101,Almacen Fluido,194
 93,Almacen Cambio,772
-71,Couture Almacen,158
 47,Almacen Camino,286
 45,Familiares Almacen,532
 69,Almacen Recreativas,93
 63,Almacen Caninos,285
 88,Backup Almacen,1064
-45,Familiares Almacen,532
-59,Almacen Madera,494
-101,Almacen Fluido,194
-72,Algortimos Almacen,156
 13,Almacen Fluido,387
-88,Backup Almacen,1064
 79,Almacen Ecuacion,542
-88,Backup Almacen,1064
-69,Almacen Recreativas,93
 37,Sustentables Almacen,835
-32,Paw Almacen,777
 91,Fuera del atico,141
 23,Almacen Almeja,957
 35,Almacen Cuspides,567
 9,Almacen Idea,229
 21,Almacen Afinidad,823
 62,Oda Almacen,773
-79,Almacen Ecuacion,542
 11,Steak Almacen,1053
 52,Almacen Petalos,618
-10,Almacen Caninos,97
 4,Fuera del atico,429
-35,Almacen Cuspides,567
 46,Almacen Fortaleza,528
 65,El cofre del tesoro,1088
-62,Oda Almacen,773
 31,Almacen Colmena,372
 74,Almacen Hada,1011
 28,Almacen Madera,1094
 16,Fuera del cofre,838
-16,Fuera del cofre,838
 40,Inversiones Almacen,430
-58,La Casa de la Abuela Antiguedades,1084
 36,Almacen Cuspides,74
-23,Almacen Almeja,957
-100,Casa Antigua,170
 73,Almacen Fluido,100
 96,Camelias Almacen,892
 2,Casa Antigua,213
-45,Familiares Almacen,532
 6,Almacen Camino,462
-96,Camelias Almacen,892
 1,Tesoros el dia 42,1049
-91,Fuera del atico,141
-11,Steak Almacen,1053
-59,Almacen Madera,494
 60,Fantasia Almacen,670
-2,Casa Antigua,213
-45,Familiares Almacen,532
 90,Almacen Receta,294
-40,Inversiones Almacen,430
-74,Almacen Hada,1011
-94,Steak Almacen,858
-32,Paw Almacen,777
 70,Almacen Intensas,962
 18,Steak Almacen,615
 41,Oda Almacen,212
-32,Paw Almacen,777
-23,Almacen Almeja,957
 61,Pimienta Almacen,145
-63,Almacen Caninos,285
 43,Propiedades Almacen,876
-72,Algortimos Almacen,156
-101,Almacen Fluido,194
-19,Buqui Almacen,324
 5,La Casa de la Abuela Antiguedades,990
 78,Lacio Almacen,172
 49,Almacen Cables,21
-84,Almacen Hada,711
 12,Almendras Almacen,99
-11,Steak Almacen,1053
-58,La Casa de la Abuela Antiguedades,1084
-90,Almacen Receta,294
 77,Familiares Almacen,309
-14,Calle Antigua,377
-35,Almacen Cuspides,567
 68,Almacen Elegante,632
-79,Almacen Ecuacion,542
-61,Pimienta Almacen,145
 53,Almacen Intensas,90
 95,Almendras Almacen,730
-9,Almacen Idea,229
-10,Almacen Caninos,97
 15,Algortimos Almacen,582
 34,Paw Almacen,183
 82,Quetzal Almacen,950
-45,Familiares Almacen,532
-62,Oda Almacen,773
-77,Familiares Almacen,309
 80,Antique Me,393
-97,Luz Almacen,225
-95,Almendras Almacen,730
-82,Quetzal Almacen,950
-77,Familiares Almacen,309
-84,Almacen Hada,711
 39,Steak Almacen,1048
 0,Almacen Centrales,506
-82,Quetzal Almacen,950
-72,Algortimos Almacen,156
-11,Steak Almacen,1053
 29,Almacen Tulipan,1063
-52,Almacen Petalos,618
-74,Almacen Hada,1011
 8,Couture Almacen,122
-21,Almacen Afinidad,823
-69,Almacen Recreativas,93
 56,Algortimos Almacen,1003
 75,Almacen Incidente,882
-34,Paw Almacen,183
-14,Calle Antigua,377
-62,Oda Almacen,773
-84,Almacen Hada,711
-5,La Casa de la Abuela Antiguedades,990
 64,Almacen Camino,52
-0,Almacen Centrales,506
-40,Inversiones Almacen,430
 3,Almendras Almacen,102
 17,Focus Almacen,679
-79,Almacen Ecuacion,542
-28,Almacen Madera,1094
-101,Almacen Fluido,194
-67,Almacen Incidente,241
-30,Almacen Autor,819
-35,Almacen Cuspides,567
-15,Algortimos Almacen,582
-27,Almacen Incidente,841
-20,Familiares Almacen,523
-96,Camelias Almacen,892
-22,Almacen Andares,648
-77,Familiares Almacen,309
-27,Almacen Incidente,841
-83,Fuera del atico,613
-14,Calle Antigua,377
-15,Algortimos Almacen,582
-67,Almacen Incidente,241
-15,Algortimos Almacen,582
 87,Buqui Almacen,594
-47,Almacen Camino,286
 38,Almacen Ecuacion,701
 26,Almacen Centrales,404
-58,La Casa de la Abuela Antiguedades,1084
-27,Almacen Incidente,841
-93,Almacen Cambio,772
 89,Fuera del atico,182
-60,Fantasia Almacen,670
-84,Almacen Hada,711
-0,Almacen Centrales,506
-62,Oda Almacen,773
-4,Fuera del atico,429
-21,Almacen Afinidad,823
-2,Casa Antigua,213
-35,Almacen Cuspides,567
 51,Oda Almacen,1074
-93,Almacen Cambio,772
-25,Steak Almacen,272
-96,Camelias Almacen,892
 98,Almacen Almeja,987
 55,Almacen Camino,1068
-83,Fuera del atico,613
-69,Almacen Recreativas,93
-26,Almacen Centrales,404
-26,Almacen Centrales,404
-1,Tesoros el dia 42,1049
-38,Almacen Ecuacion,701
-30,Almacen Autor,819
-85,Almacen Almeja,1061
-40,Inversiones Almacen,430
-13,Almacen Fluido,387
-88,Backup Almacen,1064
-63,Almacen Caninos,285
-97,Luz Almacen,225
-46,Almacen Fortaleza,528
-101,Almacen Fluido,194
-92,Almacen Caninos,657
 92,Almacen Caninos,657
 44,exito Almacen,59
-7,Couture Almacen,150
-12,Almendras Almacen,99
-78,Lacio Almacen,172
-3,Almendras Almacen,102
-0,Almacen Centrales,506
-22,Almacen Andares,648
-16,Fuera del cofre,838
-13,Almacen Fluido,387
-17,Focus Almacen,679
-74,Almacen Hada,1011
-37,Sustentables Almacen,835
-74,Almacen Hada,1011
-39,Steak Almacen,1048
-85,Almacen Almeja,1061
-46,Almacen Fortaleza,528
-38,Almacen Ecuacion,701
-2,Casa Antigua,213
-10,Almacen Caninos,97
-60,Fantasia Almacen,670
-96,Camelias Almacen,892
-13,Almacen Fluido,387
-49,Almacen Cables,21
-59,Almacen Madera,494
-8,Couture Almacen,122
-91,Fuera del atico,141
-34,Paw Almacen,183
-98,Almacen Almeja,987
-5,La Casa de la Abuela Antiguedades,990
-68,Almacen Elegante,632
-29,Almacen Tulipan,1063
-93,Almacen Cambio,772
-75,Almacen Incidente,882
-6,Almacen Camino,462
-67,Almacen Incidente,241
-4,Fuera del atico,429
-85,Almacen Almeja,1061
-14,Calle Antigua,377
-17,Focus Almacen,679
-10,Almacen Caninos,97
-99,El cofre del tesoro,787
-30,Almacen Autor,819
-61,Pimienta Almacen,145
-52,Almacen Petalos,618
 42,Almacen Madera,492
-81,Propiedades Almacen,866
-95,Almendras Almacen,730
-4,Fuera del atico,429
-2,Casa Antigua,213
-16,Fuera del cofre,838
 54,Asteroide Cofre,698
-51,Oda Almacen,1074
-82,Quetzal Almacen,950
-54,Asteroide Cofre,698
-34,Paw Almacen,183
-90,Almacen Receta,294
-60,Fantasia Almacen,670
-83,Fuera del atico,613
-42,Almacen Madera,492
-79,Almacen Ecuacion,542
-29,Almacen Tulipan,1063
-58,La Casa de la Abuela Antiguedades,1084
-95,Almendras Almacen,730
-56,Algortimos Almacen,1003
-38,Almacen Ecuacion,701
-5,La Casa de la Abuela Antiguedades,990
-22,Almacen Andares,648
-83,Fuera del atico,613
-34,Paw Almacen,183
-0,Almacen Centrales,506
-16,Fuera del cofre,838
-61,Pimienta Almacen,145
-47,Almacen Camino,286
-9,Almacen Idea,229

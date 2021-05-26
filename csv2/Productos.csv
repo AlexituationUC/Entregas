@@ -1,7 +1,6 @@
 id,nombre,precio,descripcion
 267,pollo,6605,carne
 357,mouse,14549,producto tecnologico
-357,mouse,14549,producto tecnologico
 295,manzana,11013,frutas
 158,hamburguesa de pollo,10287,hamburguesa
 379,hamburguesa de vacuno,11754,hamburguesa
@@ -21,8 +20,6 @@ id,nombre,precio,descripcion
 257,pantalon,12445,ropa
 41,hamburguesa de verduras,13789,hamburguesa
 40,pantalla lisa,11843,pantalla de luz
-267,pollo,6605,carne
-257,pantalon,12445,ropa
 75,lechuga,7914,verduras
 32,pantalla para colgar,6200,pantalla de luz
 104,chaqueta,9435,ropa
@@ -30,16 +27,13 @@ id,nombre,precio,descripcion
 171,mix de frutas en conserva,8658,fruta en conserva
 399,mouse,14474,producto tecnologico
 401,arvejas congeladas,14782,verduras congeladas
-367,teclado,7331,producto tecnologico
 400,mix de verduras congeladas,13648,verduras congeladas
 368,limon,12932,verduras
 167,hamburguesa de vacuno,9224,hamburguesa
 389,manzana,7436,frutas
 341,pollo congelado,10534,carne congelada
 352,mix de frutas en conserva,14348,fruta en conserva
-401,arvejas congeladas,14782,verduras congeladas
 30,vacuno,8973,carne
-40,pantalla lisa,11843,pantalla de luz
 356,kiwi,14585,frutas
 128,pavo,9003,carne
 378,televisor,10657,producto tecnologico
@@ -51,44 +45,35 @@ id,nombre,precio,descripcion
 369,tomate,13568,verduras
 61,vacuno,5898,carne
 39,merlusa,10053,pescado congelado
-389,manzana,7436,frutas
 381,pantalla para colgar,8882,pantalla de luz
 220,manzana,11649,frutas
-367,teclado,7331,producto tecnologico
 256,porotos congelados,14619,verduras congeladas
 92,garbanzos en conserva,11554,verdura en conserva
 302,teclado,8227,producto tecnologico
-357,mouse,14549,producto tecnologico
 275,pantalla lisa,13875,pantalla de luz
 116,cerdo congelado,11027,carne congelada
-367,teclado,7331,producto tecnologico
 376,arvejas en conserva,14460,verdura en conserva
 37,cerdo,13208,carne
 370,pera,14775,frutas
 122,porotos congelados,11540,verduras congeladas
 219,papaya en conserva,13561,fruta en conserva
-63,arvejas congeladas,14607,verduras congeladas
 28,cerdo,12064,carne
 135,arvejas congeladas,9491,verduras congeladas
 182,manzana,14158,frutas
 332,pantalla lisa,7833,pantalla de luz
 87,teclado,12613,producto tecnologico
 142,mix de frutas en conserva,5219,fruta en conserva
-37,cerdo,13208,carne
 344,pantalla para colgar,11629,pantalla de luz
 53,durazno,5640,frutas
 73,pantalla lineas,8949,pantalla de luz
 102,televisor,5303,producto tecnologico
 351,vacuno congelado,11224,carne congelada
-284,marraqueta,14433,pan
 360,pantalla papel,11751,pantalla de luz
 348,mouse,14046,producto tecnologico
 218,hamburguesa de pollo,8248,hamburguesa
 244,pantalla para colgar,5174,pantalla de luz
 278,camiseta,9381,ropa
-369,tomate,13568,verduras
 315,pantalla lisa,13048,pantalla de luz
-102,televisor,5303,producto tecnologico
 291,arvejas congeladas,9580,verduras congeladas
 303,pantalla lisa,14182,pantalla de luz
 127,pan de molde,9653,pan
@@ -99,10 +84,8 @@ id,nombre,precio,descripcion
 5,mix de verduras congeladas,11791,verduras congeladas
 297,pantalla para colgar,6596,pantalla de luz
 7,pantalla lineas,10802,pantalla de luz
-331,lenguado,6376,pescado congelado
 133,reineta,7700,pescado congelado
 254,kiwi,7974,frutas
-368,limon,12932,verduras
 226,carne molida,5033,carne congelada
 208,telefono,9760,producto tecnologico
 0,merlusa,8706,pescado congelado
@@ -110,43 +93,27 @@ id,nombre,precio,descripcion
 62, frutillas en conserva,6958,fruta en conserva
 160,merlusa,10910,pescado congelado
 246,pollo,9006,carne
-171,mix de frutas en conserva,8658,fruta en conserva
-356,kiwi,14585,frutas
 409,pantalla lineas,12158,pantalla de luz
 340,pantalla para colgar,5107,pantalla de luz
 20,cerdo,12012,carne
-181,hamburguesa de verduras,5304,hamburguesa
 22,televisor,5912,producto tecnologico
 119,hamburguesa de vacuno,12701,hamburguesa
 187,carne molida,12944,carne congelada
-351,vacuno congelado,11224,carne congelada
-187,carne molida,12944,carne congelada
-122,porotos congelados,11540,verduras congeladas
 312,pantalla papel,6898,pantalla de luz
 205,lechuga,5224,verduras
-295,manzana,11013,frutas
 404,mix de verduras congeladas,14681,verduras congeladas
 385,limon,11324,verduras
-315,pantalla lisa,13048,pantalla de luz
 192,telefono,12648,producto tecnologico
-340,pantalla para colgar,5107,pantalla de luz
 279,merlusa,9334,pescado congelado
 245,pantalla lisa,6627,pantalla de luz
-312,pantalla papel,6898,pantalla de luz
 273,hallulla,12150,pan
 154,telefono,13859,producto tecnologico
 18,palta,14117,verduras
-142,mix de frutas en conserva,5219,fruta en conserva
 60,pantalla para colgar,8436,pantalla de luz
 78,hamburguesa de quinoa,7460,hamburguesa
-218,hamburguesa de pollo,8248,hamburguesa
-62, frutillas en conserva,6958,fruta en conserva
-192,telefono,12648,producto tecnologico
 308,mix de verduras congeladas,6920,verduras congeladas
 414,pantalla lineas,11871,pantalla de luz
-75,lechuga,7914,verduras
 298,vestido,5065,ropa
-167,hamburguesa de vacuno,9224,hamburguesa
 326,esparragos frasco,14352,verdura en conserva
 175,hallulla,11970,pan
 405,pavo,7717,carne
@@ -162,8 +129,6 @@ id,nombre,precio,descripcion
 222,vestido,10689,ropa
 38,cerdo congelado,5036,carne congelada
 153,pantalla papel,8665,pantalla de luz
-367,teclado,7331,producto tecnologico
-327,hallulla,6887,pan
 224,camiseta,12133,ropa
 138,marraqueta,9334,pan
 211,hamburguesa de quinoa,13949,hamburguesa
@@ -176,36 +141,21 @@ id,nombre,precio,descripcion
 66,vacuno congelado,12014,carne congelada
 402,salmon,6712,pescado congelado
 371,marraqueta,11380,pan
-83, frutillas en conserva,12139,fruta en conserva
-332,pantalla lisa,7833,pantalla de luz
 168,hallulla,6062,pan
-377,telefono,14256,producto tecnologico
 209,televisor,10968,producto tecnologico
-73,pantalla lineas,8949,pantalla de luz
 238,reineta,10784,pescado congelado
-404,mix de verduras congeladas,14681,verduras congeladas
-381,pantalla para colgar,8882,pantalla de luz
-30,vacuno,8973,carne
 366,pantalla papel,8830,pantalla de luz
 318,pavo,6208,carne
 79,teclado,5555,producto tecnologico
-205,lechuga,5224,verduras
-381,pantalla para colgar,8882,pantalla de luz
 3,merlusa,13317,pescado congelado
 268,teclado,12598,producto tecnologico
-366,pantalla papel,8830,pantalla de luz
-13,esparragos frasco,14537,verdura en conserva
-154,telefono,13859,producto tecnologico
 101,mix de verduras congeladas,8253,verduras congeladas
 334,pantalla lineas,9860,pantalla de luz
-326,esparragos frasco,14352,verdura en conserva
 33, frutillas en conserva,9530,fruta en conserva
 162,pollo,9026,carne
 304,jeans,8403,ropa
 392,arvejas en conserva,13884,verdura en conserva
 74,pantalla lisa,14478,pantalla de luz
-370,pera,14775,frutas
-392,arvejas en conserva,13884,verdura en conserva
 35,hamburguesa de vacuno,13174,hamburguesa
 301,carne molida,6414,carne congelada
 380,reineta,6388,pescado congelado
@@ -214,45 +164,24 @@ id,nombre,precio,descripcion
 85,salmon,9211,pescado congelado
 206,lenguado,8200,pescado congelado
 125,teclado,6734,producto tecnologico
-378,televisor,10657,producto tecnologico
 174,vacuno,14113,carne
-25,lechuga,7704,verduras
 215,durazno,9245,frutas
 113,hamburguesa de verduras,8820,hamburguesa
-142,mix de frutas en conserva,5219,fruta en conserva
 36,lenguado,12514,pescado congelado
 397,palta,13962,verduras
-93,pan de molde,11181,pan
-301,carne molida,6414,carne congelada
-382,kiwi,10967,frutas
 70,vacuno congelado,14623,carne congelada
 157,hamburguesa de pollo,14465,hamburguesa
 34,mix de verduras congeladas,13386,verduras congeladas
-61,vacuno,5898,carne
 252,pavo congelado,6840,carne congelada
-38,cerdo congelado,5036,carne congelada
 98,teclado,5890,producto tecnologico
 49,televisor,11837,producto tecnologico
-412,marraqueta,14464,pan
 408,garbanzos en conserva,12008,verdura en conserva
-150,salmon,6044,pescado congelado
-367,teclado,7331,producto tecnologico
-279,merlusa,9334,pescado congelado
-208,telefono,9760,producto tecnologico
-314,pavo congelado,12293,carne congelada
-297,pantalla para colgar,6596,pantalla de luz
-206,lenguado,8200,pescado congelado
-396,porotos congelados,8296,verduras congeladas
 84,pantalla lisa,14987,pantalla de luz
 217,pollo,13965,carne
-74,pantalla lisa,14478,pantalla de luz
-298,vestido,5065,ropa
-32,pantalla para colgar,6200,pantalla de luz
 269,televisor,11826,producto tecnologico
 166,reineta,12040,pescado congelado
 388,hamburguesa de vacuno,8376,hamburguesa
 375,pollo congelado,7447,carne congelada
-60,pantalla para colgar,8436,pantalla de luz
 411,durazno,11230,frutas
 172,polera,11996,ropa
 68,camisa,5009,ropa
@@ -262,44 +191,24 @@ id,nombre,precio,descripcion
 293,vacuno congelado,7891,carne congelada
 265,telefono,6947,producto tecnologico
 195,reineta,8674,pescado congelado
-66,vacuno congelado,12014,carne congelada
-94,pollo congelado,6136,carne congelada
 347,salmon,5361,pescado congelado
-331,lenguado,6376,pescado congelado
 134,jeans,10305,ropa
-63,arvejas congeladas,14607,verduras congeladas
-128,pavo,9003,carne
 45,salmon,10211,pescado congelado
-0,merlusa,8706,pescado congelado
 82,durazno,9861,frutas
 26,manzana,7438,frutas
 194,hallulla,9444,pan
-74,pantalla lisa,14478,pantalla de luz
-151,cerdo congelado,13962,carne congelada
 321,esparragos frasco,9752,verdura en conserva
-267,pollo,6605,carne
 210,pantalla lisa,7658,pantalla de luz
-388,hamburguesa de vacuno,8376,hamburguesa
 15,durazno,13302,frutas
 107,esparragos frasco,7134,verdura en conserva
-222,vestido,10689,ropa
-344,pantalla para colgar,11629,pantalla de luz
 355,mix de frutas en conserva,12120,fruta en conserva
 258,chaqueta,13813,ropa
 148,palta,9424,verduras
-211,hamburguesa de quinoa,13949,hamburguesa
-163,carne molida,7134,carne congelada
-355,mix de frutas en conserva,12120,fruta en conserva
-237,marraqueta,6179,pan
 270,hamburguesa de verduras,12794,hamburguesa
 95,esparragos frasco,9882,verdura en conserva
-62, frutillas en conserva,6958,fruta en conserva
 353,pavo congelado,7137,carne congelada
 309,carne molida,5014,carne congelada
 165,camiseta,10613,ropa
-278,camiseta,9381,ropa
-352,mix de frutas en conserva,14348,fruta en conserva
-37,cerdo,13208,carne
 123,choclo congelado,14418,verduras congeladas
 338,mix de frutas en conserva,10464,fruta en conserva
 413,durazno en conserva,12428,fruta en conserva
@@ -309,1803 +218,202 @@ id,nombre,precio,descripcion
 81,hamburguesa de vacuno,8644,hamburguesa
 55,mouse,6334,producto tecnologico
 283,telefono,12515,producto tecnologico
-33, frutillas en conserva,9530,fruta en conserva
-36,lenguado,12514,pescado congelado
-142,mix de frutas en conserva,5219,fruta en conserva
-301,carne molida,6414,carne congelada
-409,pantalla lineas,12158,pantalla de luz
-16,hamburguesa de quinoa,5914,hamburguesa
 287,carne molida,14751,carne congelada
-26,manzana,7438,frutas
 56,lenguado,5173,pescado congelado
 89,pantalla lineas,6647,pantalla de luz
 120,marraqueta,13520,pan
 300,durazno en conserva,5467,fruta en conserva
-208,telefono,9760,producto tecnologico
 231,jeans,13914,ropa
 398,pantalla papel,14579,pantalla de luz
-53,durazno,5640,frutas
 184,hamburguesa de vacuno,6871,hamburguesa
-13,esparragos frasco,14537,verdura en conserva
-82,durazno,9861,frutas
-75,lechuga,7914,verduras
-175,hallulla,11970,pan
-371,marraqueta,11380,pan
-18,palta,14117,verduras
-209,televisor,10968,producto tecnologico
-381,pantalla para colgar,8882,pantalla de luz
-214,cerdo,6063,carne
-331,lenguado,6376,pescado congelado
 131,cerdo congelado,8452,carne congelada
 416,esparragos frasco,6807,verdura en conserva
-379,hamburguesa de vacuno,11754,hamburguesa
-174,vacuno,14113,carne
-68,camisa,5009,ropa
 44,lenguado,12660,pescado congelado
-37,cerdo,13208,carne
 260,limon,10707,verduras
-367,teclado,7331,producto tecnologico
-167,hamburguesa de vacuno,9224,hamburguesa
-113,hamburguesa de verduras,8820,hamburguesa
-34,mix de verduras congeladas,13386,verduras congeladas
-244,pantalla para colgar,5174,pantalla de luz
-355,mix de frutas en conserva,12120,fruta en conserva
 329,hallulla,12550,pan
 90,mix de verduras congeladas,9916,verduras congeladas
-18,palta,14117,verduras
-87,teclado,12613,producto tecnologico
-34,mix de verduras congeladas,13386,verduras congeladas
 129,pan de molde,10062,pan
-401,arvejas congeladas,14782,verduras congeladas
 272,salmon,6760,pescado congelado
-366,pantalla papel,8830,pantalla de luz
-357,mouse,14549,producto tecnologico
 236,mouse,11941,producto tecnologico
 27,hamburguesa de pollo,13436,hamburguesa
 42,cerdo,6686,carne
 23,arvejas congeladas,12666,verduras congeladas
 320,pantalla lineas,8495,pantalla de luz
-379,hamburguesa de vacuno,11754,hamburguesa
-36,lenguado,12514,pescado congelado
 349, frutillas en conserva,7657,fruta en conserva
-160,merlusa,10910,pescado congelado
-321,esparragos frasco,9752,verdura en conserva
-292,vacuno congelado,12122,carne congelada
-341,pollo congelado,10534,carne congelada
-385,limon,11324,verduras
-332,pantalla lisa,7833,pantalla de luz
-158,hamburguesa de pollo,10287,hamburguesa
-40,pantalla lisa,11843,pantalla de luz
-297,pantalla para colgar,6596,pantalla de luz
-377,telefono,14256,producto tecnologico
-314,pavo congelado,12293,carne congelada
-300,durazno en conserva,5467,fruta en conserva
-287,carne molida,14751,carne congelada
-84,pantalla lisa,14987,pantalla de luz
-269,televisor,11826,producto tecnologico
-191,marraqueta,6589,pan
 19,durazno en conserva,8421,fruta en conserva
 286,manzana,13091,frutas
 262,lenguado,14080,pescado congelado
-75,lechuga,7914,verduras
 372,mouse,9082,producto tecnologico
-254,kiwi,7974,frutas
-89,pantalla lineas,6647,pantalla de luz
 197,pantalla papel,10497,pantalla de luz
 186,lechuga,13393,verduras
 415,pantalla lineas,8289,pantalla de luz
-352,mix de frutas en conserva,14348,fruta en conserva
-134,jeans,10305,ropa
-90,mix de verduras congeladas,9916,verduras congeladas
 126,teclado,12241,producto tecnologico
-192,telefono,12648,producto tecnologico
 285,durazno,13057,frutas
-74,pantalla lisa,14478,pantalla de luz
-45,salmon,10211,pescado congelado
-308,mix de verduras congeladas,6920,verduras congeladas
 403,vestido,11750,ropa
 121,pan de molde,7108,pan
-286,manzana,13091,frutas
 11,papaya en conserva,7060,fruta en conserva
 322,mix de verduras congeladas,11198,verduras congeladas
 31,papaya en conserva,8954,fruta en conserva
-226,carne molida,5033,carne congelada
-331,lenguado,6376,pescado congelado
 234,brocoli,10802,verduras
 386,carne molida,7866,carne congelada
-327,hallulla,6887,pan
 137,jeans,11374,ropa
 202,garbanzos en conserva,14323,verdura en conserva
-398,pantalla papel,14579,pantalla de luz
 159,esparragos frasco,13153,verdura en conserva
-104,chaqueta,9435,ropa
-26,manzana,7438,frutas
-107,esparragos frasco,7134,verdura en conserva
-38,cerdo congelado,5036,carne congelada
-300,durazno en conserva,5467,fruta en conserva
-101,mix de verduras congeladas,8253,verduras congeladas
-398,pantalla papel,14579,pantalla de luz
 235,vacuno,8664,carne
-388,hamburguesa de vacuno,8376,hamburguesa
 305,teclado,9834,producto tecnologico
-295,manzana,11013,frutas
 294,pollo congelado,10551,carne congelada
-363,jeans,7348,ropa
-340,pantalla para colgar,5107,pantalla de luz
-197,pantalla papel,10497,pantalla de luz
 178,manzana,13975,frutas
-303,pantalla lisa,14182,pantalla de luz
-302,teclado,8227,producto tecnologico
 200,hamburguesa de verduras,5681,hamburguesa
-206,lenguado,8200,pescado congelado
-163,carne molida,7134,carne congelada
-35,hamburguesa de vacuno,13174,hamburguesa
 88,mouse,12978,producto tecnologico
-44,lenguado,12660,pescado congelado
-245,pantalla lisa,6627,pantalla de luz
 99,arvejas congeladas,12265,verduras congeladas
-375,pollo congelado,7447,carne congelada
-394,limon,5808,verduras
-25,lechuga,7704,verduras
-284,marraqueta,14433,pan
-94,pollo congelado,6136,carne congelada
-56,lenguado,5173,pescado congelado
-297,pantalla para colgar,6596,pantalla de luz
-157,hamburguesa de pollo,14465,hamburguesa
-182,manzana,14158,frutas
 12,mix de frutas en conserva,9432,fruta en conserva
 199,garbanzos en conserva,9115,verdura en conserva
 228, frutillas en conserva,13599,fruta en conserva
-45,salmon,10211,pescado congelado
-16,hamburguesa de quinoa,5914,hamburguesa
-33, frutillas en conserva,9530,fruta en conserva
 390,vacuno congelado,12201,carne congelada
-123,choclo congelado,14418,verduras congeladas
 354,pollo congelado,8252,carne congelada
-275,pantalla lisa,13875,pantalla de luz
 230,pantalla para colgar,5925,pantalla de luz
-143,vacuno,13742,carne
 239,merlusa,8602,pescado congelado
 52,manzana,7327,frutas
-382,kiwi,10967,frutas
-88,mouse,12978,producto tecnologico
-210,pantalla lisa,7658,pantalla de luz
 325,cerdo congelado,8676,carne congelada
-264,hamburguesa de vacuno,14847,hamburguesa
 169,hallulla,12245,pan
 299,arvejas congeladas,7343,verduras congeladas
-313,platano,12727,frutas
-244,pantalla para colgar,5174,pantalla de luz
-66,vacuno congelado,12014,carne congelada
-84,pantalla lisa,14987,pantalla de luz
 106,pantalla papel,8041,pantalla de luz
-38,cerdo congelado,5036,carne congelada
 6,marraqueta,7830,pan
 243,choclo congelado,6481,verduras congeladas
-235,vacuno,8664,carne
 14,durazno en conserva,8285,fruta en conserva
-218,hamburguesa de pollo,8248,hamburguesa
-12,mix de frutas en conserva,9432,fruta en conserva
-226,carne molida,5033,carne congelada
-75,lechuga,7914,verduras
-62, frutillas en conserva,6958,fruta en conserva
 65,hamburguesa de verduras,7556,hamburguesa
-279,merlusa,9334,pescado congelado
-172,polera,11996,ropa
 67,limon,13531,verduras
 410,salmon,12879,pescado congelado
 185,cerdo,12579,carne
 346,porotos congelados,7726,verduras congeladas
-218,hamburguesa de pollo,8248,hamburguesa
-92,garbanzos en conserva,11554,verdura en conserva
-312,pantalla papel,6898,pantalla de luz
-236,mouse,11941,producto tecnologico
-44,lenguado,12660,pescado congelado
-89,pantalla lineas,6647,pantalla de luz
-27,hamburguesa de pollo,13436,hamburguesa
-25,lechuga,7704,verduras
-158,hamburguesa de pollo,10287,hamburguesa
-9,hamburguesa de verduras,11678,hamburguesa
-239,merlusa,8602,pescado congelado
-127,pan de molde,9653,pan
-211,hamburguesa de quinoa,13949,hamburguesa
-226,carne molida,5033,carne congelada
 395,choclo en conserva,11836,verdura en conserva
 335,pan de molde,7937,pan
 170,mix de verduras congeladas,7212,verduras congeladas
 8,pantalla papel,5556,pantalla de luz
 383,hamburguesa de verduras,9105,hamburguesa
-94,pollo congelado,6136,carne congelada
-113,hamburguesa de verduras,8820,hamburguesa
 69,teclado,11714,producto tecnologico
-262,lenguado,14080,pescado congelado
-140,teclado,6971,producto tecnologico
-191,marraqueta,6589,pan
-305,teclado,9834,producto tecnologico
 156,hallulla,11210,pan
 24,teclado,9510,producto tecnologico
-98,teclado,5890,producto tecnologico
 179,teclado,12795,producto tecnologico
 59,durazno en conserva,5186,fruta en conserva
-248,pantalla para colgar,8944,pantalla de luz
 271,televisor,9188,producto tecnologico
 177,hamburguesa de pollo,6480,hamburguesa
-314,pavo congelado,12293,carne congelada
-347,salmon,5361,pescado congelado
-165,camiseta,10613,ropa
-32,pantalla para colgar,6200,pantalla de luz
-1,mix de frutas en conserva,10730,fruta en conserva
 316,vacuno,13806,carne
-73,pantalla lineas,8949,pantalla de luz
-371,marraqueta,11380,pan
-44,lenguado,12660,pescado congelado
 333,pantalla lineas,6062,pantalla de luz
-52,manzana,7327,frutas
-239,merlusa,8602,pescado congelado
 330,cerdo,7094,carne
-163,carne molida,7134,carne congelada
-278,camiseta,9381,ropa
 108,pantalla papel,14454,pantalla de luz
-65,hamburguesa de verduras,7556,hamburguesa
 58,hamburguesa de vacuno,5337,hamburguesa
 149,pan de molde,13136,pan
 417,pollo,10015,carne
-111,lechuga,8330,verduras
-316,vacuno,13806,carne
 350,brocoli,7862,verduras
-293,vacuno congelado,7891,carne congelada
-184,hamburguesa de vacuno,6871,hamburguesa
-386,carne molida,7866,carne congelada
-134,jeans,10305,ropa
 253,platano,14191,frutas
-238,reineta,10784,pescado congelado
-126,teclado,12241,producto tecnologico
-120,marraqueta,13520,pan
-309,carne molida,5014,carne congelada
-360,pantalla papel,11751,pantalla de luz
-38,cerdo congelado,5036,carne congelada
-247,poleron,12512,ropa
-39,merlusa,10053,pescado congelado
-24,teclado,9510,producto tecnologico
 364,mouse,11097,producto tecnologico
-355,mix de frutas en conserva,12120,fruta en conserva
-332,pantalla lisa,7833,pantalla de luz
-395,choclo en conserva,11836,verdura en conserva
 117,telefono,6853,producto tecnologico
-253,platano,14191,frutas
 48,cerdo,13194,carne
-256,porotos congelados,14619,verduras congeladas
-403,vestido,11750,ropa
 343,choclo en conserva,12429,verdura en conserva
-74,pantalla lisa,14478,pantalla de luz
-229,merlusa,8380,pescado congelado
 152,lenguado,13791,pescado congelado
-264,hamburguesa de vacuno,14847,hamburguesa
-293,vacuno congelado,7891,carne congelada
 43,telefono,12517,producto tecnologico
 72,camisa,9228,ropa
-45,salmon,10211,pescado congelado
-246,pollo,9006,carne
-294,pollo congelado,10551,carne congelada
 51,limon,10356,verduras
-295,manzana,11013,frutas
 391,choclo en conserva,8087,verdura en conserva
-349, frutillas en conserva,7657,fruta en conserva
-278,camiseta,9381,ropa
-411,durazno,11230,frutas
-126,teclado,12241,producto tecnologico
-214,cerdo,6063,carne
-166,reineta,12040,pescado congelado
 255,vacuno congelado,5421,carne congelada
-35,hamburguesa de vacuno,13174,hamburguesa
-93,pan de molde,11181,pan
-348,mouse,14046,producto tecnologico
-379,hamburguesa de vacuno,11754,hamburguesa
-62, frutillas en conserva,6958,fruta en conserva
-90,mix de verduras congeladas,9916,verduras congeladas
 387,lenguado,6433,pescado congelado
-49,televisor,11837,producto tecnologico
 77,hallulla,14637,pan
-400,mix de verduras congeladas,13648,verduras congeladas
 263,pantalla papel,14631,pantalla de luz
-127,pan de molde,9653,pan
 47,jeans,10242,ropa
-28,cerdo,12064,carne
 86,televisor,13862,producto tecnologico
-371,marraqueta,11380,pan
-158,hamburguesa de pollo,10287,hamburguesa
-226,carne molida,5033,carne congelada
-256,porotos congelados,14619,verduras congeladas
-254,kiwi,7974,frutas
 155,vestido,12164,ropa
-410,salmon,12879,pescado congelado
-228, frutillas en conserva,13599,fruta en conserva
 282,salmon,11494,pescado congelado
-257,pantalon,12445,ropa
-220,manzana,11649,frutas
-375,pollo congelado,7447,carne congelada
-343,choclo en conserva,12429,verdura en conserva
 216,pera,14400,frutas
-59,durazno en conserva,5186,fruta en conserva
-282,salmon,11494,pescado congelado
-300,durazno en conserva,5467,fruta en conserva
-401,arvejas congeladas,14782,verduras congeladas
-229,merlusa,8380,pescado congelado
 124,garbanzos en conserva,11677,verdura en conserva
-52,manzana,7327,frutas
-410,salmon,12879,pescado congelado
 204,durazno,7673,frutas
-220,manzana,11649,frutas
-270,hamburguesa de verduras,12794,hamburguesa
-170,mix de verduras congeladas,7212,verduras congeladas
-9,hamburguesa de verduras,11678,hamburguesa
-309,carne molida,5014,carne congelada
-357,mouse,14549,producto tecnologico
 277,limon,7442,verduras
 227,arvejas en conserva,13905,verdura en conserva
-398,pantalla papel,14579,pantalla de luz
-372,mouse,9082,producto tecnologico
-258,chaqueta,13813,ropa
 296,salmon,9495,pescado congelado
-217,pollo,13965,carne
-182,manzana,14158,frutas
-261,palta,13207,verduras
-16,hamburguesa de quinoa,5914,hamburguesa
-392,arvejas en conserva,13884,verdura en conserva
-202,garbanzos en conserva,14323,verdura en conserva
-383,hamburguesa de verduras,9105,hamburguesa
-394,limon,5808,verduras
-372,mouse,9082,producto tecnologico
-148,palta,9424,verduras
-124,garbanzos en conserva,11677,verdura en conserva
-45,salmon,10211,pescado congelado
-76,manzana,9326,frutas
 71,papaya en conserva,14577,fruta en conserva
-244,pantalla para colgar,5174,pantalla de luz
-356,kiwi,14585,frutas
 345,hamburguesa de verduras,12480,hamburguesa
-12,mix de frutas en conserva,9432,fruta en conserva
-111,lechuga,8330,verduras
-395,choclo en conserva,11836,verdura en conserva
-370,pera,14775,frutas
-334,pantalla lineas,9860,pantalla de luz
-415,pantalla lineas,8289,pantalla de luz
-34,mix de verduras congeladas,13386,verduras congeladas
-344,pantalla para colgar,11629,pantalla de luz
 103,hamburguesa de vacuno,11871,hamburguesa
 147,arvejas en conserva,10396,verdura en conserva
-5,mix de verduras congeladas,11791,verduras congeladas
 80,pera,11624,frutas
-178,manzana,13975,frutas
 136,pollo,8650,carne
-77,hallulla,14637,pan
-85,salmon,9211,pescado congelado
-300,durazno en conserva,5467,fruta en conserva
-167,hamburguesa de vacuno,9224,hamburguesa
 64,marraqueta,11303,pan
-417,pollo,10015,carne
-222,vestido,10689,ropa
-41,hamburguesa de verduras,13789,hamburguesa
-300,durazno en conserva,5467,fruta en conserva
 358,platano,10315,frutas
-0,merlusa,8706,pescado congelado
-102,televisor,5303,producto tecnologico
 233,cerdo congelado,7670,carne congelada
-352,mix de frutas en conserva,14348,fruta en conserva
-252,pavo congelado,6840,carne congelada
 193,reineta,12780,pescado congelado
-219,papaya en conserva,13561,fruta en conserva
-398,pantalla papel,14579,pantalla de luz
-125,teclado,6734,producto tecnologico
-309,carne molida,5014,carne congelada
-402,salmon,6712,pescado congelado
-191,marraqueta,6589,pan
-121,pan de molde,7108,pan
-245,pantalla lisa,6627,pantalla de luz
-102,televisor,5303,producto tecnologico
-143,vacuno,13742,carne
-313,platano,12727,frutas
-63,arvejas congeladas,14607,verduras congeladas
-55,mouse,6334,producto tecnologico
-277,limon,7442,verduras
-165,camiseta,10613,ropa
 141,mix de frutas en conserva,6583,fruta en conserva
-314,pavo congelado,12293,carne congelada
-143,vacuno,13742,carne
-191,marraqueta,6589,pan
-404,mix de verduras congeladas,14681,verduras congeladas
-261,palta,13207,verduras
-248,pantalla para colgar,8944,pantalla de luz
-119,hamburguesa de vacuno,12701,hamburguesa
-27,hamburguesa de pollo,13436,hamburguesa
-234,brocoli,10802,verduras
-348,mouse,14046,producto tecnologico
-147,arvejas en conserva,10396,verdura en conserva
-255,vacuno congelado,5421,carne congelada
-315,pantalla lisa,13048,pantalla de luz
-12,mix de frutas en conserva,9432,fruta en conserva
-69,teclado,11714,producto tecnologico
-80,pera,11624,frutas
-233,cerdo congelado,7670,carne congelada
-76,manzana,9326,frutas
-258,chaqueta,13813,ropa
 319,vacuno,13414,carne
-395,choclo en conserva,11836,verdura en conserva
 130,hamburguesa de verduras,11010,hamburguesa
 105,hamburguesa de vacuno,14223,hamburguesa
 339,telefono,5181,producto tecnologico
-77,hallulla,14637,pan
-353,pavo congelado,7137,carne congelada
-351,vacuno congelado,11224,carne congelada
-211,hamburguesa de quinoa,13949,hamburguesa
-158,hamburguesa de pollo,10287,hamburguesa
-186,lechuga,13393,verduras
 173,porotos congelados,14661,verduras congeladas
-155,vestido,12164,ropa
 362,pavo congelado,12446,carne congelada
 190,pantalla papel,14669,pantalla de luz
-155,vestido,12164,ropa
-42,cerdo,6686,carne
-62, frutillas en conserva,6958,fruta en conserva
 324,poleron,6437,ropa
 274,pera,11410,frutas
-85,salmon,9211,pescado congelado
-88,mouse,12978,producto tecnologico
 109,brocoli,7370,verduras
-148,palta,9424,verduras
 2,pantalla lisa,5609,pantalla de luz
-181,hamburguesa de verduras,5304,hamburguesa
-41,hamburguesa de verduras,13789,hamburguesa
-220,manzana,11649,frutas
-416,esparragos frasco,6807,verdura en conserva
-279,merlusa,9334,pescado congelado
-403,vestido,11750,ropa
-246,pollo,9006,carne
-401,arvejas congeladas,14782,verduras congeladas
-105,hamburguesa de vacuno,14223,hamburguesa
-124,garbanzos en conserva,11677,verdura en conserva
-178,manzana,13975,frutas
-394,limon,5808,verduras
-89,pantalla lineas,6647,pantalla de luz
-399,mouse,14474,producto tecnologico
-70,vacuno congelado,14623,carne congelada
-158,hamburguesa de pollo,10287,hamburguesa
-414,pantalla lineas,11871,pantalla de luz
-104,chaqueta,9435,ropa
-338,mix de frutas en conserva,10464,fruta en conserva
-246,pollo,9006,carne
-34,mix de verduras congeladas,13386,verduras congeladas
-89,pantalla lineas,6647,pantalla de luz
-235,vacuno,8664,carne
-101,mix de verduras congeladas,8253,verduras congeladas
-247,poleron,12512,ropa
 115, frutillas en conserva,9542,fruta en conserva
-417,pollo,10015,carne
-295,manzana,11013,frutas
-59,durazno en conserva,5186,fruta en conserva
-415,pantalla lineas,8289,pantalla de luz
-197,pantalla papel,10497,pantalla de luz
-360,pantalla papel,11751,pantalla de luz
-175,hallulla,11970,pan
-229,merlusa,8380,pescado congelado
-355,mix de frutas en conserva,12120,fruta en conserva
-296,salmon,9495,pescado congelado
-143,vacuno,13742,carne
-92,garbanzos en conserva,11554,verdura en conserva
-191,marraqueta,6589,pan
-31,papaya en conserva,8954,fruta en conserva
-273,hallulla,12150,pan
-14,durazno en conserva,8285,fruta en conserva
-237,marraqueta,6179,pan
-101,mix de verduras congeladas,8253,verduras congeladas
-58,hamburguesa de vacuno,5337,hamburguesa
-122,porotos congelados,11540,verduras congeladas
-396,porotos congelados,8296,verduras congeladas
-414,pantalla lineas,11871,pantalla de luz
-84,pantalla lisa,14987,pantalla de luz
-151,cerdo congelado,13962,carne congelada
-52,manzana,7327,frutas
-296,salmon,9495,pescado congelado
-376,arvejas en conserva,14460,verdura en conserva
 289,salmon,14016,pescado congelado
-134,jeans,10305,ropa
 132,mix de verduras congeladas,10478,verduras congeladas
 288,mix de verduras congeladas,6320,verduras congeladas
 280,pollo congelado,6003,carne congelada
-22,televisor,5912,producto tecnologico
-174,vacuno,14113,carne
-138,marraqueta,9334,pan
-417,pollo,10015,carne
-263,pantalla papel,14631,pantalla de luz
 259,vestido,8209,ropa
-129,pan de molde,10062,pan
-106,pantalla papel,8041,pantalla de luz
 221,salmon,7372,pescado congelado
-377,telefono,14256,producto tecnologico
-265,telefono,6947,producto tecnologico
 276,pantalla para colgar,6897,pantalla de luz
 317,pantalla lineas,13847,pantalla de luz
-263,pantalla papel,14631,pantalla de luz
-130,hamburguesa de verduras,11010,hamburguesa
-351,vacuno congelado,11224,carne congelada
-261,palta,13207,verduras
-409,pantalla lineas,12158,pantalla de luz
-39,merlusa,10053,pescado congelado
-362,pavo congelado,12446,carne congelada
-135,arvejas congeladas,9491,verduras congeladas
-68,camisa,5009,ropa
-344,pantalla para colgar,11629,pantalla de luz
-115, frutillas en conserva,9542,fruta en conserva
-153,pantalla papel,8665,pantalla de luz
-231,jeans,13914,ropa
-388,hamburguesa de vacuno,8376,hamburguesa
-49,televisor,11837,producto tecnologico
-148,palta,9424,verduras
-59,durazno en conserva,5186,fruta en conserva
-65,hamburguesa de verduras,7556,hamburguesa
-126,teclado,12241,producto tecnologico
-170,mix de verduras congeladas,7212,verduras congeladas
-149,pan de molde,13136,pan
-370,pera,14775,frutas
-115, frutillas en conserva,9542,fruta en conserva
-358,platano,10315,frutas
-380,reineta,6388,pescado congelado
-321,esparragos frasco,9752,verdura en conserva
 342,tomate,6548,verduras
-158,hamburguesa de pollo,10287,hamburguesa
-387,lenguado,6433,pescado congelado
 250,vacuno,14397,carne
-152,lenguado,13791,pescado congelado
-162,pollo,9026,carne
-103,hamburguesa de vacuno,11871,hamburguesa
-5,mix de verduras congeladas,11791,verduras congeladas
-308,mix de verduras congeladas,6920,verduras congeladas
-25,lechuga,7704,verduras
-228, frutillas en conserva,13599,fruta en conserva
-168,hallulla,6062,pan
-129,pan de molde,10062,pan
-358,platano,10315,frutas
 144,tomate,8242,verduras
 310,manzana,11868,frutas
 50,pollo congelado,12523,carne congelada
-75,lechuga,7914,verduras
-99,arvejas congeladas,12265,verduras congeladas
 249,lechuga,8099,verduras
-227,arvejas en conserva,13905,verdura en conserva
 10,reineta,10545,pescado congelado
-103,hamburguesa de vacuno,11871,hamburguesa
-417,pollo,10015,carne
-115, frutillas en conserva,9542,fruta en conserva
-411,durazno,11230,frutas
 139,hamburguesa de quinoa,13665,hamburguesa
-276,pantalla para colgar,6897,pantalla de luz
-131,cerdo congelado,8452,carne congelada
-150,salmon,6044,pescado congelado
-357,mouse,14549,producto tecnologico
-150,salmon,6044,pescado congelado
-148,palta,9424,verduras
-205,lechuga,5224,verduras
-26,manzana,7438,frutas
-194,hallulla,9444,pan
-229,merlusa,8380,pescado congelado
-340,pantalla para colgar,5107,pantalla de luz
-402,salmon,6712,pescado congelado
-179,teclado,12795,producto tecnologico
 290,hallulla,8722,pan
-65,hamburguesa de verduras,7556,hamburguesa
-77,hallulla,14637,pan
-258,chaqueta,13813,ropa
-52,manzana,7327,frutas
-282,salmon,11494,pescado congelado
-271,televisor,9188,producto tecnologico
-129,pan de molde,10062,pan
 207, frutillas en conserva,6563,fruta en conserva
-57,cerdo,7160,carne
-85,salmon,9211,pescado congelado
-384,pantalla lineas,13539,pantalla de luz
 212,hamburguesa de quinoa,12482,hamburguesa
-109,brocoli,7370,verduras
-35,hamburguesa de vacuno,13174,hamburguesa
-300,durazno en conserva,5467,fruta en conserva
-258,chaqueta,13813,ropa
-253,platano,14191,frutas
-2,pantalla lisa,5609,pantalla de luz
-119,hamburguesa de vacuno,12701,hamburguesa
-371,marraqueta,11380,pan
-275,pantalla lisa,13875,pantalla de luz
-194,hallulla,9444,pan
-358,platano,10315,frutas
-227,arvejas en conserva,13905,verdura en conserva
-2,pantalla lisa,5609,pantalla de luz
-383,hamburguesa de verduras,9105,hamburguesa
-122,porotos congelados,11540,verduras congeladas
-13,esparragos frasco,14537,verdura en conserva
-167,hamburguesa de vacuno,9224,hamburguesa
-81,hamburguesa de vacuno,8644,hamburguesa
-305,teclado,9834,producto tecnologico
-109,brocoli,7370,verduras
-175,hallulla,11970,pan
 240,salmon,7427,pescado congelado
-333,pantalla lineas,6062,pantalla de luz
-291,arvejas congeladas,9580,verduras congeladas
-262,lenguado,14080,pescado congelado
-235,vacuno,8664,carne
-108,pantalla papel,14454,pantalla de luz
-208,telefono,9760,producto tecnologico
-385,limon,11324,verduras
 337,pantalla lineas,11430,pantalla de luz
 213,calcetin,14881,ropa
-175,hallulla,11970,pan
-63,arvejas congeladas,14607,verduras congeladas
-162,pollo,9026,carne
-44,lenguado,12660,pescado congelado
-113,hamburguesa de verduras,8820,hamburguesa
-370,pera,14775,frutas
-75,lechuga,7914,verduras
-122,porotos congelados,11540,verduras congeladas
-356,kiwi,14585,frutas
-20,cerdo,12012,carne
-358,platano,10315,frutas
-383,hamburguesa de verduras,9105,hamburguesa
-76,manzana,9326,frutas
-271,televisor,9188,producto tecnologico
-53,durazno,5640,frutas
 281,vestido,6522,ropa
-295,manzana,11013,frutas
-349, frutillas en conserva,7657,fruta en conserva
-51,limon,10356,verduras
-90,mix de verduras congeladas,9916,verduras congeladas
-375,pollo congelado,7447,carne congelada
-326,esparragos frasco,14352,verdura en conserva
-363,jeans,7348,ropa
-368,limon,12932,verduras
 336,esparragos frasco,7752,verdura en conserva
-198,mouse,12730,producto tecnologico
-258,chaqueta,13813,ropa
 189,telefono,13048,producto tecnologico
-239,merlusa,8602,pescado congelado
-22,televisor,5912,producto tecnologico
-154,telefono,13859,producto tecnologico
-128,pavo,9003,carne
-56,lenguado,5173,pescado congelado
-51,limon,10356,verduras
-131,cerdo congelado,8452,carne congelada
-77,hallulla,14637,pan
-327,hallulla,6887,pan
-41,hamburguesa de verduras,13789,hamburguesa
-133,reineta,7700,pescado congelado
-254,kiwi,7974,frutas
-121,pan de molde,7108,pan
-353,pavo congelado,7137,carne congelada
-178,manzana,13975,frutas
-273,hallulla,12150,pan
-192,telefono,12648,producto tecnologico
-74,pantalla lisa,14478,pantalla de luz
-149,pan de molde,13136,pan
 225,pantalla papel,8193,pantalla de luz
-378,televisor,10657,producto tecnologico
-297,pantalla para colgar,6596,pantalla de luz
-214,cerdo,6063,carne
-115, frutillas en conserva,9542,fruta en conserva
-397,palta,13962,verduras
-304,jeans,8403,ropa
-95,esparragos frasco,9882,verdura en conserva
-320,pantalla lineas,8495,pantalla de luz
-415,pantalla lineas,8289,pantalla de luz
-166,reineta,12040,pescado congelado
-246,pollo,9006,carne
-154,telefono,13859,producto tecnologico
-13,esparragos frasco,14537,verdura en conserva
-345,hamburguesa de verduras,12480,hamburguesa
-3,merlusa,13317,pescado congelado
-88,mouse,12978,producto tecnologico
-200,hamburguesa de verduras,5681,hamburguesa
-3,merlusa,13317,pescado congelado
-47,jeans,10242,ropa
-329,hallulla,12550,pan
-391,choclo en conserva,8087,verdura en conserva
 242,marraqueta,6667,pan
-284,marraqueta,14433,pan
-49,televisor,11837,producto tecnologico
-226,carne molida,5033,carne congelada
-320,pantalla lineas,8495,pantalla de luz
-67,limon,13531,verduras
-392,arvejas en conserva,13884,verdura en conserva
 232,mouse,7653,producto tecnologico
-285,durazno,13057,frutas
-204,durazno,7673,frutas
-209,televisor,10968,producto tecnologico
-170,mix de verduras congeladas,7212,verduras congeladas
-317,pantalla lineas,13847,pantalla de luz
-198,mouse,12730,producto tecnologico
-103,hamburguesa de vacuno,11871,hamburguesa
-339,telefono,5181,producto tecnologico
-318,pavo,6208,carne
-5,mix de verduras congeladas,11791,verduras congeladas
-377,telefono,14256,producto tecnologico
-190,pantalla papel,14669,pantalla de luz
-28,cerdo,12064,carne
-151,cerdo congelado,13962,carne congelada
-160,merlusa,10910,pescado congelado
 241,durazno en conserva,12190,fruta en conserva
-243,choclo congelado,6481,verduras congeladas
-123,choclo congelado,14418,verduras congeladas
-88,mouse,12978,producto tecnologico
-115, frutillas en conserva,9542,fruta en conserva
-35,hamburguesa de vacuno,13174,hamburguesa
-397,palta,13962,verduras
 361,mouse,10779,producto tecnologico
-218,hamburguesa de pollo,8248,hamburguesa
 393,televisor,8016,producto tecnologico
 183,hallulla,10309,pan
-269,televisor,11826,producto tecnologico
-316,vacuno,13806,carne
-271,televisor,9188,producto tecnologico
-110,pantalla papel,9914,pantalla de luz
-19,durazno en conserva,8421,fruta en conserva
-294,pollo congelado,10551,carne congelada
-336,esparragos frasco,7752,verdura en conserva
-213,calcetin,14881,ropa
-15,durazno,13302,frutas
-133,reineta,7700,pescado congelado
-18,palta,14117,verduras
-246,pollo,9006,carne
-11,papaya en conserva,7060,fruta en conserva
-71,papaya en conserva,14577,fruta en conserva
-383,hamburguesa de verduras,9105,hamburguesa
-344,pantalla para colgar,11629,pantalla de luz
-20,cerdo,12012,carne
-89,pantalla lineas,6647,pantalla de luz
-182,manzana,14158,frutas
 96,pavo,6717,carne
-57,cerdo,7160,carne
-42,cerdo,6686,carne
-94,pollo congelado,6136,carne congelada
-51,limon,10356,verduras
-111,lechuga,8330,verduras
-192,telefono,12648,producto tecnologico
-136,pollo,8650,carne
-338,mix de frutas en conserva,10464,fruta en conserva
-27,hamburguesa de pollo,13436,hamburguesa
-361,mouse,10779,producto tecnologico
-189,telefono,13048,producto tecnologico
-21,televisor,12324,producto tecnologico
-271,televisor,9188,producto tecnologico
-217,pollo,13965,carne
-61,vacuno,5898,carne
-274,pera,11410,frutas
-45,salmon,10211,pescado congelado
-132,mix de verduras congeladas,10478,verduras congeladas
-69,teclado,11714,producto tecnologico
-253,platano,14191,frutas
-16,hamburguesa de quinoa,5914,hamburguesa
-211,hamburguesa de quinoa,13949,hamburguesa
-348,mouse,14046,producto tecnologico
-56,lenguado,5173,pescado congelado
-215,durazno,9245,frutas
 100,camisa,14690,ropa
 112,hallulla,11425,pan
-160,merlusa,10910,pescado congelado
-245,pantalla lisa,6627,pantalla de luz
 373,pantalla papel,5674,pantalla de luz
-150,salmon,6044,pescado congelado
-131,cerdo congelado,8452,carne congelada
-258,chaqueta,13813,ropa
-344,pantalla para colgar,11629,pantalla de luz
-6,marraqueta,7830,pan
-208,telefono,9760,producto tecnologico
-157,hamburguesa de pollo,14465,hamburguesa
-318,pavo,6208,carne
-341,pollo congelado,10534,carne congelada
-400,mix de verduras congeladas,13648,verduras congeladas
-403,vestido,11750,ropa
-385,limon,11324,verduras
-296,salmon,9495,pescado congelado
-35,hamburguesa de vacuno,13174,hamburguesa
-347,salmon,5361,pescado congelado
-290,hallulla,8722,pan
-222,vestido,10689,ropa
-259,vestido,8209,ropa
-8,pantalla papel,5556,pantalla de luz
-252,pavo congelado,6840,carne congelada
-177,hamburguesa de pollo,6480,hamburguesa
-111,lechuga,8330,verduras
-354,pollo congelado,8252,carne congelada
-369,tomate,13568,verduras
-397,palta,13962,verduras
-389,manzana,7436,frutas
-415,pantalla lineas,8289,pantalla de luz
-416,esparragos frasco,6807,verdura en conserva
-411,durazno,11230,frutas
 146,poleron,12236,ropa
-165,camiseta,10613,ropa
-71,papaya en conserva,14577,fruta en conserva
-316,vacuno,13806,carne
-41,hamburguesa de verduras,13789,hamburguesa
-15,durazno,13302,frutas
 17,camiseta,14514,ropa
 223,reineta,8439,pescado congelado
-220,manzana,11649,frutas
-339,telefono,5181,producto tecnologico
-220,manzana,11649,frutas
-37,cerdo,13208,carne
-211,hamburguesa de quinoa,13949,hamburguesa
-276,pantalla para colgar,6897,pantalla de luz
-272,salmon,6760,pescado congelado
-63,arvejas congeladas,14607,verduras congeladas
-302,teclado,8227,producto tecnologico
-89,pantalla lineas,6647,pantalla de luz
-412,marraqueta,14464,pan
-345,hamburguesa de verduras,12480,hamburguesa
-372,mouse,9082,producto tecnologico
-243,choclo congelado,6481,verduras congeladas
-90,mix de verduras congeladas,9916,verduras congeladas
-368,limon,12932,verduras
-275,pantalla lisa,13875,pantalla de luz
-230,pantalla para colgar,5925,pantalla de luz
-95,esparragos frasco,9882,verdura en conserva
-75,lechuga,7914,verduras
 323,vacuno,11553,carne
-142,mix de frutas en conserva,5219,fruta en conserva
-115, frutillas en conserva,9542,fruta en conserva
 164,platano,13220,frutas
-281,vestido,6522,ropa
-5,mix de verduras congeladas,11791,verduras congeladas
-86,televisor,13862,producto tecnologico
-60,pantalla para colgar,8436,pantalla de luz
 29,limon,13395,verduras
-373,pantalla papel,5674,pantalla de luz
-186,lechuga,13393,verduras
-277,limon,7442,verduras
-403,vestido,11750,ropa
-215,durazno,9245,frutas
-327,hallulla,6887,pan
-152,lenguado,13791,pescado congelado
-294,pollo congelado,10551,carne congelada
-410,salmon,12879,pescado congelado
-241,durazno en conserva,12190,fruta en conserva
-19,durazno en conserva,8421,fruta en conserva
-162,pollo,9026,carne
-381,pantalla para colgar,8882,pantalla de luz
-265,telefono,6947,producto tecnologico
-125,teclado,6734,producto tecnologico
-148,palta,9424,verduras
-342,tomate,6548,verduras
-130,hamburguesa de verduras,11010,hamburguesa
-316,vacuno,13806,carne
 306,hamburguesa de verduras,7976,hamburguesa
-416,esparragos frasco,6807,verdura en conserva
-155,vestido,12164,ropa
-313,platano,12727,frutas
 54,papaya en conserva,6280,fruta en conserva
-369,tomate,13568,verduras
-154,telefono,13859,producto tecnologico
-198,mouse,12730,producto tecnologico
-238,reineta,10784,pescado congelado
-246,pollo,9006,carne
-204,durazno,7673,frutas
-276,pantalla para colgar,6897,pantalla de luz
-286,manzana,13091,frutas
-95,esparragos frasco,9882,verdura en conserva
-151,cerdo congelado,13962,carne congelada
-290,hallulla,8722,pan
-322,mix de verduras congeladas,11198,verduras congeladas
-84,pantalla lisa,14987,pantalla de luz
-78,hamburguesa de quinoa,7460,hamburguesa
-394,limon,5808,verduras
-276,pantalla para colgar,6897,pantalla de luz
-21,televisor,12324,producto tecnologico
-146,poleron,12236,ropa
-229,merlusa,8380,pescado congelado
-80,pera,11624,frutas
-233,cerdo congelado,7670,carne congelada
-99,arvejas congeladas,12265,verduras congeladas
-235,vacuno,8664,carne
-94,pollo congelado,6136,carne congelada
-192,telefono,12648,producto tecnologico
-352,mix de frutas en conserva,14348,fruta en conserva
-28,cerdo,12064,carne
-336,esparragos frasco,7752,verdura en conserva
-95,esparragos frasco,9882,verdura en conserva
-254,kiwi,7974,frutas
-386,carne molida,7866,carne congelada
-405,pavo,7717,carne
-239,merlusa,8602,pescado congelado
 196,reineta,13212,pescado congelado
-26,manzana,7438,frutas
-27,hamburguesa de pollo,13436,hamburguesa
-63,arvejas congeladas,14607,verduras congeladas
-129,pan de molde,10062,pan
-15,durazno,13302,frutas
-156,hallulla,11210,pan
-339,telefono,5181,producto tecnologico
-383,hamburguesa de verduras,9105,hamburguesa
 359,hamburguesa de vacuno,9503,hamburguesa
-206,lenguado,8200,pescado congelado
-92,garbanzos en conserva,11554,verdura en conserva
-141,mix de frutas en conserva,6583,fruta en conserva
-58,hamburguesa de vacuno,5337,hamburguesa
-290,hallulla,8722,pan
-326,esparragos frasco,14352,verdura en conserva
-67,limon,13531,verduras
-415,pantalla lineas,8289,pantalla de luz
-352,mix de frutas en conserva,14348,fruta en conserva
-230,pantalla para colgar,5925,pantalla de luz
-273,hallulla,12150,pan
 307,marraqueta,10434,pan
-196,reineta,13212,pescado congelado
-306,hamburguesa de verduras,7976,hamburguesa
-85,salmon,9211,pescado congelado
-282,salmon,11494,pescado congelado
-343,choclo en conserva,12429,verdura en conserva
-325,cerdo congelado,8676,carne congelada
-253,platano,14191,frutas
-104,chaqueta,9435,ropa
-358,platano,10315,frutas
-130,hamburguesa de verduras,11010,hamburguesa
-39,merlusa,10053,pescado congelado
-169,hallulla,12245,pan
-55,mouse,6334,producto tecnologico
-173,porotos congelados,14661,verduras congeladas
 4,hallulla,13556,pan
 406,pantalla para colgar,5421,pantalla de luz
-76,manzana,9326,frutas
 251,vacuno,13598,carne
-406,pantalla para colgar,5421,pantalla de luz
-4,hallulla,13556,pan
-329,hallulla,12550,pan
-44,lenguado,12660,pescado congelado
-318,pavo,6208,carne
-198,mouse,12730,producto tecnologico
-95,esparragos frasco,9882,verdura en conserva
 201,arvejas en conserva,11500,verdura en conserva
-343,choclo en conserva,12429,verdura en conserva
-266,poleron,11997,ropa
-269,televisor,11826,producto tecnologico
-286,manzana,13091,frutas
-222,vestido,10689,ropa
-313,platano,12727,frutas
-372,mouse,9082,producto tecnologico
-123,choclo congelado,14418,verduras congeladas
-270,hamburguesa de verduras,12794,hamburguesa
-231,jeans,13914,ropa
-371,marraqueta,11380,pan
-214,cerdo,6063,carne
-231,jeans,13914,ropa
-417,pollo,10015,carne
-148,palta,9424,verduras
-336,esparragos frasco,7752,verdura en conserva
-412,marraqueta,14464,pan
-110,pantalla papel,9914,pantalla de luz
-261,palta,13207,verduras
-86,televisor,13862,producto tecnologico
-271,televisor,9188,producto tecnologico
-369,tomate,13568,verduras
-147,arvejas en conserva,10396,verdura en conserva
-331,lenguado,6376,pescado congelado
-247,poleron,12512,ropa
-290,hallulla,8722,pan
-204,durazno,7673,frutas
-345,hamburguesa de verduras,12480,hamburguesa
-324,poleron,6437,ropa
-225,pantalla papel,8193,pantalla de luz
-373,pantalla papel,5674,pantalla de luz
-160,merlusa,10910,pescado congelado
-271,televisor,9188,producto tecnologico
-262,lenguado,14080,pescado congelado
-223,reineta,8439,pescado congelado
-349, frutillas en conserva,7657,fruta en conserva
-99,arvejas congeladas,12265,verduras congeladas
-109,brocoli,7370,verduras
-181,hamburguesa de verduras,5304,hamburguesa
-389,manzana,7436,frutas
-371,marraqueta,11380,pan
-413,durazno en conserva,12428,fruta en conserva
-76,manzana,9326,frutas
-290,hallulla,8722,pan
-6,marraqueta,7830,pan
-386,carne molida,7866,carne congelada
-6,marraqueta,7830,pan
-333,pantalla lineas,6062,pantalla de luz
 180,hallulla,7278,pan
-12,mix de frutas en conserva,9432,fruta en conserva
-277,limon,7442,verduras
-13,esparragos frasco,14537,verdura en conserva
 161,cerdo,13134,carne
-175,hallulla,11970,pan
-272,salmon,6760,pescado congelado
-170,mix de verduras congeladas,7212,verduras congeladas
-217,pollo,13965,carne
-197,pantalla papel,10497,pantalla de luz
-165,camiseta,10613,ropa
-378,televisor,10657,producto tecnologico
-123,choclo congelado,14418,verduras congeladas
-257,pantalon,12445,ropa
-345,hamburguesa de verduras,12480,hamburguesa
-106,pantalla papel,8041,pantalla de luz
-111,lechuga,8330,verduras
-405,pavo,7717,carne
-181,hamburguesa de verduras,5304,hamburguesa
-275,pantalla lisa,13875,pantalla de luz
-4,hallulla,13556,pan
-368,limon,12932,verduras
-69,teclado,11714,producto tecnologico
-87,teclado,12613,producto tecnologico
-159,esparragos frasco,13153,verdura en conserva
-76,manzana,9326,frutas
-217,pollo,13965,carne
-22,televisor,5912,producto tecnologico
-23,arvejas congeladas,12666,verduras congeladas
-131,cerdo congelado,8452,carne congelada
-259,vestido,8209,ropa
-388,hamburguesa de vacuno,8376,hamburguesa
-102,televisor,5303,producto tecnologico
-147,arvejas en conserva,10396,verdura en conserva
-401,arvejas congeladas,14782,verduras congeladas
-79,teclado,5555,producto tecnologico
-108,pantalla papel,14454,pantalla de luz
-254,kiwi,7974,frutas
-273,hallulla,12150,pan
-167,hamburguesa de vacuno,9224,hamburguesa
-214,cerdo,6063,carne
-217,pollo,13965,carne
-383,hamburguesa de verduras,9105,hamburguesa
-50,pollo congelado,12523,carne congelada
-310,manzana,11868,frutas
-216,pera,14400,frutas
-92,garbanzos en conserva,11554,verdura en conserva
-281,vestido,6522,ropa
-394,limon,5808,verduras
-176,salmon,6261,pescado congelado
-344,pantalla para colgar,11629,pantalla de luz
-125,teclado,6734,producto tecnologico
-88,mouse,12978,producto tecnologico
-149,pan de molde,13136,pan
-260,limon,10707,verduras
-17,camiseta,14514,ropa
-195,reineta,8674,pescado congelado
-372,mouse,9082,producto tecnologico
-363,jeans,7348,ropa
-228, frutillas en conserva,13599,fruta en conserva
-340,pantalla para colgar,5107,pantalla de luz
-351,vacuno congelado,11224,carne congelada
-187,carne molida,12944,carne congelada
-155,vestido,12164,ropa
-172,polera,11996,ropa
-362,pavo congelado,12446,carne congelada
-222,vestido,10689,ropa
-205,lechuga,5224,verduras
-29,limon,13395,verduras
-86,televisor,13862,producto tecnologico
-398,pantalla papel,14579,pantalla de luz
 145,hamburguesa de verduras,8137,hamburguesa
-42,cerdo,6686,carne
-320,pantalla lineas,8495,pantalla de luz
-286,manzana,13091,frutas
-359,hamburguesa de vacuno,9503,hamburguesa
-325,cerdo congelado,8676,carne congelada
-143,vacuno,13742,carne
-276,pantalla para colgar,6897,pantalla de luz
-331,lenguado,6376,pescado congelado
-236,mouse,11941,producto tecnologico
-78,hamburguesa de quinoa,7460,hamburguesa
 374,pantalla papel,13760,pantalla de luz
-322,mix de verduras congeladas,11198,verduras congeladas
-23,arvejas congeladas,12666,verduras congeladas
-256,porotos congelados,14619,verduras congeladas
-339,telefono,5181,producto tecnologico
-221,salmon,7372,pescado congelado
-212,hamburguesa de quinoa,12482,hamburguesa
-370,pera,14775,frutas
-117,telefono,6853,producto tecnologico
-325,cerdo congelado,8676,carne congelada
-391,choclo en conserva,8087,verdura en conserva
-324,poleron,6437,ropa
-238,reineta,10784,pescado congelado
-303,pantalla lisa,14182,pantalla de luz
-257,pantalon,12445,ropa
 203,marraqueta,6335,pan
-246,pollo,9006,carne
-54,papaya en conserva,6280,fruta en conserva
-190,pantalla papel,14669,pantalla de luz
-325,cerdo congelado,8676,carne congelada
-288,mix de verduras congeladas,6320,verduras congeladas
-413,durazno en conserva,12428,fruta en conserva
-191,marraqueta,6589,pan
-344,pantalla para colgar,11629,pantalla de luz
-34,mix de verduras congeladas,13386,verduras congeladas
-48,cerdo,13194,carne
-161,cerdo,13134,carne
-163,carne molida,7134,carne congelada
 188,mix de verduras congeladas,13804,verduras congeladas
-112,hallulla,11425,pan
-179,teclado,12795,producto tecnologico
-333,pantalla lineas,6062,pantalla de luz
-131,cerdo congelado,8452,carne congelada
-254,kiwi,7974,frutas
-227,arvejas en conserva,13905,verdura en conserva
-275,pantalla lisa,13875,pantalla de luz
-146,poleron,12236,ropa
-151,cerdo congelado,13962,carne congelada
-372,mouse,9082,producto tecnologico
-77,hallulla,14637,pan
-346,porotos congelados,7726,verduras congeladas
-52,manzana,7327,frutas
-319,vacuno,13414,carne
-147,arvejas en conserva,10396,verdura en conserva
-37,cerdo,13208,carne
-275,pantalla lisa,13875,pantalla de luz
-405,pavo,7717,carne
-335,pan de molde,7937,pan
-232,mouse,7653,producto tecnologico
-305,teclado,9834,producto tecnologico
-158,hamburguesa de pollo,10287,hamburguesa
-205,lechuga,5224,verduras
-20,cerdo,12012,carne
-371,marraqueta,11380,pan
-121,pan de molde,7108,pan
-262,lenguado,14080,pescado congelado
-46,palta,13279,verduras
-410,salmon,12879,pescado congelado
-386,carne molida,7866,carne congelada
-159,esparragos frasco,13153,verdura en conserva
-124,garbanzos en conserva,11677,verdura en conserva
-1,mix de frutas en conserva,10730,fruta en conserva
-363,jeans,7348,ropa
-282,salmon,11494,pescado congelado
-135,arvejas congeladas,9491,verduras congeladas
-406,pantalla para colgar,5421,pantalla de luz
-248,pantalla para colgar,8944,pantalla de luz
-196,reineta,13212,pescado congelado
-51,limon,10356,verduras
-391,choclo en conserva,8087,verdura en conserva
-410,salmon,12879,pescado congelado
-273,hallulla,12150,pan
-98,teclado,5890,producto tecnologico
-353,pavo congelado,7137,carne congelada
-84,pantalla lisa,14987,pantalla de luz
-405,pavo,7717,carne
-38,cerdo congelado,5036,carne congelada
-337,pantalla lineas,11430,pantalla de luz
-313,platano,12727,frutas
-370,pera,14775,frutas
-27,hamburguesa de pollo,13436,hamburguesa
-101,mix de verduras congeladas,8253,verduras congeladas
-113,hamburguesa de verduras,8820,hamburguesa
-356,kiwi,14585,frutas
-81,hamburguesa de vacuno,8644,hamburguesa
-40,pantalla lisa,11843,pantalla de luz
-15,durazno,13302,frutas
-238,reineta,10784,pescado congelado
-396,porotos congelados,8296,verduras congeladas
-339,telefono,5181,producto tecnologico
-299,arvejas congeladas,7343,verduras congeladas
-330,cerdo,7094,carne
-159,esparragos frasco,13153,verdura en conserva
-43,telefono,12517,producto tecnologico
-170,mix de verduras congeladas,7212,verduras congeladas
-402,salmon,6712,pescado congelado
-169,hallulla,12245,pan
-395,choclo en conserva,11836,verdura en conserva
-62, frutillas en conserva,6958,fruta en conserva
-95,esparragos frasco,9882,verdura en conserva
-383,hamburguesa de verduras,9105,hamburguesa
-79,teclado,5555,producto tecnologico
-232,mouse,7653,producto tecnologico
-178,manzana,13975,frutas
-405,pavo,7717,carne
-404,mix de verduras congeladas,14681,verduras congeladas
-301,carne molida,6414,carne congelada
-181,hamburguesa de verduras,5304,hamburguesa
-402,salmon,6712,pescado congelado
-189,telefono,13048,producto tecnologico
-179,teclado,12795,producto tecnologico
-368,limon,12932,verduras
-381,pantalla para colgar,8882,pantalla de luz
-395,choclo en conserva,11836,verdura en conserva
-412,marraqueta,14464,pan
-410,salmon,12879,pescado congelado
-147,arvejas en conserva,10396,verdura en conserva
-24,teclado,9510,producto tecnologico
-357,mouse,14549,producto tecnologico
-408,garbanzos en conserva,12008,verdura en conserva
-224,camiseta,12133,ropa
-248,pantalla para colgar,8944,pantalla de luz
-239,merlusa,8602,pescado congelado
-157,hamburguesa de pollo,14465,hamburguesa
-66,vacuno congelado,12014,carne congelada
-321,esparragos frasco,9752,verdura en conserva
-1,mix de frutas en conserva,10730,fruta en conserva
 114,reineta,9430,pescado congelado
-102,televisor,5303,producto tecnologico
-403,vestido,11750,ropa
-172,polera,11996,ropa
-240,salmon,7427,pescado congelado
-228, frutillas en conserva,13599,fruta en conserva
-0,merlusa,8706,pescado congelado
-178,manzana,13975,frutas
-348,mouse,14046,producto tecnologico
-192,telefono,12648,producto tecnologico
-364,mouse,11097,producto tecnologico
-58,hamburguesa de vacuno,5337,hamburguesa
-236,mouse,11941,producto tecnologico
-171,mix de frutas en conserva,8658,fruta en conserva
-171,mix de frutas en conserva,8658,fruta en conserva
-377,telefono,14256,producto tecnologico
-165,camiseta,10613,ropa
-139,hamburguesa de quinoa,13665,hamburguesa
-150,salmon,6044,pescado congelado
-223,reineta,8439,pescado congelado
-39,merlusa,10053,pescado congelado
-229,merlusa,8380,pescado congelado
-297,pantalla para colgar,6596,pantalla de luz
-236,mouse,11941,producto tecnologico
-113,hamburguesa de verduras,8820,hamburguesa
-179,teclado,12795,producto tecnologico
-49,televisor,11837,producto tecnologico
-172,polera,11996,ropa
-260,limon,10707,verduras
-293,vacuno congelado,7891,carne congelada
-29,limon,13395,verduras
-307,marraqueta,10434,pan
-213,calcetin,14881,ropa
-28,cerdo,12064,carne
-32,pantalla para colgar,6200,pantalla de luz
-393,televisor,8016,producto tecnologico
-334,pantalla lineas,9860,pantalla de luz
-114,reineta,9430,pescado congelado
-296,salmon,9495,pescado congelado
-58,hamburguesa de vacuno,5337,hamburguesa
-338,mix de frutas en conserva,10464,fruta en conserva
-409,pantalla lineas,12158,pantalla de luz
-36,lenguado,12514,pescado congelado
-134,jeans,10305,ropa
-260,limon,10707,verduras
-83, frutillas en conserva,12139,fruta en conserva
-378,televisor,10657,producto tecnologico
-330,cerdo,7094,carne
-33, frutillas en conserva,9530,fruta en conserva
-242,marraqueta,6667,pan
-159,esparragos frasco,13153,verdura en conserva
-148,palta,9424,verduras
-231,jeans,13914,ropa
-283,telefono,12515,producto tecnologico
-354,pollo congelado,8252,carne congelada
-236,mouse,11941,producto tecnologico
-33, frutillas en conserva,9530,fruta en conserva
-325,cerdo congelado,8676,carne congelada
-326,esparragos frasco,14352,verdura en conserva
-265,telefono,6947,producto tecnologico
-84,pantalla lisa,14987,pantalla de luz
-261,palta,13207,verduras
-16,hamburguesa de quinoa,5914,hamburguesa
-179,teclado,12795,producto tecnologico
-200,hamburguesa de verduras,5681,hamburguesa
-263,pantalla papel,14631,pantalla de luz
-207, frutillas en conserva,6563,fruta en conserva
-172,polera,11996,ropa
-388,hamburguesa de vacuno,8376,hamburguesa
-234,brocoli,10802,verduras
-340,pantalla para colgar,5107,pantalla de luz
-330,cerdo,7094,carne
-139,hamburguesa de quinoa,13665,hamburguesa
-60,pantalla para colgar,8436,pantalla de luz
-10,reineta,10545,pescado congelado
-210,pantalla lisa,7658,pantalla de luz
-316,vacuno,13806,carne
-292,vacuno congelado,12122,carne congelada
-60,pantalla para colgar,8436,pantalla de luz
-62, frutillas en conserva,6958,fruta en conserva
-363,jeans,7348,ropa
-28,cerdo,12064,carne
-300,durazno en conserva,5467,fruta en conserva
-99,arvejas congeladas,12265,verduras congeladas
-156,hallulla,11210,pan
-236,mouse,11941,producto tecnologico
-289,salmon,14016,pescado congelado
-26,manzana,7438,frutas
-52,manzana,7327,frutas
-277,limon,7442,verduras
-230,pantalla para colgar,5925,pantalla de luz
-152,lenguado,13791,pescado congelado
-214,cerdo,6063,carne
-248,pantalla para colgar,8944,pantalla de luz
-242,marraqueta,6667,pan
-360,pantalla papel,11751,pantalla de luz
-319,vacuno,13414,carne
-253,platano,14191,frutas
-109,brocoli,7370,verduras
-366,pantalla papel,8830,pantalla de luz
-332,pantalla lisa,7833,pantalla de luz
-362,pavo congelado,12446,carne congelada
-396,porotos congelados,8296,verduras congeladas
-6,marraqueta,7830,pan
-332,pantalla lisa,7833,pantalla de luz
-2,pantalla lisa,5609,pantalla de luz
-11,papaya en conserva,7060,fruta en conserva
-85,salmon,9211,pescado congelado
-325,cerdo congelado,8676,carne congelada
-391,choclo en conserva,8087,verdura en conserva
-22,televisor,5912,producto tecnologico
-109,brocoli,7370,verduras
-110,pantalla papel,9914,pantalla de luz
-194,hallulla,9444,pan
 365,camiseta,12323,ropa
-164,platano,13220,frutas
-356,kiwi,14585,frutas
-268,teclado,12598,producto tecnologico
-362,pavo congelado,12446,carne congelada
-198,mouse,12730,producto tecnologico
-156,hallulla,11210,pan
-262,lenguado,14080,pescado congelado
-231,jeans,13914,ropa
-9,hamburguesa de verduras,11678,hamburguesa
-244,pantalla para colgar,5174,pantalla de luz
-377,telefono,14256,producto tecnologico
-345,hamburguesa de verduras,12480,hamburguesa
-163,carne molida,7134,carne congelada
-23,arvejas congeladas,12666,verduras congeladas
-125,teclado,6734,producto tecnologico
-115, frutillas en conserva,9542,fruta en conserva
-110,pantalla papel,9914,pantalla de luz
-144,tomate,8242,verduras
-238,reineta,10784,pescado congelado
-96,pavo,6717,carne
-192,telefono,12648,producto tecnologico
-128,pavo,9003,carne
-195,reineta,8674,pescado congelado
-19,durazno en conserva,8421,fruta en conserva
-32,pantalla para colgar,6200,pantalla de luz
-110,pantalla papel,9914,pantalla de luz
-133,reineta,7700,pescado congelado
-37,cerdo,13208,carne
-71,papaya en conserva,14577,fruta en conserva
-61,vacuno,5898,carne
-368,limon,12932,verduras
-251,vacuno,13598,carne
-88,mouse,12978,producto tecnologico
-92,garbanzos en conserva,11554,verdura en conserva
-3,merlusa,13317,pescado congelado
-175,hallulla,11970,pan
-26,manzana,7438,frutas
-415,pantalla lineas,8289,pantalla de luz
-126,teclado,12241,producto tecnologico
-263,pantalla papel,14631,pantalla de luz
-214,cerdo,6063,carne
-388,hamburguesa de vacuno,8376,hamburguesa
-385,limon,11324,verduras
-378,televisor,10657,producto tecnologico
-261,palta,13207,verduras
-414,pantalla lineas,11871,pantalla de luz
-3,merlusa,13317,pescado congelado
-283,telefono,12515,producto tecnologico
-336,esparragos frasco,7752,verdura en conserva
-2,pantalla lisa,5609,pantalla de luz
-109,brocoli,7370,verduras
-43,telefono,12517,producto tecnologico
-2,pantalla lisa,5609,pantalla de luz
-40,pantalla lisa,11843,pantalla de luz
-169,hallulla,12245,pan
-252,pavo congelado,6840,carne congelada
-359,hamburguesa de vacuno,9503,hamburguesa
-190,pantalla papel,14669,pantalla de luz
-68,camisa,5009,ropa
-134,jeans,10305,ropa
-415,pantalla lineas,8289,pantalla de luz
-305,teclado,9834,producto tecnologico
-369,tomate,13568,verduras
-252,pavo congelado,6840,carne congelada
-125,teclado,6734,producto tecnologico
-167,hamburguesa de vacuno,9224,hamburguesa
-343,choclo en conserva,12429,verdura en conserva
-264,hamburguesa de vacuno,14847,hamburguesa
-126,teclado,12241,producto tecnologico
-373,pantalla papel,5674,pantalla de luz
-355,mix de frutas en conserva,12120,fruta en conserva
-313,platano,12727,frutas
-243,choclo congelado,6481,verduras congeladas
-179,teclado,12795,producto tecnologico
-373,pantalla papel,5674,pantalla de luz
-412,marraqueta,14464,pan
-275,pantalla lisa,13875,pantalla de luz
-386,carne molida,7866,carne congelada
-153,pantalla papel,8665,pantalla de luz
-18,palta,14117,verduras
-166,reineta,12040,pescado congelado
-49,televisor,11837,producto tecnologico
-125,teclado,6734,producto tecnologico
-320,pantalla lineas,8495,pantalla de luz
-77,hallulla,14637,pan
-308,mix de verduras congeladas,6920,verduras congeladas
-124,garbanzos en conserva,11677,verdura en conserva
-243,choclo congelado,6481,verduras congeladas
-287,carne molida,14751,carne congelada
-259,vestido,8209,ropa
-356,kiwi,14585,frutas
-184,hamburguesa de vacuno,6871,hamburguesa
-250,vacuno,14397,carne
-279,merlusa,9334,pescado congelado
-162,pollo,9026,carne
-87,teclado,12613,producto tecnologico
-162,pollo,9026,carne
-73,pantalla lineas,8949,pantalla de luz
-412,marraqueta,14464,pan
-221,salmon,7372,pescado congelado
-417,pollo,10015,carne
-326,esparragos frasco,14352,verdura en conserva
-287,carne molida,14751,carne congelada
-217,pollo,13965,carne
-122,porotos congelados,11540,verduras congeladas
-290,hallulla,8722,pan
-398,pantalla papel,14579,pantalla de luz
-104,chaqueta,9435,ropa
-338,mix de frutas en conserva,10464,fruta en conserva
-252,pavo congelado,6840,carne congelada
-20,cerdo,12012,carne
-307,marraqueta,10434,pan
-230,pantalla para colgar,5925,pantalla de luz
-226,carne molida,5033,carne congelada
-409,pantalla lineas,12158,pantalla de luz
-305,teclado,9834,producto tecnologico
-205,lechuga,5224,verduras
-83, frutillas en conserva,12139,fruta en conserva
-372,mouse,9082,producto tecnologico
-411,durazno,11230,frutas
-152,lenguado,13791,pescado congelado
-395,choclo en conserva,11836,verdura en conserva
-235,vacuno,8664,carne
-240,salmon,7427,pescado congelado
-156,hallulla,11210,pan
 118,limon,11756,verduras
-351,vacuno congelado,11224,carne congelada
-185,cerdo,12579,carne
-312,pantalla papel,6898,pantalla de luz
-106,pantalla papel,8041,pantalla de luz
-59,durazno en conserva,5186,fruta en conserva
-170,mix de verduras congeladas,7212,verduras congeladas
-160,merlusa,10910,pescado congelado
-282,salmon,11494,pescado congelado
-181,hamburguesa de verduras,5304,hamburguesa
-79,teclado,5555,producto tecnologico
-411,durazno,11230,frutas
-65,hamburguesa de verduras,7556,hamburguesa
-18,palta,14117,verduras
-311,vestido,14898,ropa
-357,mouse,14549,producto tecnologico
-369,tomate,13568,verduras
-172,polera,11996,ropa
-175,hallulla,11970,pan
-32,pantalla para colgar,6200,pantalla de luz
-152,lenguado,13791,pescado congelado
-77,hallulla,14637,pan
-126,teclado,12241,producto tecnologico
-194,hallulla,9444,pan
-345,hamburguesa de verduras,12480,hamburguesa
-39,merlusa,10053,pescado congelado
-392,arvejas en conserva,13884,verdura en conserva
-33, frutillas en conserva,9530,fruta en conserva
-18,palta,14117,verduras
-356,kiwi,14585,frutas
-33, frutillas en conserva,9530,fruta en conserva
-87,teclado,12613,producto tecnologico
-301,carne molida,6414,carne congelada
-130,hamburguesa de verduras,11010,hamburguesa
-1,mix de frutas en conserva,10730,fruta en conserva
-85,salmon,9211,pescado congelado
-20,cerdo,12012,carne
-174,vacuno,14113,carne
-34,mix de verduras congeladas,13386,verduras congeladas
-74,pantalla lisa,14478,pantalla de luz
-295,manzana,11013,frutas
-122,porotos congelados,11540,verduras congeladas
-232,mouse,7653,producto tecnologico
-116,cerdo congelado,11027,carne congelada
-296,salmon,9495,pescado congelado
-220,manzana,11649,frutas
-222,vestido,10689,ropa
-247,poleron,12512,ropa
-391,choclo en conserva,8087,verdura en conserva
-320,pantalla lineas,8495,pantalla de luz
 328,hamburguesa de pollo,6638,hamburguesa
-393,televisor,8016,producto tecnologico
-197,pantalla papel,10497,pantalla de luz
-220,manzana,11649,frutas
-326,esparragos frasco,14352,verdura en conserva
-165,camiseta,10613,ropa
-350,brocoli,7862,verduras
-301,carne molida,6414,carne congelada
-402,salmon,6712,pescado congelado
-46,palta,13279,verduras
-223,reineta,8439,pescado congelado
-137,jeans,11374,ropa
-318,pavo,6208,carne
-355,mix de frutas en conserva,12120,fruta en conserva
-262,lenguado,14080,pescado congelado
-40,pantalla lisa,11843,pantalla de luz
-159,esparragos frasco,13153,verdura en conserva
-204,durazno,7673,frutas
-81,hamburguesa de vacuno,8644,hamburguesa
-23,arvejas congeladas,12666,verduras congeladas
-234,brocoli,10802,verduras
-252,pavo congelado,6840,carne congelada
-233,cerdo congelado,7670,carne congelada
-353,pavo congelado,7137,carne congelada
-18,palta,14117,verduras
-239,merlusa,8602,pescado congelado
-317,pantalla lineas,13847,pantalla de luz
-205,lechuga,5224,verduras
-411,durazno,11230,frutas
-236,mouse,11941,producto tecnologico
-131,cerdo congelado,8452,carne congelada
-16,hamburguesa de quinoa,5914,hamburguesa
-159,esparragos frasco,13153,verdura en conserva
-199,garbanzos en conserva,9115,verdura en conserva
-366,pantalla papel,8830,pantalla de luz
-221,salmon,7372,pescado congelado
-88,mouse,12978,producto tecnologico
-241,durazno en conserva,12190,fruta en conserva
-156,hallulla,11210,pan
-333,pantalla lineas,6062,pantalla de luz
-333,pantalla lineas,6062,pantalla de luz
-373,pantalla papel,5674,pantalla de luz
-98,teclado,5890,producto tecnologico
-338,mix de frutas en conserva,10464,fruta en conserva
-396,porotos congelados,8296,verduras congeladas
-414,pantalla lineas,11871,pantalla de luz
-226,carne molida,5033,carne congelada
-68,camisa,5009,ropa
-121,pan de molde,7108,pan
-232,mouse,7653,producto tecnologico
-268,teclado,12598,producto tecnologico
-320,pantalla lineas,8495,pantalla de luz
-68,camisa,5009,ropa
-44,lenguado,12660,pescado congelado
-197,pantalla papel,10497,pantalla de luz
-188,mix de verduras congeladas,13804,verduras congeladas
-108,pantalla papel,14454,pantalla de luz
-403,vestido,11750,ropa
-122,porotos congelados,11540,verduras congeladas
-318,pavo,6208,carne
-145,hamburguesa de verduras,8137,hamburguesa
-194,hallulla,9444,pan
-166,reineta,12040,pescado congelado
-412,marraqueta,14464,pan
-414,pantalla lineas,11871,pantalla de luz
-327,hallulla,6887,pan
-393,televisor,8016,producto tecnologico
-403,vestido,11750,ropa
-208,telefono,9760,producto tecnologico
-280,pollo congelado,6003,carne congelada
-10,reineta,10545,pescado congelado
-22,televisor,5912,producto tecnologico
-157,hamburguesa de pollo,14465,hamburguesa
-149,pan de molde,13136,pan
-37,cerdo,13208,carne
-147,arvejas en conserva,10396,verdura en conserva
-319,vacuno,13414,carne
-400,mix de verduras congeladas,13648,verduras congeladas
-363,jeans,7348,ropa
 91,arvejas congeladas,7384,verduras congeladas
-317,pantalla lineas,13847,pantalla de luz
-279,merlusa,9334,pescado congelado
-71,papaya en conserva,14577,fruta en conserva
-21,televisor,12324,producto tecnologico
-20,cerdo,12012,carne
-153,pantalla papel,8665,pantalla de luz
-71,papaya en conserva,14577,fruta en conserva
-15,durazno,13302,frutas
-164,platano,13220,frutas
-277,limon,7442,verduras
-102,televisor,5303,producto tecnologico
-326,esparragos frasco,14352,verdura en conserva
-49,televisor,11837,producto tecnologico
-340,pantalla para colgar,5107,pantalla de luz
-19,durazno en conserva,8421,fruta en conserva
-10,reineta,10545,pescado congelado
-340,pantalla para colgar,5107,pantalla de luz
-409,pantalla lineas,12158,pantalla de luz
-159,esparragos frasco,13153,verdura en conserva
-111,lechuga,8330,verduras
-76,manzana,9326,frutas
-290,hallulla,8722,pan
-332,pantalla lisa,7833,pantalla de luz
-294,pollo congelado,10551,carne congelada
-411,durazno,11230,frutas
-80,pera,11624,frutas
-149,pan de molde,13136,pan
-296,salmon,9495,pescado congelado
-0,merlusa,8706,pescado congelado
-354,pollo congelado,8252,carne congelada
-178,manzana,13975,frutas
-118,limon,11756,verduras
-193,reineta,12780,pescado congelado
-393,televisor,8016,producto tecnologico
-328,hamburguesa de pollo,6638,hamburguesa
-205,lechuga,5224,verduras
-222,vestido,10689,ropa
-352,mix de frutas en conserva,14348,fruta en conserva
-249,lechuga,8099,verduras
-245,pantalla lisa,6627,pantalla de luz
-6,marraqueta,7830,pan
-167,hamburguesa de vacuno,9224,hamburguesa
-386,carne molida,7866,carne congelada
-410,salmon,12879,pescado congelado
-190,pantalla papel,14669,pantalla de luz
-203,marraqueta,6335,pan
-21,televisor,12324,producto tecnologico
 97,lechuga,8668,verduras
-381,pantalla para colgar,8882,pantalla de luz
-228, frutillas en conserva,13599,fruta en conserva
-229,merlusa,8380,pescado congelado
-367,teclado,7331,producto tecnologico
-276,pantalla para colgar,6897,pantalla de luz
-307,marraqueta,10434,pan
-396,porotos congelados,8296,verduras congeladas
-84,pantalla lisa,14987,pantalla de luz
 407,manzana,8989,frutas
-322,mix de verduras congeladas,11198,verduras congeladas
-32,pantalla para colgar,6200,pantalla de luz
-160,merlusa,10910,pescado congelado
-155,vestido,12164,ropa
-89,pantalla lineas,6647,pantalla de luz
-384,pantalla lineas,13539,pantalla de luz
-103,hamburguesa de vacuno,11871,hamburguesa
-375,pollo congelado,7447,carne congelada
-142,mix de frutas en conserva,5219,fruta en conserva
-181,hamburguesa de verduras,5304,hamburguesa
-107,esparragos frasco,7134,verdura en conserva
-120,marraqueta,13520,pan
-209,televisor,10968,producto tecnologico
-180,hallulla,7278,pan
-390,vacuno congelado,12201,carne congelada
-315,pantalla lisa,13048,pantalla de luz
-261,palta,13207,verduras
-0,merlusa,8706,pescado congelado
-343,choclo en conserva,12429,verdura en conserva
-190,pantalla papel,14669,pantalla de luz
-91,arvejas congeladas,7384,verduras congeladas
-107,esparragos frasco,7134,verdura en conserva
-92,garbanzos en conserva,11554,verdura en conserva
-288,mix de verduras congeladas,6320,verduras congeladas
-67,limon,13531,verduras
-270,hamburguesa de verduras,12794,hamburguesa
-223,reineta,8439,pescado congelado
-329,hallulla,12550,pan
-6,marraqueta,7830,pan
-328,hamburguesa de pollo,6638,hamburguesa
-184,hamburguesa de vacuno,6871,hamburguesa
-85,salmon,9211,pescado congelado
-64,marraqueta,11303,pan
-317,pantalla lineas,13847,pantalla de luz
-59,durazno en conserva,5186,fruta en conserva
-132,mix de verduras congeladas,10478,verduras congeladas
-310,manzana,11868,frutas
-155,vestido,12164,ropa
-166,reineta,12040,pescado congelado
-231,jeans,13914,ropa
-296,salmon,9495,pescado congelado
-393,televisor,8016,producto tecnologico
-57,cerdo,7160,carne
-317,pantalla lineas,13847,pantalla de luz
-126,teclado,12241,producto tecnologico
-294,pollo congelado,10551,carne congelada
-240,salmon,7427,pescado congelado
-287,carne molida,14751,carne congelada
-196,reineta,13212,pescado congelado
-110,pantalla papel,9914,pantalla de luz
-51,limon,10356,verduras
-201,arvejas en conserva,11500,verdura en conserva
-235,vacuno,8664,carne
-387,lenguado,6433,pescado congelado
-301,carne molida,6414,carne congelada
-21,televisor,12324,producto tecnologico
-314,pavo congelado,12293,carne congelada
-193,reineta,12780,pescado congelado
-343,choclo en conserva,12429,verdura en conserva
-312,pantalla papel,6898,pantalla de luz
-301,carne molida,6414,carne congelada
-223,reineta,8439,pescado congelado
-39,merlusa,10053,pescado congelado
-74,pantalla lisa,14478,pantalla de luz
-94,pollo congelado,6136,carne congelada
-147,arvejas en conserva,10396,verdura en conserva
-114,reineta,9430,pescado congelado
-109,brocoli,7370,verduras
-94,pollo congelado,6136,carne congelada
-396,porotos congelados,8296,verduras congeladas
-140,teclado,6971,producto tecnologico
-304,jeans,8403,ropa
-399,mouse,14474,producto tecnologico
-268,teclado,12598,producto tecnologico
-263,pantalla papel,14631,pantalla de luz
-316,vacuno,13806,carne
-26,manzana,7438,frutas
-295,manzana,11013,frutas
-45,salmon,10211,pescado congelado
-60,pantalla para colgar,8436,pantalla de luz
-407,manzana,8989,frutas
-141,mix de frutas en conserva,6583,fruta en conserva
-323,vacuno,11553,carne
-215,durazno,9245,frutas
-48,cerdo,13194,carne
-362,pavo congelado,12446,carne congelada
-260,limon,10707,verduras
-386,carne molida,7866,carne congelada
-373,pantalla papel,5674,pantalla de luz
-239,merlusa,8602,pescado congelado
-343,choclo en conserva,12429,verdura en conserva
-103,hamburguesa de vacuno,11871,hamburguesa
-58,hamburguesa de vacuno,5337,hamburguesa
-90,mix de verduras congeladas,9916,verduras congeladas
-312,pantalla papel,6898,pantalla de luz
-193,reineta,12780,pescado congelado
-374,pantalla papel,13760,pantalla de luz
-251,vacuno,13598,carne
-191,marraqueta,6589,pan
-110,pantalla papel,9914,pantalla de luz
-331,lenguado,6376,pescado congelado
-72,camisa,9228,ropa
-234,brocoli,10802,verduras
-3,merlusa,13317,pescado congelado
-116,cerdo congelado,11027,carne congelada
-314,pavo congelado,12293,carne congelada
-258,chaqueta,13813,ropa
-20,cerdo,12012,carne
-3,merlusa,13317,pescado congelado
-234,brocoli,10802,verduras
-19,durazno en conserva,8421,fruta en conserva
-19,durazno en conserva,8421,fruta en conserva
-291,arvejas congeladas,9580,verduras congeladas
-168,hallulla,6062,pan
-223,reineta,8439,pescado congelado
-202,garbanzos en conserva,14323,verdura en conserva
-178,manzana,13975,frutas
-152,lenguado,13791,pescado congelado
-97,lechuga,8668,verduras
-60,pantalla para colgar,8436,pantalla de luz
-100,camisa,14690,ropa
-359,hamburguesa de vacuno,9503,hamburguesa
-104,chaqueta,9435,ropa
-354,pollo congelado,8252,carne congelada
-31,papaya en conserva,8954,fruta en conserva
-118,limon,11756,verduras
-171,mix de frutas en conserva,8658,fruta en conserva
-155,vestido,12164,ropa
-185,cerdo,12579,carne
-183,hallulla,10309,pan
-5,mix de verduras congeladas,11791,verduras congeladas
-190,pantalla papel,14669,pantalla de luz
-145,hamburguesa de verduras,8137,hamburguesa
-254,kiwi,7974,frutas
-32,pantalla para colgar,6200,pantalla de luz
-273,hallulla,12150,pan
-29,limon,13395,verduras
-394,limon,5808,verduras
-400,mix de verduras congeladas,13648,verduras congeladas
-321,esparragos frasco,9752,verdura en conserva
-179,teclado,12795,producto tecnologico
-417,pollo,10015,carne
-251,vacuno,13598,carne
-107,esparragos frasco,7134,verdura en conserva
-245,pantalla lisa,6627,pantalla de luz
-353,pavo congelado,7137,carne congelada
-339,telefono,5181,producto tecnologico
-399,mouse,14474,producto tecnologico
-315,pantalla lisa,13048,pantalla de luz
-46,palta,13279,verduras
-169,hallulla,12245,pan
-414,pantalla lineas,11871,pantalla de luz
-365,camiseta,12323,ropa
-319,vacuno,13414,carne
-231,jeans,13914,ropa
-42,cerdo,6686,carne
-47,jeans,10242,ropa
-376,arvejas en conserva,14460,verdura en conserva
-165,camiseta,10613,ropa
-217,pollo,13965,carne
-307,marraqueta,10434,pan
-61,vacuno,5898,carne
-38,cerdo congelado,5036,carne congelada
-118,limon,11756,verduras
-7,pantalla lineas,10802,pantalla de luz
-209,televisor,10968,producto tecnologico
