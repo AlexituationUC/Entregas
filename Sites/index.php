@@ -38,13 +38,32 @@
 
   <!--             Tercera Consulta            -->
 
-  <h3 align="center"> Mostrar las tiendas que venden este tiepo de producto</h3>
+  <h3 align="center"> Mostrar las tiendas que venden este tipo de producto</h3>
 
-  <form align="center" action="consultas/consulta_3.php" method="post">
+  <form align="center" action="consultas/consulta_3_comestible.php" method="post">
     Tipo de producto:
-    <input type="text" name="tipo_producto">
     <br/><br/>
-    <input type="submit" value="Mostrar">
+    <input type="submit" value="Comestible">
+  </form>
+
+  <form align="center" action="consultas/consulta_3_comestible_frescos.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Fresco">
+  </form>
+
+  <form align="center" action="consultas/consulta_3_comestible_conserva.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Conserva">
+  </form>
+
+  <form align="center" action="consultas/consulta_3_comestible_congelado.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Congelado">
+  </form>
+
+  <form align="center" action="consultas/consulta_3_no_comestible.php" method="post">
+    <br/><br/>
+    <input type="submit" value="No Comestible">
   </form>
 
   <br>
@@ -79,12 +98,31 @@
 
   <!--             Sexta Consulta            -->
 
-<h3 align="center">Tiendas que han vendido la mayor cantidad del producto</h3>
-  <form align="center" action="consultas/consulta_6.php" method="post">
-    Producto
-    <input type="text" name="altura">
+<h3 align="center">Tiendas con la venta de mayor cantidad de productos del tipo seleccionado</h3>
+  <form align="center" action="consultas/consulta_6_comestible.php" method="post">
+    Tipo de producto:
     <br/><br/>
-    <input type="submit" value="Mostrar">
+    <input type="submit" value="Comestible">
+  </form>
+
+  <form align="center" action="consultas/consulta_6_comestible_frescos.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Fresco">
+  </form>
+
+  <form align="center" action="consultas/consulta_6_comestible_conserva.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Conserva">
+  </form>
+
+  <form align="center" action="consultas/consulta_6_comestible_congelado.php" method="post">
+    <br/><br/>
+    <input type="submit" value="Congelado">
+  </form>
+
+  <form align="center" action="consultas/consulta_6_no_comestible.php" method="post">
+    <br/><br/>
+    <input type="submit" value="No Comestible">
   </form>
 
   <br>
