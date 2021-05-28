@@ -10,7 +10,8 @@
   if ($producto=="Comestible") {
     $query = "SELECT t.nombre, COUNT(c.id)
     FROM Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
-    WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id;";
+    WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
+    GROUP BY t.nombre;";
   }
   if ($producto == "Comestible Frescos") {
     $query = "SELECT t.nombre, COUNT(c.id)
