@@ -13,8 +13,7 @@
   FROM Comunas as c, esta_en as e, Direcciones as d, Tiendas as t, contratos as co, Personal as p, info_personal as i
   WHERE c.id = e.id_comunas AND d.id = e.id_direcciones AND d.id = t.id_direccion
   AND t.id = co.id_tiendas AND p.id = co.id_personal AND p.rut = i.rut
-  AND c.nombre LIKE '%$comuna_buscada%'
-  GROUP BY p.id;";
+  AND c.nombre LIKE '%$comuna_buscada%';";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
