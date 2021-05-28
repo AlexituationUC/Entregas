@@ -6,7 +6,7 @@
     #Llama a conexión, crea el objeto PDO y obtiene la variable $db
     require("../config/conexion.php");
 
-    $query = "SELECT t.nombre, c.nombre
+    $query = "SELECT t.nombre, DISTINCT c.nombre
     FROM Tiendas as t, Comunas as c, reparten_a as r
     WHERE t.id=r.id_tiendas AND c.id=r.id_comunas
     ORDER BY t.nombre;";
