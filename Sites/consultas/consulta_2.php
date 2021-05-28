@@ -7,6 +7,8 @@
 
   $comuna_buscada = $_POST["nombre_comuna"];
 
+  print($_POST)
+
  	$query = "SELECT i.nombre
   FROM Comunas as c AND Direcciones as d AND Tiendas as t AND esta_en as e
   AND constratos as co AND Personal as p AND info_Personal as i
