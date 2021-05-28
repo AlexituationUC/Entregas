@@ -7,7 +7,7 @@
 
   $comuna_buscada = $_POST["nombre_comuna"];
 
- 	$query = "SELECT i.nombre
+ 	$query = "SELECT t.nombre, i.nombre
    FROM Comunas as c, Direcciones as d, Tiendas as t, esta_en as e, contratos as co, Personal as p, info_Personal as i, reparten_a as r
    WHERE t.id_direccion = d.id AND d.id = e.id_direcciones AND c.id = r.id_comunas
    AND t.id = co.id_tiendas AND p.id = co.id_personal AND p.rut LIKE i.rut
@@ -26,7 +26,7 @@
     </tr>
   <?php
 	foreach ($jefes as $jefe) {
-  		echo "<tr><td>$jefe[0]</td><td>";
+  		echo "<tr><td>$jefe[0]</td><td>$jefe[1]</td><td>";
 	}
   ?>
 	</table>

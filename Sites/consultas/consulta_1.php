@@ -14,7 +14,6 @@
 	$result -> execute();
 	$tiendas = $result -> fetchAll();
 
-    print($tiendas);
 ?>
 
 	<table>
