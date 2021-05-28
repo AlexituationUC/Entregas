@@ -8,27 +8,27 @@
   $producto = $_POST["producto"];
 
   if ($producto=="Comestible") {
-    $query = "SELECT t.nombre
+    $query = "SELECT DISTINCT t.nombre
     FROM Comestibles as c, Productos as p, tienen as ti, Tiendas as t
     WHERE c.id = p.id AND p.id = ti.id_productos AND ti.id_tiendas = t.id;";
   }
   if ($producto == "Comestible Frescos") {
-    $query = "SELECT t.nombre
+    $query = "SELECT DISTINCT t.nombre
     FROM Frescos as f, Comestibles as c, Productos as p, tienen as ti, Tiendas as t
     WHERE f.id = c.id AND c.id = p.id AND p.id = ti.id_productos AND ti.id_tiendas = t.id;";
   }
   if ($producto == "Comestible Conserva") {
-    $query = "SELECT t.nombre
+    $query = "SELECT DISTINCT t.nombre
     FROM Conserva as cons, Comestibles as c, Productos as p, tienen as ti, Tiendas as t
     WHERE cons.id = c.id AND c.id = p.id AND p.id = ti.id_productos AND ti.id_tiendas = t.id;";
   }
   if ($producto == "Comestible Congelado") {
-    $query = "SELECT t.nombre
+    $query = "SELECT DISTINCT t.nombre
     FROM Congelados as cong, Comestibles as c, Productos as p, tienen as ti, Tiendas as t
     WHERE cong.id = c.id AND c.id = p.id AND p.id = ti.id_productos AND ti.id_tiendas = t.id ;";
   }
   if ($producto == "No Comestible") {
-    $query = "SELECT t.nombre
+    $query = "SELECT DISTINCT t.nombre
     FROM No_Comestibles as c, Productos as p, tienen as ti, Tiendas as t
     WHERE c.id = p.id AND p.id = ti.id_productos AND ti.id_tiendas = t.id;";
   }
