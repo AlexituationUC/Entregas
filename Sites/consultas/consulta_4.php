@@ -12,7 +12,7 @@
  	$query = "SELECT i.nombre
   FROM Productos as p, carritos as ca, Compras as c, Usuarios as u, info_Usuarios as i
   WHERE p.descripcion LIKE '%$descripcion_buscada%' AND p.id = ca.id_productos AND c.id = ca.id_compras
-  AND c.id_usuarios = u.id AND u.rut = i.rut ;";
+  AND c.id_usuarios = u.id AND u.rut LIKE i.rut;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

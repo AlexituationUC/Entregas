@@ -11,7 +11,8 @@
    FROM Comunas as c, Direcciones as d, Tiendas as t, esta_en as e, contratos as co, Personal as p, info_Personal as i, reparten_a as r
    WHERE t.id_direccion = d.id AND d.id = e.id_direcciones AND c.id = r.id_comunas
    AND t.id = co.id_tiendas AND p.id = co.id_personal AND p.rut LIKE i.rut
-   AND c.nombre LIKE '%$comuna_buscada%' AND p.ocupacion LIKE '%jefe%';
+   AND c.nombre LIKE '%$comuna_buscada%' AND p.ocupacion LIKE '%jefe%'
+   ORDER BY t.nombre;
    ";
 
 	$result = $db -> prepare($query);
