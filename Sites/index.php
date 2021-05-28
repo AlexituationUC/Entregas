@@ -40,31 +40,20 @@
 
   <h3 align="center"> Mostrar las tiendas que venden este tipo de producto</h3>
 
-  <form align="center" action="consultas/consulta_3_comestible.php" method="post">
-    Tipo de producto:
+  <form align="center" action="consultas/consulta_3.php" method="post">
     <br/><br/>
-    <input type="submit" value="Comestible">
+    <select name="producto">
+      <option value="" disabled selected>Elije producto</option>
+      <option value="Comestible">Comestible</option>
+      <option value="Comestible Frescos">Comestible Frescos</option>
+      <option value="Comestible Conserva">Comestible Conserva</option>
+      <option value="Comestible Congelado">Comestible Congelado</option>
+      <option value="No Comestible">No Comestible</option>
+    </select>
+
+    <input type="submit" name="submit" value="Producto">
   </form>
 
-  <form align="center" action="consultas/consulta_3_comestible_frescos.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Fresco">
-  </form>
-
-  <form align="center" action="consultas/consulta_3_comestible_conserva.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Conserva">
-  </form>
-
-  <form align="center" action="consultas/consulta_3_comestible_congelado.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Congelado">
-  </form>
-
-  <form align="center" action="consultas/consulta_3_no_comestible.php" method="post">
-    <br/><br/>
-    <input type="submit" value="No Comestible">
-  </form>
 
   <br>
   <br>
@@ -99,30 +88,18 @@
   <!--             Sexta Consulta            -->
 
 <h3 align="center">Tiendas con la venta de mayor cantidad de productos del tipo seleccionado</h3>
-  <form align="center" action="consultas/consulta_6_comestible.php" method="post">
-    Tipo de producto:
+  <form align="center" action="consultas/consulta_6.php" method="post">
     <br/><br/>
-    <input type="submit" value="Comestible">
-  </form>
+    <select name="producto">
+      <option value="" disabled selected>Elije producto</option>
+      <option value="Comestible">Comestible</option>
+      <option value="Comestible Frescos">Comestible Frescos</option>
+      <option value="Comestible Conserva">Comestible Conserva</option>
+      <option value="Comestible Congelado">Comestible Congelado</option>
+      <option value="No Comestible">No Comestible</option>
+    </select>
 
-  <form align="center" action="consultas/consulta_6_comestible_frescos.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Fresco">
-  </form>
-
-  <form align="center" action="consultas/consulta_6_comestible_conserva.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Conserva">
-  </form>
-
-  <form align="center" action="consultas/consulta_6_comestible_congelado.php" method="post">
-    <br/><br/>
-    <input type="submit" value="Congelado">
-  </form>
-
-  <form align="center" action="consultas/consulta_6_no_comestible.php" method="post">
-    <br/><br/>
-    <input type="submit" value="No Comestible">
+    <input type="submit" name="submit" value="Producto">
   </form>
 
   <br>
