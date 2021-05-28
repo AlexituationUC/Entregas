@@ -9,7 +9,7 @@
     $query = "SELECT t.nombre, c.nombre
     FROM Tiendas as t, Comunas as c, reparten_a as r
     WHERE t.id=r.id_tiendas AND c.id=r.id_comunas
-    GROUP BY t.nombre;";
+    GROUP BY t.id;";
 
 	$result = $db -> prepare($query);
 	$result -> execute();
