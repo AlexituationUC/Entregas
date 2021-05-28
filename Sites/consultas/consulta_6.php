@@ -12,35 +12,35 @@
     FROM Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre
-    ORDER BY cantidad;";
+    ORDER BY cantidad DESC;";
   }
   if ($producto == "Comestible Frescos") {
     $query = "SELECT t.nombre, COUNT(c.id) as cantidad
     FROM Frescos as f, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE f.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre
-    ORDER BY cantidad;";
+    ORDER BY cantidad DESC;";
   }
   if ($producto == "Comestible Conserva") {
     $query = "SELECT t.nombre, COUNT(c.id) as cantidad
     FROM Conserva as cons, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE f.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre
-    ORDER BY cantidad;";
+    ORDER BY cantidad DESC;";
   }
   if ($producto == "Comestible Congelado") {
     $query = "SELECT t.nombre, COUNT(c.id) as cantidad
     FROM Congelados as cong, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE cong.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre
-    ORDER BY cantidad;";
+    ORDER BY cantidad DESC;";
   }
   if ($producto == "No Comestible") {
     $query = "SELECT t.nombre, COUNT(c.id) as cantidad
     FROM No_Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre
-    ORDER BY cantidad;";
+    ORDER BY cantidad DESC;";
   }
 
   $result = $db -> prepare($query);
