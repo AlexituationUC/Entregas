@@ -9,31 +9,31 @@
 
   if ($producto=="Comestible") {
     $query = "SELECT t.nombre, COUNT(c.id)
-    FROM Comestibles as c AND Productos as p AND carritos as ca AND Compras as co AND Tiendas as t
+    FROM Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre;";
   }
   if ($producto == "Comestible Frescos") {
     $query = "SELECT t.nombre, COUNT(c.id)
-    FROM Frescos as f AND Comestibles as c AND Productos as p AND carritos as ca AND Compras as co AND Tiendas as t
+    FROM Frescos as f, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE f.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre;";
   }
   if ($producto == "Comestible Conserva") {
     $query = "SELECT t.nombre, COUNT(c.id)
-    FROM Conserva as cons AND Comestibles as c AND Productos as p AND carritos as ca AND Compras as co AND Tiendas as t
+    FROM Conserva as cons, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE f.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre;";
   }
   if ($producto == "Comestible Congelado") {
     $query = "SELECT t.nombre, COUNT(c.id)
-    FROM Congelados as cong AND Comestibles as c AND Productos as p AND carritos as ca AND Compras as co AND Tiendas as t
+    FROM Congelados as cong, Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE cong.id = c.id AND c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre;";
   }
   if ($producto == "No Comestible") {
     $query = "SELECT t.nombre, COUNT(c.id)
-    FROM No_Comestibles as c AND Productos as p AND carritos as ca AND Compras as co AND Tiendas as t
+    FROM No_Comestibles as c, Productos as p, carritos as ca, Compras as co, Tiendas as t
     WHERE c.id = p.id AND p.id = ca.id_productos AND ca.id_compras = co.id AND co.id_tienda = t.id
     GROUP BY t.nombre;";
   }

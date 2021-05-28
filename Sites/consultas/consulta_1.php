@@ -6,7 +6,9 @@
     #Llama a conexión, crea el objeto PDO y obtiene la variable $db
     require("../config/conexion.php");
 
-    $query = "SELECT t.nombre, c.nombre FROM Tiendas as t AND Comunas as c AND reparten_a as r WHERE t.id=r.id_tiendas AND c.id=r.id_comunas;";
+    $query = "SELECT t.nombre, c.nombre
+    FROM Tiendas as t, Comunas as c, reparten_a as r
+    WHERE t.id=r.id_tiendas AND c.id=r.id_comunas;";
 
 	$result = $db -> prepare($query);
 	$result -> execute();
@@ -23,7 +25,7 @@
 
     <?php
 	foreach ($tiendas as $tienda) {
-  		echo "<tr> <td>$tienda[0]</td> <td>$tienda[1]</td> </tr>";
+  		echo "<tr> <td>$tienda[0] </td> <td>$tienda[1] </td> </tr>";
 	}
     ?>
 	</table>

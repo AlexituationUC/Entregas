@@ -10,8 +10,8 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT AVG(i.edad)
-  FROM Comunas as c AND esta_en as e AND Direcciones as d AND Tiendas as t AND contratos as co
-  AND Personal as p AND infor_personal as i
+  FROM Comunas as c, esta_en as e, Direcciones as d, Tiendas as t, contratos as co,
+  Personal as p, infor_personal as i
   WHERE c.id = e.id_comunas AND d.id = e.id_direcciones AND d.id = t.id_direccion
   AND t.id = co.id_tiendas AND p.id = co.id_personal AND p.rut = i.rut
   AND c.nombre LIKE '%$comuna_buscada$' ;";
