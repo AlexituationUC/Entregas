@@ -23,11 +23,12 @@
 	<table>
     <tr>
       <th>Tienda</th>
+      <th>Direccion</th>
       <th>Nombre Jefes</th>
     </tr>
   <?php
 	foreach ($jefes as $jefe) {
-  		echo "<tr><td>$jefe[0]</td><td>$jefe[1]</td><td>";
+  		echo "<tr><td>$jefe[0]</td><td>$jefe[1]</td><td>$jefe[2]</td><td>";
 	}
   ?>
 	</table>
