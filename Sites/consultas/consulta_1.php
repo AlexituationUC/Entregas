@@ -7,7 +7,7 @@
     require("../config/conexion.php");
 
     $query = "SELECT t.nombre, c.nombre
-    FROM Tienda as t AND Comunas as c AND reparten_a as r
+    FROM Tiendas as t AND Comunas as c AND reparten_a as r
 	WHERE t.id=r.id_tiendas AND c.id=r.id_comunas ;";
 
 	$result = $db -> prepare($query);
