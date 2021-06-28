@@ -5,6 +5,10 @@ RETURNS TABLE(
 			   precio integer,
 			   descripcion varchar
 			   ) AS $$
+
+-- La idea es determinar si es que son comestibles o no comestibles con PHP, verificando si
+-- el id del producto está en comestibles o en no comestibles
+
 BEGIN
 RETURN (
 	SELECT Productos.id, Productos.nombre, descripcion, Productos.precio

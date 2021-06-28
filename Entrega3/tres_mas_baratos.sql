@@ -1,12 +1,15 @@
 CREATE OR REPLACE FUNCTION
 tres_mas_baratos(tipo varchar, tienda integer)
+
+-- La idea es llamarla con "comestible" o "no comestible" y con el id de la tienda
+
 RETURNS TABLE(
 			   nombre varchar,
 			   precio integer,
 			   descripcion varchar
 			   ) AS $$
 BEGIN
-IF tipo == "comestible" THEN 
+IF tipo = "comestible" THEN 
 	RETURN (
 	SELECT Productos.nombre, precio, descripcion
 	FROM Productos, Comestibles, Tiendas, tienen
