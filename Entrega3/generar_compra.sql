@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION
+generar_compra()
+RETURNS VOID AS $$
+BEGIN
+END;
+
+$$ LANGUAGE plpgsql;
