@@ -127,7 +127,7 @@ if(!empty($array_es_jefe)){
             // realizamos el cambio de clave
             $query_cambio = "UPDATE Usuarios
             SET Usuarios.clave = $clave_nueva
-            WHERE Usuarios.rut = $rut"; // aquí evito cambiar toodas las claves de la DB de una
+            WHERE Usuarios.rut = $rut"; // aquí evito cambiar toodas las claves de la DB
         } else{
             echo "[TEST] clave incorrecta, ingresaste $clave_nueva y debías ingresar $clave_original";
         }
