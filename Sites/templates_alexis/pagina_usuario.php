@@ -103,6 +103,42 @@ if(!empty($array_es_jefe)){
     ?>
 </table>
 
+<!-- Agregaré la opción de cambio de clave (super fea eso si) -->
+<h3> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
+<?php
+    // Código que se ejecutará al apretar el botón que definiremos más abajo
+    if(isset($_POST["cambiar_clave"])){
+        $clave_antigua = $_POST["clave_antigua"];
+        $clave_nueva = $_POST["clave_nueva"];
+        echo "[TEST], la clave antigua ingresada es $clave_antigua";
+        // revisamos si la clave antigua corresponde a la de la base de datos
+        // claves en Usuarios.clave
+        $query = "SELECT Usuarios.clave FROM Usuarios WHERE Usuarios.rut = $rut";
+        $resultado_query = $db -> prepare($query);
+        $resultado_query -> execute();
+        $array_query = $resultado_query -> fetchAll();
+        if(empty($array_query)){
+            echo "[TEST] el usuario de rut $rut no tiene clave";
+        } else {
+            $clave_original = $array_query[0];
+            echo "[TEST] la clave de $rut ERA $clave_original";
+        }
+        if($clave_original == $clave_antigua){
+            // realizamos el cambio de clave
+            $query_cambio = "UPDATE Usuarios
+            SET Usuarios.clave = $clave_nueva
+            WHERE Usuarios.rut = $rut"; // aquí evito cambiar toodas las claves de la DB de una
+        } else{
+            echo "[TEST] clave incorrecta, ingresaste $clave_nueva y debías ingresar $clave_original";
+        }
+    }
+?>
+<!-- Botón para efectual el cambio de clave -->
+<form method="post">
+    clave actual: <input type="text" name="clave_antigua">
+    clave nueva: <input type="text" name="clave_nueva">
+    <input type="submit" name="cambiar_clave" value="cambiar clave">
+</form>
 
 <!-- quizá meter footer -->
 </body>
