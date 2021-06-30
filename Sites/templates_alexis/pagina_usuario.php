@@ -58,7 +58,7 @@ $array_historial = $resultado_historial -> fetchAll();
 <!-- En caso de ser jefe de una unidad de despachos -->
 <?php
 // Primero obtendremos el id del usuario a partir del rut
-$query_info_usuario = "SELECT Usuarios.id FROM Usuarios WHERE Usuarios.rut = $rut";
+$query_info_usuario = "SELECT Usuarios.id FROM Usuarios WHERE Usuarios.rut = '$rut'";
 $resultado_info_usuario = $db -> prepare($query_info_usuario);
 $resultado_info_usuario -> execute();
 $array_info_usuario = $resultado_info_usuario -> fetchAll();
@@ -113,7 +113,7 @@ if(!empty($array_es_jefe)){
         echo "[TEST], la clave antigua ingresada es $clave_antigua";
         // revisamos si la clave antigua corresponde a la de la base de datos
         // claves en Usuarios.clave
-        $query = "SELECT Usuarios.clave FROM Usuarios WHERE Usuarios.rut = $rut";
+        $query = "SELECT Info_Usuarios.clave FROM Info_Usuarios WHERE Info_Usuarios.rut = '$rut' ";
         $resultado_query = $db -> prepare($query);
         $resultado_query -> execute();
         $array_query = $resultado_query -> fetchAll();
@@ -125,9 +125,11 @@ if(!empty($array_es_jefe)){
         }
         if($clave_original == $clave_antigua){
             // realizamos el cambio de clave
-            $query_cambio = "UPDATE Usuarios
-            SET Usuarios.clave = $clave_nueva
-            WHERE Usuarios.rut = $rut"; // aquí evito cambiar toodas las claves de la DB
+            echo "Debería cambiar la clave (decomentar query)"
+            $query_cambio = "UPDATE Info_Usuarios
+            SET Info_Usuarios.clave = $clave_nueva
+            WHERE Info_Usuarios.rut = '$rut' "; // aquí evito cambiar toodas las claves de la DB
+            /////////////////////////////////////// falta ejecutar el cambio ////////////////////////////////////////////////////////////////////////////////////////////////
         } else{
             echo "[TEST] clave incorrecta, ingresaste $clave_nueva y debías ingresar $clave_original";
         }
