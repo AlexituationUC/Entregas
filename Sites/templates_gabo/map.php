@@ -2,8 +2,16 @@
 
     //require("../config/conexion.php");
 
-    $latitude = "48.86926";
-    $longitude = "62.3321";
+    $direccion = 'Berlin, Germany'; // Tengo que cambiar el idioma
+
+    echo "Nuestra ubicacion es: ".$direccion;
+
+    $command = escapeshellcmd("python3 geocoding.py $direccion");
+    $output = shell_exec($command);
+    $coords = preg_split("/[\s,]+/", $output);
+
+    $latitude = (float) $coords[0];
+    $longitude = (float) $coords[1];
 
 ?>
 
@@ -33,11 +41,11 @@
                 var map = new mapboxgl.Map({
                     container: 'map',
                     style: 'mapbox://styles/mapbox/streets-v11',
-                    center: [<?php $longitude ?>, <?php $latitude ?>], //lng,lat
+                    center: [<?php echo $longitude ?>, <?php echo $latitude ?>], //lng,lat
                     zoom: 11
                 });
                 var marker = new mapboxgl.Marker()
-                .setLngLat([<?php $longitude ?>, <?php $latitude ?>])
+                .setLngLat([<?php echo $longitude ?>, <?php echo $latitude ?>])
                 .setPopup(new mapboxgl.Popup().setHTML("<h1> Pop up </h1>"))
                 .addTo(map);
                 map.addControl(new mapboxgl.NavigationControl());
