@@ -32,11 +32,11 @@
           <a class="nav-link active" aria-current="page" href="#">Info</a>
         </li>
       </ul>
-      <form class="d-flex" align="center" action="consultas/perfil.php" method="post">
+      <form class="d-flex" align="center" action="consultas/login.php" method="post">
         <button class="btn btn-outline-primary" type="submit"> Log-in </button>
       </form>
       <h3 align="center">o </h3>
-      <form align="center" action="consultas/perfil.php" method="post">
+      <form align="center" action="consultas/registro.php" method="post">
         <button type="submit" class="btn btn-primary"> Registrarse </button>
       </form>
     </div>
