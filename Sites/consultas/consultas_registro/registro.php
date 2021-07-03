@@ -1,8 +1,8 @@
 <?php
 
     // Nos conectamos a las bdds
-    require("../config/conexion.php");
-    include('../templates/header.html');
+    require("../../config/conexion.php");
+    include('../../templates_html/header.html');
 
 
     // Enviamos del post la informacion a la query con nuestro procedimiento almacenado que realizará
