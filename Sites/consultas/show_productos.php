@@ -40,7 +40,7 @@
   		else {
   			$query += "Congelados.peso
   						FROM Productos, Comestibles, Congelados
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id"
+  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id";
   			$special_attributes[] = "Peso";
   		}
   	}
@@ -53,9 +53,9 @@
   		$special_attributes[] = "Alto";
   		$special_attributes[] = "Peso";
   	}
-  	$result = $db -> prepare($query)
-  	$result -> execute()
-  	$producto = $result -> fetchAll()
+  	$result = $db -> prepare($query);
+  	$result -> execute();
+  	$producto = $result -> fetchAll();
 
 ?>
  <table class="table table-dark table-hover">
@@ -66,7 +66,7 @@
 			<th> Precio </th>
 		<?php
 		foreach ($special_attributes as $attr ) {
-			<th> $attr </th>
+			<th> $attr; </th>
 		}
 		?>
     	</tr>
@@ -76,10 +76,10 @@
 			foreach ($producto as $p) {
 				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td>";
 				for ($i=0; $i < count($special_attributes); $i++) { 
-				 	$display += "<td>$p[$i + 3]</td>"
+				 	$display += "<td>$p[$i + 3]</td>";
 				 }
-				 $display += "</tr>"
-				 echo $display
+				 $display += "</tr>";
+				 echo $display;
 		}
 		?>
       
