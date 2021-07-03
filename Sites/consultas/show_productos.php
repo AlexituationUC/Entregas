@@ -65,7 +65,7 @@
 			<th> Descripción </th>
 			<th> Precio </th>
 		<?php
-		foreach ($special_attributes as $attr ) {
+		foreach ($special_attributes as $attr) {
 			<th> $attr </th>
 		}
 		?>
