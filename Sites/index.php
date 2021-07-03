@@ -5,7 +5,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title> Información Despachos </title> 
+    <title> DCCompras </title> 
 
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -45,102 +45,75 @@
 <br><br>
 
 <body>
-  <h1 align="center">Wena mates (Todo menos home te lleva a perfil.php) </h1>
 
-  <div class="container h-100" >
+  <h1 align="center">DCCompras</h1>
+  <h3 align="center">La mejor pagina de compras de todo atlantis</h3>
+    
+    <br><br>
 
-    <br>
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.imgur.com/rCMqSln.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Multiples tiendas en un solo lugar</h5>
+            <p>Para asegurarte que tenemos el producto que tu buscas</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.imgur.com/WEztS3D.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pago online</h5>
+            <p>Accede a cualquier tienda desde la comodidad de tu casa</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.imgur.com/cbYjsu2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Despacho a multiples comunas</h5>
+            <p>No importa donde vivas, tenemos una tienda para ti</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <h3 align="center"> Asi se hace un form con input texto, also el boton </h3>
+    <br><br><br>
 
-    <!-- Estos divs estan para que el boton este al centro de la textbox -->
+    <h3 align="center">Ingresa a tu cuenta para empezar a comprar</h3>
+
     <div class="row h-100 justify-content-center align-items-center">
       <div class="col-10 col-md-8 col-lg-6"> 
 
         <br>
 
-        <form align="center" action="consultas/perfil.php" method="post">
-
-          <!-- El form floating es para que el texto se mueva del lugar cuando lo presionas, se ve bonito -->
-          <!-- El nombre de lo que envias va en name="nombre" (duh) -->
-          <!-- En la documentacion placeholder era igual a lo que va en label, en mi experiencia no es necesario, pero lo hago igual -->
-          <div class="form-floating">
-            <input type="text" name="comuna_elegida" class="form-control" placeholder="Comuna">
-            <label>Comuna</label>
-          </div>
-
-          <br>
-
-          <div class="form-floating">
-            <input type="text" name="year_elegido" class="form-control" placeholder="Año de despacho">
-            <label>Año de despacho</label>
-          </div>
-
-          <br>
-
-          <!-- Aqui esta el boton xd -->
-          <button type="submit" class="btn btn-primary">Buscar</button>
+        <form align="center" action="consultas/login.php" method="post">
+          <h5> Ya tienes cuenta </h5>
+          <button type="submit" class="btn btn-primary">Log-in</button>
         </form>
-
-      </div>
-    </div>
-    
-    <br><br><br>
-
-    <h3 align="center"> Asi se hace un dropdown, also el boton </h3>
-
-    <!-- Una vez mas, esto es para centrar, usenlo pls -->
-    <div class="row h-100 justify-content-center align-items-center">
-      <div class="col-10 col-md-8 col-lg-6">
 
         <br>
-
-        <!-- Aqui empieza el form -->
-        <form align="center" action="consultas/perfil.php" method="post">
-
-          <div class="form-floating">
-            <select class="form-select" name="tipo_elegido">
-
-              <!-- Aqui van las opciones, value es lo que envias (duh) -->
-              <!-- Con php puedes hacer un loop para colocar varias opciones, -->
-              <!-- ^ pero eso es usar este formato en lo que nos enseñaron en la entrega anterior -->
-              <option value="opcion_1">opcion_1</option>
-              <option value="opcion_2">opcion_2</option>
-
-            </select>
-            <label>Seleccione un tipo de vehiculo</label>
-          </div>
-
-          <br>
-
-          <!-- Aqui hay mas forms de texto xd -->
-          <div class="form-floating">
-            <input type="text" name="edad_min_elegida" class="form-control" placeholder="Edad mínima repartidor">
-            <label>Edad mínima repartidor</label>
-          </div>
-
-          <br>
-
-          <div class="form-floating">
-            <input type="text" name="edad_max_elegida" class="form-control" placeholder="Edad máxima repartidor">
-            <label>Edad máxima repartidor</label>
-          </div>
-
-          <br>
-
-          <button type="submit" class="btn btn-primary">Buscar</button>
+        <form align="center" action="consultas/registro.php" method="post">
+        <h5> Crear cuenta </h5>
+          <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
 
       </div>
     </div>
 
     <br><br><br>
-    
-    <h3 align="center"> Existen mas tipos de forms y weas en bootstrap, para eso investiguen por su cuenta </h3>
-    <h3 align="center"> Revisen https://getbootstrap.com/docs/5.0/getting-started/introduction/ </h3>
-    <h3 align="center"> A la derecha hay una parte de forms y una de components, por si quieren buscar </h3>
-
-    <br><br><br><br>
   
   </div>
 
