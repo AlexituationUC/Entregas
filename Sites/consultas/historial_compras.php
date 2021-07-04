@@ -27,9 +27,14 @@ $array_historial = $resultado_historial -> fetchAll();
         </tr>
         <?php
             foreach($array_historial as $res){
-                echo "<tr> <td>$res[0]</td> <td> $res[1] </td> <td> $res[2] </td></tr>";
+                echo "<tr> <td> <form action='show_productos.php' method='post'>
+                                    <input type='hidden' id='$res[3]' name='id_producto' value='$res[3]'>
+                                    <input type='hidden' id='$res[4]' name='id_tienda' value='$res[4]'>
+                                    <button type='submit' class='btn'> $res[0] </button>
+                                </form>
+                            </td> <td> $res[1] </td> <td> $res[2] </td></tr>";
             }
-        ?>
+        ?> 
     </table>
 </div>
 <?php include('../templates_html/footer.html'); ?>
