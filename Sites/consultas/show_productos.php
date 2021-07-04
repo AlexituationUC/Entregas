@@ -40,10 +40,7 @@
   		else {
   			$query += "Congelados.peso
   						FROM Productos, Comestibles, Congelados
-<<<<<<< HEAD
-=======
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id";
->>>>>>> 6771f15bc53d47ee02bb06da5bc3b746514f4068
+  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id;";
   			$special_attributes[] = "Peso";
   		}
   	}
@@ -68,11 +65,8 @@
 			<th> Descripción </th>
 			<th> Precio </th>
 		<?php
-<<<<<<< HEAD
-=======
 		foreach ($special_attributes as $attr ) {
 			<th> $attr; </th>
->>>>>>> 6771f15bc53d47ee02bb06da5bc3b746514f4068
 		}
 		?>
     	</tr>

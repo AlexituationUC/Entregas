@@ -1,9 +1,10 @@
 CREATE OR REPLACE FUNCTION
 vendidos_por_tienda(tienda integer, producto varchar)
 RETURNS TABLE(
+			   id integer,
 			   nombre varchar,
-			   precio integer,
-			   descripcion varchar
+			   descripcion varchar,
+			   precio integer
 			   ) AS $$
 
 -- La idea es determinar si es que son comestibles o no comestibles con PHP, verificando si
