@@ -36,6 +36,6 @@
             </td>
             </tr>
         </table>
-    <div></div>
+    </div>
 
 <?php include('../templates_html/footer.html'); ?>
