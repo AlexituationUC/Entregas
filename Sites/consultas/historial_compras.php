@@ -13,7 +13,7 @@ $query_historial = "SELECT Productos.nombre, Productos.precio, Tiendas.nombre, P
 FROM Usuarios, Compras, Tiendas, Productos, carritos
 WHERE Usuarios.id = Compras.id_usuario AND Tiendas.id = Compras.id_tienda AND Compras.id = carritos.id_compras
 AND Productos.id = carritos.id_productos
-AND Usuarios.rut = '$rut'
+AND Usuarios.rut = '$idu'
 ORDER BY Compras.id DESC;";
 $resultado_historial = $db -> prepare($query_historial);
 $resultado_historial -> execute();
