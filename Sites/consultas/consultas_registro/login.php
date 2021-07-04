@@ -41,30 +41,40 @@
     require("../../config/conexion.php");
 
 
-    // Se revisa el registro y se obtiene un booleano que indica si se logro o no
-    $query = "SELECT verificar_registro('$_POST[nombre]', '$_POST[rut]', $_POST[edad], $_POST[direccion]);";
+    // Esta consulta nos da una tabla con los ruts y claves de los usuarios en la DB
+    $query = "SELECT rut, clave FROM info_Usuarios;";
     $result = $db -> prepare($query);
     $result -> execute();
 
-    $registrado = $result -> fetchAll();
+    $usuarios = $result -> fetchAll();
+
+    // Si el rut y la contraseña ingresados corresponden a un usuario registrado el logeo
+    // se realiza con exito
+    foreach ($usuarios as $u){
+        if ($u[0] == $_POST['rut'] and $u[1] == $_POST['clave']){
+            $logeado = TRUE;
+        } else {
+            $logeado = FALSE;
+        }
+    }
 
 ?>
 
 
 <body>
 <div class="container h-100" >
-        <h1 align="center">Registrar Usuario </h1>
+        <h1 align="center">Log-in </h1>
 
-        <br><br><br><br><br>
+        <br><br><br><br>
 
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-10 col-md-8 col-lg-6">
 
                 <!-- Aqui se elige que mostrar en la pagina dependiendo de si
-                     si se logro registrar correctamente o no -->
+                     si se logro logear correctamente o no -->
                 <h3 align="center"><?php
-                if ($registrado){
-                    echo "Registro exitoso";
+                if ($logeado){
+                    echo "Log-in exitoso";
                     // Esto nos da el id del usuario que se acaba de logear
                     $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$_POST[rut]';";
                     $result = $db -> prepare($query);
@@ -75,9 +85,9 @@
                     $ir = "../../templates_php/pagina_usuario.php";
                     $boton = "Ir a perfil";
                 } else {
-                    echo "Registro fallido";
+                    echo "Log-in fallido";
                     $id = 0; // esto da lo mismo
-                    $ir = "../registro.php";
+                    $ir = "../login.php";
                     $boton = "Volver";
                 }
                 ?></h3>
