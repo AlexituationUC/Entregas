@@ -37,8 +37,8 @@
 		</tr>
 
 	<?php
-		foreach ($producto as $key => $value) {
-			// code...
+		foreach ($producto as $p) {
+			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
 		}
 	?>
  </table>
@@ -49,6 +49,14 @@
 			<th> Descripción </th>
 			<th> Precio </th>
 		</tr>
+
+	<?php
+		foreach ($producto as $p) {
+			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
+		}
+	?>
+ </table>
+
  <table class="table table-dark table-hover">
         <tr>
             <th> ID </th>
@@ -57,5 +65,18 @@
 			<th> Precio </th>
 			<th> Tipo </th>
 		</tr>
+
+	<?php
+		foreach ($producto as $p) {
+			$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td>";
+			if (in_array($p[0], $id_comestible)) {
+				$display += "<td>Comestible</td></tr>";
+			} else {
+				$display += "<td>No Comestible</td></tr>";
+			}
+			echo $display;
+		}
+	?>
  </table>
+
 <?php include('../templates_html/footer.html'); ?>
