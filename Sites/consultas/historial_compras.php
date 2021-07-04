@@ -20,7 +20,7 @@ $array_historial = $resultado_historial -> fetchAll();
 ?>
 <div class="container h-100">
     <h3> pincha el nombre de un producto para consultar su información </h3>
-    <table class="table table-striped" align="center">
+    <table class="table table-hover table-dark" align="center">
         <tr>
             <th> producto </th> <th> precio </th> <th> tienda </th>
         </tr>
