@@ -28,26 +28,26 @@
   		if (in_array($product_id, $id_conserva)) {
   			$query += "Conservas.metodo
   						FROM Productos, Comestibles, Conserva
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Conserva.id";
+  						WHERE Productos.id = Comestibles.id AND Productos.id = Conserva.id;";
   			$special_attributes[] = "Método";
   		}
   		elseif (in_array($product_id, $id_fresco)) {
   			$query += "Frescos.duracion
   			FROM Productos, Comestibles, Frescos
-  			WHERE Productos.id = Comestibles.id AND Productos.id = Frescos.id";
+  			WHERE Productos.id = Comestibles.id AND Productos.id = Frescos.id;";
   			$special_attributes[] = "Duración";
   		}
   		else {
   			$query += "Congelados.peso
   						FROM Productos, Comestibles, Congelados
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id";
+  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id;";
   			$special_attributes[] = "Peso";
   		}
   	}
   	else {
   		$query += "No_Comestibles.largo, No_Comestibles.ancho, No_Comestibles.alto, No_Comestibles.peso
   				FROM Productos, No_Comestibles
-  				WHERE Productos.id = No_Comestibles.id";
+  				WHERE Productos.id = No_Comestibles.id;";
   		$special_attributes[] = "Largo";
   		$special_attributes[] = "Ancho";
   		$special_attributes[] = "Alto";
