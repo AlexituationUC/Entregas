@@ -16,7 +16,10 @@
   		$resultado_no_comestible = $db -> prepare($query_no_comestible);
   		$resultado_no_comestible -> execute();
   		$no_comestibles = $resultado_comestible -> fetchAll();
+  		$vacio = array("", "", "", "");
+  		$productos = array($vacio);
   	} else {
+  		$producto = $_POST["producto"]
   		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
   		$resultado = $db -> prepare();
   		$resultado -> execute();
@@ -25,6 +28,9 @@
 		$resultado_comestible = $db -> prepare($query_comestible);
 		$resultado_comestible -> execute();
 		$id_comestible = $resultado_comestible -> fetchAll();
+		$vacio = array("", "", "", "")
+		$comestibles = array($vacio);
+		$no_comestibles = array($vacio);
   	}
 ?>
 
@@ -37,7 +43,7 @@
 		</tr>
 
 	<?php
-		foreach ($producto as $p) {
+		foreach ($comestibles as $p) {
 			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
 		}
 	?>
@@ -51,7 +57,7 @@
 		</tr>
 
 	<?php
-		foreach ($producto as $p) {
+		foreach ($no_comestibles as $p) {
 			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
 		}
 	?>
@@ -67,12 +73,16 @@
 		</tr>
 
 	<?php
-		foreach ($producto as $p) {
+		foreach ($productos as $p) {
 			$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td>";
-			if (in_array($p[0], $id_comestible)) {
-				$display += "<td>Comestible</td></tr>";
+			if ($p[0] == "") {
+				$display += "<td> </td></tr>";
 			} else {
-				$display += "<td>No Comestible</td></tr>";
+				if (in_array($p[0], $id_comestible)) {
+					$display += "<td>Comestible</td></tr>";
+				} else {
+					$display += "<td>No Comestible</td></tr>";
+				}
 			}
 			echo $display;
 		}
