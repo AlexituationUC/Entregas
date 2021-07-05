@@ -83,7 +83,7 @@
                     $tabla = $result -> fetchAll();
                     $id = $tabla[0];
                     // define a donde redigira la pagina una vez presionado el boton
-                    $ir = "../../templates_php/pagina_usuario.php";
+                    $ir = "../perfil.php";
                     $boton = "Ir a perfil";
                 } else {
                     echo "Log-in fallido";
