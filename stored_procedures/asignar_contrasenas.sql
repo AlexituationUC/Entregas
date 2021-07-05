@@ -24,7 +24,9 @@ BEGIN
     FOR usuario in SELECT rut, clave FROM info_Usuarios
     LOOP
         -- las contraseñas corresponden a los primeros 4 digitos del rut
-        usuario.clave := SUBSTRING(usuario.rut, 1, 4);
+        UPDATE info_usuarios
+        SET clave = SUBSTRING(usuario.rut, 1, 4)
+        WHERE rut = usuario.rut;
     END LOOP;
 
     -- se retorna un TRUE para señalar que ya se asignaron las contraseñas
