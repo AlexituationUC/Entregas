@@ -13,7 +13,7 @@ BEGIN
         RETURN "Producto no disponible en esta tienda";
     END IF;
 
-    IF id_usr not in (Usuarios.id FROM Usuarios, pide_a, Direcciones, esta_en, Comunas, reparten_a, Tiendas WHERE Tiendas.id = id_tienda AND Tiendas.id = reparten_a.id_tiendas AND Comunas.id = reparten_a.id_comunas AND Comunas.id = esta_en.id_comunas AND Direcciones.id = esta_en.id_direcciones AND Direcciones.id = pide_a.id_direcciones AND Usuarios.id = pide_a.id_usuarios AND Usuarios.id = id_usr) THEN
+    IF id_usr not in (SELECT Usuarios.id FROM Usuarios, pide_a, Direcciones, esta_en, Comunas, reparten_a, Tiendas WHERE Tiendas.id = id_tienda AND Tiendas.id = reparten_a.id_tiendas AND Comunas.id = reparten_a.id_comunas AND Comunas.id = esta_en.id_comunas AND Direcciones.id = esta_en.id_direcciones AND Direcciones.id = pide_a.id_direcciones AND Usuarios.id = pide_a.id_usuarios AND Usuarios.id = id_usr) THEN
         RETURN "Tienda no reparte a su comuna";
     END IF;
 
