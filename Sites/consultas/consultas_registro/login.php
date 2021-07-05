@@ -53,6 +53,7 @@
     foreach ($usuarios as $u){
         if ($u[0] == $_POST['rut'] and $u[1] == $_POST['clave']){
             $logeado = TRUE;
+            break;
         } else {
             $logeado = FALSE;
         }
