@@ -62,7 +62,7 @@
     <h3 align="center"> Realizar compra segun id </h3>
 
     <?php
-        require("config/conexion.php");
+        require("../config/conexion.php");
         $result = $db -> prepare("SELECT Productos.id FROM Productos;");
         $result -> execute();
         $productos = $result -> fetchAll();
