@@ -9,6 +9,7 @@ RETURNS void AS $$
 -- declaramos la id maxima de los usuarios
 DECLARE
 idmax_usuarios int;
+d record;
 
 -- definimos nuestra función
 BEGIN

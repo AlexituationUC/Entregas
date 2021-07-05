@@ -10,7 +10,7 @@ RETURNS TABLE(
 			   ) AS $$
 BEGIN
 IF tipo = "comestible" THEN 
-	RETURN (
+	RETURN QUERY (
 	SELECT Productos.nombre, precio, descripcion
 	FROM Productos, Comestibles, Tiendas, tienen
 	WHERE Productos.id = Comestibles.id
@@ -20,7 +20,7 @@ IF tipo = "comestible" THEN
 	ORDER BY precio
 	LIMIT 3);
 ELSE
-RETURN (
+RETURN QUERY (
 	SELECT Productos.nombre, precio, descripcion
 	FROM Productos, No_Comestibles, Tiendas, tienen
 	WHERE Productos.id = No_Comestibles.id

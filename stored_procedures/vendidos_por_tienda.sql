@@ -11,7 +11,7 @@ RETURNS TABLE(
 -- el id del producto está en comestibles o en no comestibles
 
 BEGIN
-RETURN (
+RETURN QUERY (
 	SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
 	FROM Productos, Tiendas, tienen
 	WHERE Productos.id = tienen.id_productos 

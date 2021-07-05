@@ -19,16 +19,16 @@
   		$vacio = array("", "", "", "");
   		$productos = array($vacio);
   	} else {
-  		$producto = $_POST["producto"]
+  		$producto = $_POST["producto"];
   		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
-  		$resultado = $db -> prepare();
+  		$resultado = $db -> prepare($query);
   		$resultado -> execute();
   		$productos = $resultado -> fetchAll();
   		$query_comestible = "SELECT id FROM Comestibles";
 		$resultado_comestible = $db -> prepare($query_comestible);
 		$resultado_comestible -> execute();
 		$id_comestible = $resultado_comestible -> fetchAll();
-		$vacio = array("", "", "", "")
+		$vacio = array("", "", "", "");
 		$comestibles = array($vacio);
 		$no_comestibles = array($vacio);
   	}
@@ -40,11 +40,20 @@
       		<th> Nombre </th>
 			<th> Descripción </th>
 			<th> Precio </th>
+			<th> Ver producto </th>
 		</tr>
 
 	<?php
 		foreach ($comestibles as $p) {
-			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
+			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
+				  <form align='center' action='show_productos.php' method='post'>
+				  <div class='form-floating'>
+				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+				  </div>
+				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
+				  </form>
+				  </td></tr>";
 		}
 	?>
  </table>
@@ -54,11 +63,20 @@
       		<th> Nombre </th>
 			<th> Descripción </th>
 			<th> Precio </th>
+			<th> Ver producto </th>
 		</tr>
 
 	<?php
 		foreach ($no_comestibles as $p) {
-			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td></tr>";
+			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
+				  <form align='center' action='show_productos.php' method='post'>
+				  <div class='form-floating'>
+				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+				  </div>
+				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
+				  </form>
+				  </td></tr>";
 		}
 	?>
  </table>
@@ -70,6 +88,7 @@
 			<th> Descripción </th>
 			<th> Precio </th>
 			<th> Tipo </th>
+			<th> Ver producto </th>
 		</tr>
 
 	<?php
@@ -79,9 +98,25 @@
 				$display += "<td> </td></tr>";
 			} else {
 				if (in_array($p[0], $id_comestible)) {
-					$display += "<td>Comestible</td></tr>";
+					$display += "<td>Comestible</td><td>
+								 <form align='center' action='show_productos.php' method='post'>
+								 <div class='form-floating'>
+								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+								 </div>
+								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
+								 </form>
+								 </td></tr>";
 				} else {
-					$display += "<td>No Comestible</td></tr>";
+					$display += "<td>No Comestible</td><td>
+								 <form align='center' action='show_productos.php' method='post'>
+								 <div class='form-floating'>
+								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+								 </div>
+								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
+								 </form>
+								 </td></tr>";
 				}
 			}
 			echo $display;

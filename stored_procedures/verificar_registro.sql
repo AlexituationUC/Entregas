@@ -9,6 +9,7 @@ RETURNS BOOLEAN AS $$
 -- declaramos la idmax de los usurios
 DECLARE
 idmax_usuarios int;
+d record;
 
 
 -- define la funcion
@@ -35,7 +36,7 @@ BEGIN
     FOR d in SELECT id, direccion FROM Direcciones
     LOOP
         IF direccion = d.direccion THEN
-            insert into pide_a values(idmax_usuarios + 1, d.id)
+            insert into pide_a values(idmax_usuarios + 1, d.id);
         END IF;
 
     END LOOP;

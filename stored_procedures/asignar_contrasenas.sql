@@ -24,11 +24,11 @@ BEGIN
     FOR usuario in SELECT rut, clave FROM info_Usuarios
     LOOP
         -- las contraseñas corresponden a los primeros 4 digitos del rut
-        usuario.clave := SUBSTRING(usuario.rut, 1, 4)
+        usuario.clave := SUBSTRING(usuario.rut, 1, 4);
     END LOOP;
 
     -- se retorna un TRUE para señalar que ya se asignaron las contraseñas
-    RETURN TRUE
+    RETURN TRUE;
 
 END
 $$ language plpgsql
