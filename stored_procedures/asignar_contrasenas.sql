@@ -17,7 +17,7 @@ BEGIN
     -- valores como un espacio
     IF 'clave' NOT IN (SELECT column_name FROM information_schema.columns WHERE table_name='info_Usuarios') THEN
         ALTER TABLE info_Usuarios ADD clave varchar(255);
-        UPDATE info_Usuarios SET clave = " ";
+        -- UPDATE info_Usuarios SET clave = " ";
     END IF;
 
     -- asignamos las claves a los usuarios por medio de un loop
