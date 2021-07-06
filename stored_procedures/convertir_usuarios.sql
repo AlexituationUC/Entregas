@@ -25,7 +25,7 @@ BEGIN
         -- actualizamos las tablas con la informacion nueva
         insert into Usuarios values(idmax_usuarios + 1, rut);
         -- la contraseña correspondera a los 4 primeros digitos del rut
-        insert into info_Usuarios values(p.rut, p.nombre, p.edad, SUBSTRING(rut, 1, 4));
+        insert into info_Usuarios values(rut, nombre, edad, SUBSTRING(rut, 1, 4));
 
         -- actualizamos la relacion de usuarios con direcciones, asumimos que, como se
         -- indico en las issues, no se ingresaran direcciones que no se encuentren registradas
