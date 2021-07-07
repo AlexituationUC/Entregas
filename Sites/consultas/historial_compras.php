@@ -7,7 +7,7 @@ require("../config/conexion.php");  // ASUMO ubicación de conexion.php para con
 session_start();
 $idu = $_SESSION["id"];
 // echo de testeo
-echo "<br> [TEST] el id del usuario es $idu";
+echo "<br> [TEST] el id del usuario es $idu[0]";
 ?>
 <?php
 $query_historial = "SELECT Productos.nombre, Productos.precio, Tiendas.nombre, Productos.id, Tiendas.id
