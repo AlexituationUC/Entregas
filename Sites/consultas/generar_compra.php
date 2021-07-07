@@ -4,6 +4,7 @@
 
 <?php
   	require("../config/conexion.php");
+    session_start();
 
   	$id_tienda = intval($_POST["id_tienda"]);
   	$id_producto = intval($_POST["id_producto"]);

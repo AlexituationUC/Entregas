@@ -1,9 +1,9 @@
 <?php include('../templates_html/header.html'); ?>
 <?php
 
+session_start();
 if (is_null($id_usuario)) {
     $id_usuario = $_POST["id"];
-    session_start();
     $_SESSION["id"] = $id_usuario;
     $_SESSION["is_log"] = TRUE;
 } else {

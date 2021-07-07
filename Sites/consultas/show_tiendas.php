@@ -3,6 +3,7 @@
 <body>
 
 <?php 
+    session_start();
     $id_tienda = $_POST["id_tienda"];
     $id_usr = $_SESSION["id"]
 ?>
