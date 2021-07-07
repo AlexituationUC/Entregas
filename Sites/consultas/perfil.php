@@ -116,17 +116,21 @@ if(!empty($array_es_jefe)){
 ?>
 <!-- Botón para efectual el cambio de clave -->
 <form method="post">
-    clave actual: <input type="text" name="clave_antigua">
-    clave nueva: <input type="text" name="clave_nueva">
-    <input type="submit" name="cambiar_clave" value="cambiar clave">
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Clave actual</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_antigua">
+    </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Clave nueva</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_nueva">
+    </div>
+    <input class="btn btn-primary" type="submit" value="cambiar clave" name="cambiar_clave">
 </form>
 
-<form align="center" action="cambio_password.php" method="post">
-    <div class="form-floating">
-        <?php echo "<input type='hidden' name='id' value=$id class='form-control'>" ?>
-    </div>
+<br><br><br>
 
-    <button type="submit" class="btn btn-primary"> Cambiar contraseña </button>
+<form align="center" action="historial_compras.php" method="post">
+    <button type="submit" class="btn btn-primary"> Ver historial de compras </button>
 </form>
 
 </body>
