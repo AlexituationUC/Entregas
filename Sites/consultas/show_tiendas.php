@@ -1,9 +1,9 @@
+<?php session_start(); ?>
 <?php include('../templates_html/header.html'); ?>
 
 <body>
 
 <?php 
-    session_start();
     $id_tienda = $_POST["id_tienda"];
     $id_usr = $_SESSION["id"]
 ?>

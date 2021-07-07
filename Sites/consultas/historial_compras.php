@@ -1,9 +1,9 @@
+<?php session_start(); ?>
 <?php include('../templates_html/header.html'); ?>
 <body>
 <?php
 require("../config/conexion.php");  // ASUMO ubicación de conexion.php para conectarme a la DB
 // ASUMO también los nombres $db y $db2 para la base impar y par respectivamente
-session_start();
 $idu = $_SESSION["id"];
 // echo de testeo
 // echo "<br> [TEST] el id del usuario es $idu";

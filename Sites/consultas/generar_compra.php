@@ -1,10 +1,10 @@
+<?php session_start(); ?>
 <?php include('../templates_html/header.html'); ?>
 
 <body>
 
 <?php
   	require("../config/conexion.php");
-    session_start();
 
   	$id_tienda = intval($_POST["id_tienda"]);
   	$id_producto = intval($_POST["id_producto"]);

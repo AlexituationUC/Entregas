@@ -1,7 +1,7 @@
+<?php session_start(); ?>
 <?php include('../templates_html/header.html'); ?>
 <?php
 
-session_start();
 if (is_null($id_usuario)) {
     $id_usuario = $_POST["id"];
     $_SESSION["id"] = $id_usuario;
