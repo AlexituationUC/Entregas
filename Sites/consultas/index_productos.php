@@ -45,7 +45,10 @@
 
 	<?php
 		foreach ($comestibles as $p) {
-			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
+			if ($p[0] == "") {
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>"
+			} else {
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 				  <form align='center' action='show_productos.php' method='post'>
 				  <div class='form-floating'>
 				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
@@ -55,6 +58,7 @@
 				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
 				  </form>
 				  </td></tr>";
+			}
 		}
 	?>
  </table>
@@ -69,7 +73,10 @@
 
 	<?php
 		foreach ($no_comestibles as $p) {
-			echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
+			if ($p[0] == "") {
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>"
+			} else {
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 				  <form align='center' action='show_productos.php' method='post'>
 				  <div class='form-floating'>
 				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
@@ -79,6 +86,7 @@
 				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
 				  </form>
 				  </td></tr>";
+			}
 		}
 	?>
  </table>
