@@ -15,7 +15,7 @@
   		$query_no_comestible = "SELECT tres_mas_baratos('no_comestible', $id_tienda);";
   		$resultado_no_comestible = $db -> prepare($query_no_comestible);
   		$resultado_no_comestible -> execute();
-  		$no_comestibles = $resultado_comestible -> fetchAll();
+  		$no_comestibles = $resultado_no_comestible -> fetchAll();
   		$vacio = array("", "", "", "");
   		$productos = array($vacio);
   	} else {
