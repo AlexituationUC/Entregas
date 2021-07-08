@@ -23,7 +23,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
-    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     <form class="d-flex" action="consultas/login.php" method="post">
       <button class="btn btn-primary" type="submit">Log-in</button>
     </form>
