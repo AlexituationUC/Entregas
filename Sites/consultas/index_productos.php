@@ -46,7 +46,7 @@
 	<?php
 		foreach ($comestibles as $p) {
 			if ($p[0] == "") {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>"
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
 			} else {
 				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 				  <form align='center' action='show_productos.php' method='post'>
@@ -74,7 +74,7 @@
 	<?php
 		foreach ($no_comestibles as $p) {
 			if ($p[0] == "") {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>"
+				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
 			} else {
 				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 				  <form align='center' action='show_productos.php' method='post'>
