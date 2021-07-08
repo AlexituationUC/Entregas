@@ -21,15 +21,15 @@
 	$resultado_conserva -> execute();
 	$id_conserva = $resultado_conserva -> fetchAll();
 	$special_attributes = array();
-	echo "$product_id"
-	echo "---"
+	echo "$product_id";
+	echo "---";
 	$array_comestible = array($product_id);
 	foreach ($array_comestible as $turun) {
 		echo "$turun";
 	}
-	echo "---"
+	echo "---";
 	echo in_array($array_comestible, $id_comestible);
-	echo "---"
+	echo "---";
   	if (in_array($product_id, $id_comestible)){
   		$special_attributes[] = "Fecha de expiración";
   		if (in_array($product_id, $id_conserva)) {
