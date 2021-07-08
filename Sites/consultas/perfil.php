@@ -99,8 +99,8 @@ if(!empty($array_es_jefe)){
             // realizamos el cambio de clave
             echo "<h3>Clave actualizada de manera exitosa</h3><br>";
             $query_cambio = "UPDATE Info_Usuarios
-                             SET Info_Usuarios.clave = '$clave_nueva'
-                             WHERE Info_Usuarios.rut = '$rut';"; // aquí evito cambiar toodas las claves de la DB
+                             SET Info_Usuarios.clave = $clave_nueva
+                             WHERE Info_Usuarios.rut = $rut;";
             $resultado_query_cambio = $db -> prepare($query_cambio);
             $resultado_query_cambio -> execute();
             $array_query_cambio = $resultado_query_cambio -> fetchAll();
