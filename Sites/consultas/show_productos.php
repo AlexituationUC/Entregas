@@ -26,7 +26,9 @@
   		if (in_array($product_id, $id_conserva)) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
   						FROM Productos, Comestibles, Conserva
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Conserva.id;";
+  						WHERE Productos.id = Comestibles.id
+  						AND Productos.id = Conserva.id
+  						AND Productos.id = $product_id;";
   			$special_attributes[] = "Método";
   		}
   		elseif (in_array($product_id, $id_fresco)) {
