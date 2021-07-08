@@ -26,26 +26,32 @@
   		if (in_array($product_id, $id_conserva)) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
   						FROM Productos, Comestibles, Conserva
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Conserva.id;";
+  						WHERE Productos.id = Comestibles.id
+  						AND Productos.id = Conserva.id
+  						AND Productos.id = $product_id;";
   			$special_attributes[] = "Método";
   		}
   		elseif (in_array($product_id, $id_fresco)) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Frescos.duracion
-  			FROM Productos, Comestibles, Frescos
-  			WHERE Productos.id = Comestibles.id AND Productos.id = Frescos.id;";
+  					  FROM Productos, Comestibles, Frescos
+  					  WHERE Productos.id = Comestibles.id 
+  					  AND Productos.id = Frescos.id
+  					  AND Productos.id = $product_id;";
   			$special_attributes[] = "Duración";
   		}
   		else {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Congelados.peso
-  						FROM Productos, Comestibles, Congelados
-  						WHERE Productos.id = Comestibles.id AND Productos.id = Congelados.id;";
+  					  FROM Productos, Comestibles, Congelados
+  					  WHERE Productos.id = Comestibles.id
+  					  AND Productos.id = Congelados.id
+  					  AND Productos.id = $product_id;";
   			$special_attributes[] = "Peso";
   		}
   	}
   	else {
   		$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, No_Comestibles.largo, No_Comestibles.ancho, No_Comestibles.alto, No_Comestibles.peso
-  				FROM Productos, No_Comestibles
-  				WHERE Productos.id = No_Comestibles.id;";
+  				  FROM Productos, No_Comestibles
+  				  WHERE Productos.id = No_Comestibles.id AND Productos.id = $product_id;";
   		$special_attributes[] = "Largo";
   		$special_attributes[] = "Ancho";
   		$special_attributes[] = "Alto";
