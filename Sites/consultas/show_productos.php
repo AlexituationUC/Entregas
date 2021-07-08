@@ -29,8 +29,7 @@
 		}
 	}
 	echo "---";
-	echo "$is_comestible";
-  	if (in_array($product_id, $id_comestible)){
+  	if ($is_comestible){
   		$special_attributes[] = "Fecha de expiración";
   		if (in_array($product_id, $id_conserva)) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
