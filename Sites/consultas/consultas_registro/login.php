@@ -78,6 +78,7 @@
                     echo "Log-in exitoso";
                     // Esto nos da el id del usuario que se acaba de logear
                     $rut_usr = $_POST['rut'];
+                    echo "$rut_usr";
                     $query = "SELECT id FROM Usuarios as u WHERE u.rut = $rut_usr;";
                     $result = $db -> prepare($query);
                     $result -> execute();
