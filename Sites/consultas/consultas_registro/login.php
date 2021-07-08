@@ -77,11 +77,13 @@
                 if ($logeado){
                     echo "Log-in exitoso";
                     // Esto nos da el id del usuario que se acaba de logear
-                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$_POST[rut]';";
+                    $rut_usr = $_POST['rut'];
+                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = $rut_usr;";
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();
                     $id = $tabla[0];
+                    echo $id;
                     // define a donde redigira la pagina una vez presionado el boton
                     $ir = "../perfil.php";
                     $boton = "Ir a perfil";
