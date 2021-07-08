@@ -27,7 +27,13 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $result -> fetchAll();
+        $logrado = $result;
         echo $persona[0];
+        if ($logrado){
+            echo pulento;
+        } else {
+            echo pulentont;
+        }
     }
 
 ?>

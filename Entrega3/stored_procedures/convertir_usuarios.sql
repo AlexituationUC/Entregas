@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION
 convertir_usuarios (rut varchar(255), nombre varchar(255), edad int, direccion varchar(255))
 
 -- declaramos que la funcion no retorna nada
-RETURNS void AS $$
+RETURNS BOOLEAN AS $$
 
 -- declaramos la id maxima de los usuarios
 DECLARE
@@ -16,7 +16,12 @@ BEGIN
 
     -- si el personal ya se encuentra registrado como usuari entonces no se
     -- vuelve a registrar, de esta formo evitamos duplicados
-    IF EXISTS (SELECT u.rut FROM Usuarios as u WHERE u.rut = rut) THEN
+
+    SELECT u.rut
+    FROM Usuarios as u
+    WHERE u.rut = rut
+
+    IF NOT FOUND THEN
         -- guardamos la maxima id de los usuarios registrados en la BD
         SELECT INTO idmax_usuarios
         MAX(id)
@@ -37,7 +42,9 @@ BEGIN
             END IF;
 
         END LOOP;
+        RETURN TRUE;
     END IF;
+    RETURN FALSE;
 
 END
 $$ language plpgsql
