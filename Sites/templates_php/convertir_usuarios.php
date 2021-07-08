@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DCCompras </title>
+</head>
+<body>
+
+
 <?php
 
     // Obtenemos el personal de administracion de la base de datos del grupo par
@@ -23,3 +31,7 @@
     }
 
 ?>
+
+
+</body>
+</html>
