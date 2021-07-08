@@ -24,10 +24,10 @@
 	echo "$product_id";
 	echo "---";
 	foreach ($id_comestible as $turun) {
-		echo "$turun[0]";
-		echo "-";
+		#echo "$turun[0]";
+		#echo "-";
 	}
-	echo "$id_comestible[0]";
+	echo "$id_comestible[0][0]";
 	echo "---";
 	echo in_array($product_id, $id_comestible);
   	if (in_array($product_id, $id_comestible)){
