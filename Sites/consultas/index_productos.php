@@ -95,12 +95,11 @@
 
 	<?php
 		foreach ($productos as $p) {
-			$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td>";
 			if ($p[0] == "") {
-				$display += "<td> </td></tr>";
+				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
 			} else {
 				if (in_array($p[0], $id_comestible)) {
-					$display += "<td>Comestible</td><td>
+					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>Comestible</td><td>
 								 <form align='center' action='show_productos.php' method='post'>
 								 <div class='form-floating'>
 								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
@@ -111,7 +110,7 @@
 								 </form>
 								 </td></tr>";
 				} else {
-					$display += "<td>No Comestible</td><td>
+					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>No Comestible</td><td>
 								 <form align='center' action='show_productos.php' method='post'>
 								 <div class='form-floating'>
 								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
