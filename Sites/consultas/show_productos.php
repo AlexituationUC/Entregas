@@ -24,6 +24,9 @@
 	echo "$product_id";
 	echo "---";
 	$array_comestible = array($product_id);
+	echo "---";
+	echo "$array_comestible";
+	echo "---";
 	foreach ($array_comestible as $turun) {
 		echo "$turun";
 	}
