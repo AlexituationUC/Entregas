@@ -87,10 +87,11 @@ if(!empty($array_es_jefe)){
         $query = "SELECT Info_Usuarios.clave FROM Info_Usuarios WHERE Info_Usuarios.rut = '$rut' ;";
         $resultado_query = $db -> prepare($query);
         $resultado_query -> execute();
-        $array_query = $resultado_query -> fetchAll();
-        if(empty($array_query)){
+        $array_array_query = $resultado_query -> fetchAll();
+        if(empty($array_array_query)){
             echo "[TEST] el usuario de rut $rut no tiene clave";
         } else {
+            $array_query = $array_array_query[0];
             $clave_original = $array_query[0];
             echo "[TEST] la clave de $rut ERA $clave_original";
         }
