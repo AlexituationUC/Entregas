@@ -22,17 +22,14 @@
 	$id_conserva = $resultado_conserva -> fetchAll();
 	$special_attributes = array();
 	echo "$product_id";
-	echo "---";
-	$array_comestible = array($product_id);
-	echo "---";
-	echo "$array_comestible";
-	echo "---";
-	foreach ($array_comestible as $turun) {
-		echo "$turun";
+	$is_comestible = False;
+	foreach ($id_comestible as $elemento) {
+		if ($elemento[0] == $product_id){
+			$is_comestible = True;
+		}
 	}
 	echo "---";
-	echo in_array($array_comestible, $id_comestible);
-	echo "---";
+	echo "$is_comestible";
   	if (in_array($product_id, $id_comestible)){
   		$special_attributes[] = "Fecha de expiración";
   		if (in_array($product_id, $id_conserva)) {
