@@ -65,8 +65,9 @@
                 <h3 align="center"><?php
                 if ($registrado){
                     echo "Registro exitoso";
+                    $rut_usr = $_POST['rut'];
                     // Esto nos da el id del usuario que se acaba de logear
-                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$_POST[rut]';";
+                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$rut_usr';";
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();

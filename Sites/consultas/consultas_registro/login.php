@@ -78,11 +78,10 @@
                     echo "Log-in exitoso";
                     // Esto nos da el id del usuario que se acaba de logear
                     $rut_usr = $_POST['rut'];
-                    $query = "SELECT id FROM Usuarios as u WHERE u.rut=$rut_usr;";
+                    $query = "SELECT id FROM Usuarios as u WHERE u.rut='$rut_usr';";
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();
-                    echo "$tabla"; // echo de prueba
                     foreach ($tabla as $tab){
                       $id = $tab[0];
                       echo "$id";
