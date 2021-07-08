@@ -23,7 +23,7 @@
 	$special_attributes = array();
 	$array_comestible = array($product_id);
 	foreach ($array_comestible as $turun) {
-		echo "$turun[0]";
+		echo "$turun";
 	}
 	echo in_array($array_comestible, $id_comestible);
   	if (in_array($product_id, $id_comestible)){
