@@ -38,8 +38,8 @@
         <tr>
             <th> ID </th>
       		<th> Nombre </th>
-			<th> Descripción </th>
 			<th> Precio </th>
+			<th> Descripción </th>
 			<th> Ver producto </th>
 		</tr>
 
@@ -62,8 +62,8 @@
         <tr>
             <th> ID </th>
       		<th> Nombre </th>
-			<th> Descripción </th>
 			<th> Precio </th>
+			<th> Descripción </th>
 			<th> Ver producto </th>
 		</tr>
 
@@ -96,7 +96,7 @@
 	<?php
 		foreach ($productos as $p) {
 			if ($p[0] == "") {
-				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
+				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td><td> </td></tr>";
 			} else {
 				if (in_array($p[0], $id_comestible)) {
 					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>Comestible</td><td>
