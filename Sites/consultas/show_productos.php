@@ -5,7 +5,7 @@
 <?php
 
   	require("../config/conexion.php");
-  	$product_id = $_POST["product_id"];
+  	$product_id = $_POST["id_producto"];
   	$product_id = intval($product_id);
 
   	$query_comestible = "SELECT id FROM Comestibles";
