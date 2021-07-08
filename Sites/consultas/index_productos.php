@@ -25,7 +25,7 @@
 	FROM Productos, Tiendas, tienen
 	WHERE Productos.id = tienen.id_productos 
 	AND Tiendas.id = tienen.id_tienda
-	AND LOWER(Productos.nombre) LIKE LOWER(FORMAT('%s%', $producto))
+	AND LOWER(Productos.nombre) LIKE LOWER('$producto%')
 	AND Tiendas.id = $id_tienda;";
   		$resultado = $db -> prepare($query);
   		$resultado -> execute();
