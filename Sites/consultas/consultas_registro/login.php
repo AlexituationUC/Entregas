@@ -82,8 +82,11 @@
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();
-                    $id = $tabla[0][0];
                     echo "$tabla"; // echo de prueba
+                    foreach ($tabla as $tab){
+                      $id = $tab[0];
+                      echo "$id";
+                    }
                     // define a donde redigira la pagina una vez presionado el boton
                     $ir = "../perfil.php";
                     $boton = "Ir a perfil";
