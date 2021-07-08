@@ -191,6 +191,9 @@ if (!empty($_POST)) {
     <br><br><br>
 
     <form align="center" action="index_tiendas.php" method="post">
+      <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                          <input type='hidden' name='id' value=$id class='form-control'>
+                                        </div>";} ?>
       <button type="submit" class="btn btn-primary"> Volver a lista de tiendas </button>
     </form>
 

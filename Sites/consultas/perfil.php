@@ -108,7 +108,7 @@ if(!empty($array_es_jefe)){
 <div class="row h-100 justify-content-center align-items-center">
     <h3> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
     <div class="col-10 col-md-8 col-lg-6"> 
-        <form method="post">
+        <form align="center" method="post">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">Clave actual</span>
                 <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_antigua">
