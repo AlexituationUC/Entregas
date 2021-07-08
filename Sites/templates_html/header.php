@@ -28,12 +28,14 @@ if (!empty($_POST)) {
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <form align="center" action="perfil.php" method="post">
+    <div class="collapse navbar-collapse" id="navbarText">
+    <form align="center" action="index_logged.php" method="post">
       <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
       <button class="navbar-toggler" type="submit" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      Home
+      </button>
     </form>
+    </div>
     <div class="collapse navbar-collapse" id="navbarText">
       <form align="center" action="perfil.php" method="post">
         <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
