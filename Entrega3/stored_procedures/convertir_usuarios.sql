@@ -28,9 +28,9 @@ BEGIN
         FROM Usuarios;
 
         -- actualizamos las tablas con la informacion nueva
-        insert into Usuarios values(idmax_usuarios + 1, rut);
+        insert into Usuarios (id, rut) values(idmax_usuarios + 1, rut);
         -- la contraseña correspondera a los 4 primeros digitos del rut
-        insert into info_Usuarios values(rut, nombre, edad, SUBSTRING(rut, 1, 4));
+        insert into info_Usuarios (rut, nombre, edad, clave) values(rut, nombre, edad, SUBSTRING(rut, 1, 4));
 
         -- actualizamos la relacion de usuarios con direcciones, asumimos que, como se
         -- indico en las issues, no se ingresaran direcciones que no se encuentren registradas
@@ -38,7 +38,7 @@ BEGIN
         FOR d in SELECT id, direccion FROM Direcciones
         LOOP
             IF direccion = d.direccion THEN
-                insert into pide_a values(idmax_usuarios + 1, d.id);
+                insert into pide_a (id_usuarios, id_direcciones) values(idmax_usuarios + 1, d.id);
             END IF;
 
         END LOOP;
