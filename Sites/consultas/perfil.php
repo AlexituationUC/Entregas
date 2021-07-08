@@ -77,7 +77,7 @@ if(!empty($array_es_jefe)){
     if(isset($_POST["cambiar_clave"])){
         $rut = $_POST['rut'];
         //$id = $_POST['id'];
-        echo "[TEST] el rut del usuario posteado por el botón es $rut <br>"
+        echo "[TEST] el rut del usuario posteado por el botón es $rut <br>";
         $clave_antigua = $_POST["clave_antigua"];
         $clave_nueva = $_POST["clave_nueva"];
         echo "[TEST], la clave antigua ingresada es $clave_antigua";
@@ -123,7 +123,7 @@ if(!empty($array_es_jefe)){
             </div>
             <?php // vamos a postear el rut y el id del usuario
                 echo "
-                    <input type="hidden" id="id_rut_hideden" name="rut" value="$rut">";
+                    <input type='hidden' id='id_rut_hideden' name='rut' value='$rut'>";
                     //<input type="hidden" id="id_usser_hideden" name="id_usuario" value="$_POST['id']">
                 
             ?>
