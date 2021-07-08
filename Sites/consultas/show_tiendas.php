@@ -32,7 +32,7 @@ if (!empty($_POST)) {
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
-    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     <form class="d-flex" action="index_logged.php" method="post">
       <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
       <button class="btn btn-primary" type="submit">Home</button>
