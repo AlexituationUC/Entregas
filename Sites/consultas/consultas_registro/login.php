@@ -83,7 +83,7 @@
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();
-                    $id = $tabla[0];
+                    $id = $tabla[0][0];
                     echo "$id"; // echo de prueba
                     // define a donde redigira la pagina una vez presionado el boton
                     $ir = "../perfil.php";
