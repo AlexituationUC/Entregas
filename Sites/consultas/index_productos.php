@@ -31,6 +31,7 @@
 		$vacio = array("", "", "", "");
 		$comestibles = array($vacio);
 		$no_comestibles = array($vacio);
+		echo $productos
   	}
 ?>
 
