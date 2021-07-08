@@ -16,14 +16,26 @@
     $compra = $resultado_compra -> fetchAll();
 
     if ($compra == "Producto no disponible en esta tienda"){
-        echo "<h3>Producto no disponible en esta tienda</h3>
+        echo "<div class='row h-100 justify-content-center align-items-center'>
+              <div class='col-10 col-md-8 col-lg-6'>
+              <h3>Producto no disponible en esta tienda</h3>
+              </div>
+              </div>
               <br><br>";
 
     } elseif ($compra == "Tienda no reparte a su comuna"){
-        echo "<h3>Tienda no reparte a su comuna</h3>
+        echo "<div class='row h-100 justify-content-center align-items-center'>
+              <div class='col-10 col-md-8 col-lg-6'>
+              <h3>Tienda no reparte a su comuna</h3>
+              </div>
+              </div>
               <br><br>";
     } else {
-        echo "<h3>Felicidadez! Compra realizada de forma exitosa</h3>
+        echo "<div class='row h-100 justify-content-center align-items-center'>
+              <div class='col-10 col-md-8 col-lg-6'>
+              <h3>Felicidadez! Compra realizada de forma exitosa</h3>
+              </div>
+              </div>
               <br><br>";
     }
 
