@@ -60,12 +60,13 @@ if(!empty($array_es_jefe)){
 }
 ?>
 <table class="table table-dark table-hover">
-    <tr>
-        <th> Administrativos de tu unidad </th>
-    </tr>
+    
     <?php
-        foreach($array_admins as $res){
-            echo "<tr> <td> $res[0] </td></tr>";
+        if (is_array($array_admins) || is_object($array_admins)){
+            echo " <tr> <th> Administrativos de tu unidad </th> </tr>";
+            foreach($array_admins as $res){
+                echo "<tr> <td> $res[0] </td></tr>";
+            }
         }
     ?>
 </table>
