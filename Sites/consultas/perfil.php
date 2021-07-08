@@ -18,17 +18,18 @@ $resultado_info_usuario = $db -> prepare($query_info_usuario);
 $resultado_info_usuario -> execute();
 $array_info_usuario = $resultado_info_usuario -> fetchAll();
 ?>
-<table class="table table-dark table-hover">
-    <tr>
-        <th> Nombre </th> <th> Edad </th> <th> Rut </th> <th> Direccion </th>
-    </tr>
-    <?php
-        foreach($array_info_usuario as $res){
-            echo "<tr> <td> $res[0] </td> <td> $res[1] </td> <td> $res[2] </td> <td> $res[3] </td></tr>";
-        }
-    ?>
-</table>
-
+<div class="container h-100">
+    <table class="table table-dark table-hover">
+        <tr>
+            <th> Nombre </th> <th> Edad </th> <th> Rut </th> <th> Direccion </th>
+        </tr>
+        <?php
+            foreach($array_info_usuario as $res){
+                echo "<tr> <td> $res[0] </td> <td> $res[1] </td> <td> $res[2] </td> <td> $res[3] </td></tr>";
+            }
+        ?>
+    </table>
+</div>
 <!-- En caso de ser jefe de una unidad de despachos -->
 <?php
 // Ahora veremos si el usuario es un jefe
@@ -74,6 +75,8 @@ if(!empty($array_es_jefe)){
 <?php
     // Código que se ejecutará al apretar el botón que definiremos más abajo
     if(isset($_POST["cambiar_clave"])){
+        $rut = $_POST['rut'];
+        echo "[TEST] el rut del usuario posteado por el botón es $rut <br>"
         $clave_antigua = $_POST["clave_antigua"];
         $clave_nueva = $_POST["clave_nueva"];
         echo "[TEST], la clave antigua ingresada es $clave_antigua";
@@ -117,6 +120,12 @@ if(!empty($array_es_jefe)){
                 <span class="input-group-text" id="basic-addon1">Clave nueva</span>
                 <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_nueva">
             </div>
+            <?php // vamos a postear el rut y el id del usuario
+                echo "
+                    <input type="hidden" id="id_rut_hideden" name="rut" value="$rut">
+                ";
+                    // <input type="hidden" id="id_usser_hideden" name="id_usuario" value="$_POST['id']">
+            ?>
             <input class="btn btn-primary" type="submit" value="cambiar clave" name="cambiar_clave">
         </form>
 
