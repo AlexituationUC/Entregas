@@ -80,6 +80,8 @@ if(!empty($array_es_jefe)){
         //$id = $_POST['id'];
         $clave_antigua = $_POST["clave_antigua"];
         $clave_nueva = $_POST["clave_nueva"];
+        echo "$clave_antigua<br>";
+        echo "$clave_nueva<br>";
         // revisamos si la clave antigua corresponde a la de la base de datos
         // claves en Usuarios.clave
         $query = "SELECT Info_Usuarios.clave FROM Info_Usuarios WHERE Info_Usuarios.rut = '$rut' ;";
@@ -98,7 +100,7 @@ if(!empty($array_es_jefe)){
             echo "<h3>Clave actualizada de manera exitosa</h3><br>";
             $query_cambio = "UPDATE Info_Usuarios
                              SET Info_Usuarios.clave = '$clave_nueva'
-                             WHERE Info_Usuarios.rut = '$rut' ;"; // aquí evito cambiar toodas las claves de la DB
+                             WHERE Info_Usuarios.rut = '$rut';"; // aquí evito cambiar toodas las claves de la DB
             $resultado_query_cambio = $db -> prepare($query_cambio);
             $resultado_query_cambio -> execute();
             $array_query_cambio = $resultado_query_cambio -> fetchAll();
@@ -114,11 +116,11 @@ if(!empty($array_es_jefe)){
         <form align="center" method="post">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">Clave actual</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_antigua">
+                <input type="text" class="form-control" placeholder="Clave actual" aria-label="Clave actual" aria-describedby="basic-addon1" name="clave_antigua">
             </div>
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">Clave nueva</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="clave_nueva">
+                <input type="text" class="form-control" placeholder="Clave nueva" aria-label="Clave nueva" aria-describedby="basic-addon1" name="clave_nueva">
             </div>
             <?php // vamos a postear el rut y el id del usuario
                 echo "
