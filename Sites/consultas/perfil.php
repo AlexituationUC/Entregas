@@ -25,6 +25,7 @@ $array_info_usuario = $resultado_info_usuario -> fetchAll();
         </tr>
         <?php
             foreach($array_info_usuario as $res){
+                $rut = $res[2];
                 echo "<tr> <td> $res[0] </td> <td> $res[1] </td> <td> $res[2] </td> <td> $res[3] </td></tr>";
             }
         ?>
@@ -127,6 +128,7 @@ if(!empty($array_es_jefe)){
                     //<input type="hidden" id="id_usser_hideden" name="id_usuario" value="$_POST['id']">
                 
             ?>
+            <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
             <input class="btn btn-primary" type="submit" value="cambiar clave" name="cambiar_clave">
         </form>
 
