@@ -19,6 +19,7 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $result -> fetchAll();
+        echo $persona[0];
     }
 
 ?>
