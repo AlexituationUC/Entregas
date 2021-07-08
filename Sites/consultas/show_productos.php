@@ -72,11 +72,11 @@
 		<?php
 			// echo $producto;
 			foreach ($producto as $p) {
-				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td>";
-				for ($i=0; $i < count($special_attributes); $i++) { 
-				$display += '<td>$p[$i + 3]</td>';  //cambié comillas dobles por simples
+				if (count($special_attributes) == 2) {
+					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>$p[4]</td><td>$p[5]</td>"
+				} else {
+					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>$p[4]</td><td>$p[5]</td><td>$p[6]</td><td>$p[7]</td></tr>"
 				}
-				$display += "</tr>";
 				echo $display;
 		}
 		?>
