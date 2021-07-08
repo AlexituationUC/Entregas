@@ -22,7 +22,6 @@
 	$id_conserva = $resultado_conserva -> fetchAll();
 	$special_attributes = array();
   	if (in_array($product_id, $id_comestible)){
-  		$query += "";
   		$special_attributes[] = "Fecha de expiración";
   		if (in_array($product_id, $id_conserva)) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
