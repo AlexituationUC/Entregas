@@ -16,7 +16,11 @@ d record;
 BEGIN
 
     -- si el rut ya esta registrado en la BD retorna FALSE
-    IF rut in (SELECT rut FROM Usuarios) THEN
+    SELECT u.rut
+    FROM Usuarios as u
+    WHERE u.rut = rut
+
+    IF NOT FOUND THEN
         RETURN FALSE;
 
     END IF;
