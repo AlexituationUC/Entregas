@@ -21,7 +21,12 @@
   		echo $comestibles;
   	} else {
   		$producto = $_POST["producto"];
-  		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
+  		$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
+	FROM Productos, Tiendas, tienen
+	WHERE Productos.id = tienen.id_productos 
+	AND Tiendas.id = tienen.id_tienda
+	AND LOWER(Productos.nombre) LIKE LOWER(FORMAT('%s%', $producto))
+	AND Tiendas.id = $id_tienda;";
   		$resultado = $db -> prepare($query);
   		$resultado -> execute();
   		$productos = $resultado -> fetchAll();
