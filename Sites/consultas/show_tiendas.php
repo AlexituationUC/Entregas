@@ -32,15 +32,21 @@ if (!empty($_POST)) {
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
-    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-    <form class="d-flex" action="index_logged.php" method="post">
-      <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
-      <button class="btn btn-primary" type="submit">Home</button>
-    </form>
-    <form class="d-flex" action="perfil.php" method="post">
-      <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
-      <button class="btn btn-outline-primary" type="submit">Perfil</button>
-    </form>
+  </div>
+  <div class="navbar-collapse collapse order-3 dual-collapse2">
+    <ul class="nav justify-content-end">
+      <form class="d-flex" action="index_logged.php" method="post">
+        <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
+        <button class="btn btn-primary" type="submit">Home</button>
+      </form>
+    </ul>
+    o
+    <ul class="nav justify-content-end">
+      <form class="d-flex" action="perfil.php" method="post">
+        <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
+        <button class="btn btn-outline-primary" type="submit">Perfil</button>
+      </form>
+    </ul>
   </div>
 </nav>
 <br><br>

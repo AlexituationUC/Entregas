@@ -23,15 +23,22 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
-    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-    <form class="d-flex" action="consultas/login.php" method="post">
-      <button class="btn btn-primary" type="submit">Log-in</button>
-    </form>
-    <form class="d-flex" action="consultas/registro.php" method="post">
-      <button class="btn btn-outline-primary" type="submit">Registrarse</button>
-    </form>
+  </div>
+  <div class="navbar-collapse collapse order-3 dual-collapse2">
+    <ul class="nav justify-content-end">
+      <form class="d-flex" action="consultas/login.php" method="post">
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+    </ul>
+    o
+    <ul class="nav justify-content-end">
+      <form class="d-flex" action="consultas/registro.php" method="post">
+        <button class="btn btn-outline-primary" type="submit">Registrarse</button>
+      </form>
+    </ul>
   </div>
 </nav>
+
 <br><br>
 
 <body>

@@ -71,7 +71,6 @@ if(!empty($array_es_jefe)){
     ?>
 </table>
 
-<h3> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
 <?php
     // Código que se ejecutará al apretar el botón que definiremos más abajo
     if(isset($_POST["cambiar_clave"])){
@@ -107,7 +106,8 @@ if(!empty($array_es_jefe)){
 ?>
 <!-- Botón para efectual el cambio de clave -->
 <div class="row h-100 justify-content-center align-items-center">
-      <div class="col-10 col-md-8 col-lg-6"> 
+    <h3> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
+    <div class="col-10 col-md-8 col-lg-6"> 
         <form method="post">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">Clave actual</span>
