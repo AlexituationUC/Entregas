@@ -34,11 +34,6 @@ if (!empty($_POST)) {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Info</a>
-        </li>
-      </ul>
       <form align="center" action="perfil.php" method="post">
         <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
         <button type="submit" class="btn btn-primary"> Perfil </button>
