@@ -54,6 +54,3 @@
     </table>
 
 <?php include('../templates_html/footer.html'); ?>
-<?php if (!empty($_POST)){echo "<div class='form-floating'>
-    <input type='hidden' name='id' value=$id class='form-control'>
-</div>";} ?>
