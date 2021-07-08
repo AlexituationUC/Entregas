@@ -15,10 +15,7 @@
               WHERE p.id = a.id AND a.id_unidad = u.id AND u.id_direccion = d.id;";
     $result = $db2 -> prepare($query);
     $result -> execute();
-    
     $personal = $result -> fetchAll();
-
-    echo $personal;
 
     // Agregamos al personal como usuario a la base de datos del grupo impar
     foreach ($personal as $persona){
@@ -29,7 +26,8 @@
         $result -> fetchAll();
         $logrado = $result;
         echo $persona[0];
-        if ($logrado){
+        echo $logrado;
+        if ($logrado) {
             echo ' pulento ';
         } else {
             echo ' pulentont ';

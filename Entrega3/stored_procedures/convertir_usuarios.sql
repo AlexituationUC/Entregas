@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-convertir_usuarios (rut varchar(255), nombre varchar(255), edad int, direccion varchar(255))
+convertir_usuarios (rut varchar, nombre varchar, edad int, direccion varchar)
 
 -- declaramos que la funcion no retorna nada
 RETURNS BOOLEAN AS $$
