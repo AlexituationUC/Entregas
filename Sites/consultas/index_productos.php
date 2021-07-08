@@ -18,15 +18,9 @@
   		$no_comestibles = $resultado_no_comestible -> fetchAll();
   		$vacio = array("", "", "", "");
   		$productos = array($vacio);
-  		echo $comestibles;
   	} else {
   		$producto = $_POST["producto"];
-  		$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
-	FROM Productos, Tiendas, tienen
-	WHERE Productos.id = tienen.id_productos 
-	AND Tiendas.id = tienen.id_tienda
-	AND LOWER(Productos.nombre) LIKE LOWER('$producto%')
-	AND Tiendas.id = $id_tienda;";
+  		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
   		$resultado = $db -> prepare($query);
   		$resultado -> execute();
   		$productos = $resultado -> fetchAll();
@@ -37,7 +31,6 @@
 		$vacio = array("", "", "", "");
 		$comestibles = array($vacio);
 		$no_comestibles = array($vacio);
-		echo $productos;
   	}
 ?>
 
