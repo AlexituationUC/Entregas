@@ -30,9 +30,9 @@
         $logrado = $result;
         echo $persona[0];
         if ($logrado){
-            echo ' pulento';
+            echo ' pulento ';
         } else {
-            echo ' pulentont';
+            echo ' pulentont ';
         }
     }
 
