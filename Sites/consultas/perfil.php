@@ -78,10 +78,8 @@ if(!empty($array_es_jefe)){
     if(isset($_POST["cambiar_clave"])){
         $rut = $_POST['rut'];
         //$id = $_POST['id'];
-        echo "[TEST] el rut del usuario posteado por el botón es $rut <br>";
         $clave_antigua = $_POST["clave_antigua"];
         $clave_nueva = $_POST["clave_nueva"];
-        echo "[TEST], la clave antigua ingresada es $clave_antigua";
         // revisamos si la clave antigua corresponde a la de la base de datos
         // claves en Usuarios.clave
         $query = "SELECT Info_Usuarios.clave FROM Info_Usuarios WHERE Info_Usuarios.rut = '$rut' ;";
@@ -89,24 +87,23 @@ if(!empty($array_es_jefe)){
         $resultado_query -> execute();
         $array_array_query = $resultado_query -> fetchAll();
         if(empty($array_array_query)){
-            echo "[TEST] el usuario de rut $rut no tiene clave";
+            echo "<h3>El usuario de rut $rut no tiene clave</h3><br>";
+            $clave_original = "";
         } else {
             $array_query = $array_array_query[0];
             $clave_original = $array_query[0];
-            echo "[TEST] la clave de $rut ERA $clave_original";
         }
         if($clave_original == $clave_antigua){
             // realizamos el cambio de clave
-            echo "Debería cambiar la clave (decomentar query)";
+            echo "<h3>Clave actualizada de manera exitosa</h3><br>";
             $query_cambio = "UPDATE Info_Usuarios
-            SET Info_Usuarios.clave = $clave_nueva
-            WHERE Info_Usuarios.rut = '$rut' ;"; // aquí evito cambiar toodas las claves de la DB
-            //$resultado_query_cambio = $db -> prepare($query_cambio);
-            //$resultado_query_cambio -> execute();
-            //$array_query_cambio = $resultado_query_cambio -> fetchAll();  // inecesario de momento
-            //// DECOMENTO CUANDO SEA SEGURO ////
+                             SET Info_Usuarios.clave = '$clave_nueva'
+                             WHERE Info_Usuarios.rut = '$rut' ;"; // aquí evito cambiar toodas las claves de la DB
+            $resultado_query_cambio = $db -> prepare($query_cambio);
+            $resultado_query_cambio -> execute();
+            $array_query_cambio = $resultado_query_cambio -> fetchAll();
         } else{
-            echo "[TEST] clave incorrecta, ingresaste $clave_nueva y debías ingresar $clave_original";
+            echo "<h3>Clave incorrecta, recuerda ingresar tu clave anterior primero</h3><br>";
         }
     }
 ?>
