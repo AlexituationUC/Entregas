@@ -1,5 +1,4 @@
-<?php session_start(); ?>
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 
 <body>
 
@@ -8,7 +7,7 @@
 
   	$id_tienda = intval($_POST["id_tienda"]);
   	$id_producto = intval($_POST["id_producto"]);
-    $id_usr = intval($_SESSION["id"]);
+    $id_usr = $id;
     $id_direccion = intval($_POST["id_direccion"]);
 
     $query_compra = "SELECT realizar_compra($id_usr, $id_producto, $id_tienda, $id_direccion);";
@@ -34,6 +33,9 @@
     <div class='form-floating'>
         <?php echo "<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>" ?>
     </div>
+    <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                        <input type='hidden' name='id' value=$id class='form-control'>
+                                    </div>";} ?>
 
     <button type='submit' class='btn btn-primary'> Regresar a la tienda </button>
 </form>

@@ -1,4 +1,4 @@
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 
 <body>
 <?php
@@ -28,6 +28,7 @@
             <td> 
                 <form align="center" action="show_tiendas.php" method="post">
                     <div class="form-floating">
+                        <?php echo "<input type='hidden' name='id' value=$id class='form-control'>" ?>
                         <?php echo "<input type='hidden' name='id_tienda' value=$t[2] class='form-control'>" ?>
                     </div>
 
@@ -43,6 +44,7 @@
                   <form align='center' action='show_tiendas.php' method='post'>
                   <div class='form-floating'>
                   <input type='hidden' name='id_tienda' value=$t[2] class='form-control'>
+                  <input type='hidden' name='id' value=$id class='form-control'>
                   </div>
                   <button type='submit' class='btn btn-primary'> Ver Tienda </button>
                   </form>
@@ -52,3 +54,6 @@
     </table>
 
 <?php include('../templates_html/footer.html'); ?>
+<?php if (!empty($_POST)){echo "<div class='form-floating'>
+    <input type='hidden' name='id' value=$id class='form-control'>
+</div>";} ?>

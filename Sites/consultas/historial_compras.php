@@ -1,13 +1,9 @@
-<?php session_start(); ?>
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 <body>
 <?php
 require("../config/conexion.php");  // ASUMO ubicación de conexion.php para conectarme a la DB
 // ASUMO también los nombres $db y $db2 para la base impar y par respectivamente
-session_start();
-$idu = $_SESSION["id"];
-// echo de testeo
-echo "<br> [TEST] el id del usuario es $idu[0]";
+$idu = $id;
 ?>
 <?php
 $query_historial = "SELECT Productos.nombre, Productos.precio, Tiendas.nombre, Productos.id, Tiendas.id
@@ -31,6 +27,7 @@ $array_historial = $resultado_historial -> fetchAll();
                 echo "<tr> <td> <form action='show_productos.php' method='post'>
                                     <input type='hidden' id='$res[3]' name='id_producto' value='$res[3]'>
                                     <input type='hidden' id='$res[4]' name='id_tienda' value='$res[4]'>
+                                    <input type='hidden' name='id' value=$id class='form-control'>
                                     <button type='submit' class='btn btn-primary'> $res[0] </button>
                                 </form>
                             </td> <td> $res[1] </td> <td> $res[2] </td></tr>";

@@ -1,4 +1,4 @@
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 
 <body>
 
@@ -56,6 +56,9 @@
         <br>
 
         <form align="center" action="index_tiendas.php" method="post">
+        <?php if (!empty($_POST)){echo "<div class='form-floating'>
+          <input type='hidden' name='id' value=$id class='form-control'>
+        </div>";} ?>
           <button type="submit" class="btn btn-primary">Ir a tiendas</button>
         </form>
 

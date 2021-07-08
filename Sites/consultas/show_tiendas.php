@@ -1,11 +1,10 @@
-<?php session_start(); ?>
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 
 <body>
 
 <?php 
     $id_tienda = $_POST["id_tienda"];
-    $id_usr = $_SESSION["id"]
+    $id_usr = $id;
 ?>
 
   <h1 align="center"> Consultas para tiendas </h1>
@@ -28,6 +27,9 @@
             <div class="form-floating">
                 <?php echo "<input type='hidden' name='tipo_consulta' value='mas_baratos' class='form-control'>" ?>
             </div>
+            <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                              <input type='hidden' name='id' value=$id class='form-control'>
+                                            </div>";} ?>
 
             <button type="submit" class="btn btn-primary"> Ver productos </button>
         </form> 
@@ -56,6 +58,9 @@
           <div class="form-floating">
               <?php echo "<input type='hidden' name='tipo_consulta' value='productos_por_nombre' class='form-control'>" ?>
           </div>
+          <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                            <input type='hidden' name='id' value=$id class='form-control'>
+                                          </div>";} ?>
 
           <br>
 
@@ -120,6 +125,9 @@
           <div class="form-floating">
             <?php echo "<input type='hidden' name='id_tienda' value=$t[2] class='form-control'>" ?>
           </div>
+          <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                            <input type='hidden' name='id' value=$id class='form-control'>
+                                          </div>";} ?>
 
           <br>
 

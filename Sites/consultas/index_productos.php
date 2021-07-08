@@ -1,4 +1,4 @@
-<?php include('../templates_html/header.html'); ?>
+<?php include('../templates_html/header.php'); ?>
 
 <body>
 
@@ -50,6 +50,7 @@
 				  <div class='form-floating'>
 				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
 				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+				  <input type='hidden' name='id' value=$id class='form-control'>
 				  </div>
 				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
 				  </form>
@@ -73,6 +74,7 @@
 				  <div class='form-floating'>
 				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
 				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+				  <input type='hidden' name='id' value=$id class='form-control'>
 				  </div>
 				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
 				  </form>
@@ -103,6 +105,7 @@
 								 <div class='form-floating'>
 								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
 								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+								 <input type='hidden' name='id' value=$id class='form-control'>
 								 </div>
 								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
 								 </form>
@@ -113,6 +116,7 @@
 								 <div class='form-floating'>
 								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
 								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+								 <input type='hidden' name='id' value=$id class='form-control'>
 								 </div>
 								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
 								 </form>
