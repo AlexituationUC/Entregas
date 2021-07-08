@@ -2,13 +2,15 @@
 
     // Obtenemos el personal de administracion de la base de datos del grupo par
     require("../config/conexion.php");
-    $query = "SELECT p.rut as rut, p.nombre as nombre, p.edad as edad, d.nombre_direccion as direccion
+    $query = "SELECT p.rut as rut, p.nombre as nombre, p.edad as edad, d.direccion as direccion
               FROM Personal as p, Admins as a, Unidades as u, Direcciones as d
               WHERE p.id = a.id AND a.id_unidad = u.id AND u.id_direccion = d.id;";
     $result = $db2 -> prepare($query);
     $result -> execute();
     
     $personal = $result -> fetchAll();
+
+    echo $personal;
 
     // Agregamos al personal como usuario a la base de datos del grupo impar
     foreach ($personal as $persona){
