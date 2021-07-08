@@ -22,19 +22,14 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Home</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <form class="d-flex" align="center" action="consultas/login.php" method="post">
-        <button class="btn btn-outline-primary" type="submit"> Log-in </button>
-      </form>
-      <h3 align="center">o </h3>
-      <form align="center" action="consultas/registro.php" method="post">
-        <button type="submit" class="btn btn-primary"> Registrarse </button>
-      </form>
-    </div>
+    <a class="navbar-brand">DCCompras</a>
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    <form class="d-flex" action="consultas/login.php" method="post">
+      <button class="btn btn-primary" type="submit">Log-in</button>
+    </form>
+    <form class="d-flex" action="consultas/registro.php" method="post">
+      <button class="btn btn-outline-primary" type="submit">Registrarse</button>
+    </form>
   </div>
 </nav>
 <br><br>
