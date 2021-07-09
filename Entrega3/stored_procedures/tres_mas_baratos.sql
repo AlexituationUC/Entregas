@@ -9,7 +9,7 @@ RETURNS TABLE(
 			   descripcion varchar
 			   ) AS $$
 BEGIN
-IF tipo = "comestible" THEN 
+IF tipo = 'comestible' THEN 
 	RETURN QUERY (
 	SELECT Productos.nombre, precio, descripcion
 	FROM Productos, Comestibles, Tiendas, tienen
