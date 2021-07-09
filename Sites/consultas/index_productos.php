@@ -8,7 +8,7 @@
   	$tipo_consulta = $_POST["tipo_consulta"];
   	$id_tienda = intval($_POST["id_tienda"]);
 
-	$query_comestible = "SELECT Productos.nombre, Productos.precio, Productos.descripcion
+	$query_comestible = "SELECT Productos.id, Productos.nombre, Productos.precio, Productos.descripcion
     FROM Productos, Comestibles, Tiendas, tienen
     WHERE Productos.id = Comestibles.id
     AND Tiendas.id = tienen.id_tiendas
@@ -20,7 +20,7 @@
 	$resultado_comestible -> execute();
 	$comestibles = $resultado_comestible -> fetchAll();
 
-	$query_no_comestible = "SELECT Productos.nombre, Productos.precio, Productos.descripcion
+	$query_no_comestible = "SELECT Productos.id, Productos.nombre, Productos.precio, Productos.descripcion
     FROM Productos, No_Comestibles, Tiendas, tienen
     WHERE Productos.id = No_Comestibles.id
     AND Tiendas.id = tienen.id_tiendas
