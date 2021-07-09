@@ -34,7 +34,7 @@
 
 		<?php
 			foreach ($comestibles as $p) {
-				echo $p;
+				echo $p[0];
 				if ($p[0] == "") {
 					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
 				} else {
