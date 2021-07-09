@@ -40,6 +40,8 @@
     $result -> execute();
 
     $registrado = $result -> fetchAll();
+    echo $registrado;
+    echo $registrado[0];
 
 ?>
 
