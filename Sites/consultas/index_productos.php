@@ -48,8 +48,6 @@
 
 		<?php
 			foreach ($comestibles as $p) {
-				echo $p[1];
-				$p = $p[0];
 				if ($p[0] == "") {
 					echo "<tr><td> $p[0] </td><td> $p[1] </td><td> $p[2] </td><td> $p[3] </td><td> </td></tr>";
 				} else {
