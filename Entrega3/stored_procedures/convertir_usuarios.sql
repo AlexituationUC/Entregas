@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-convertir_usuarios (rut varchar, nombre varchar, edad int, direccion varchar)
+convertir_usuarios (rut varchar(255), nombre varchar(255), edad int, direccion varchar(255))
 
 -- declaramos que la funcion no retorna nada
 RETURNS varchar AS $$
@@ -28,9 +28,9 @@ BEGIN
         FROM Usuarios;
 
         -- actualizamos las tablas con la informacion nueva
-        insert into Usuarios (id, rut) values (idmax_usuarios + 1, rut);
+        INSERT INTO Usuarios (id, rut) values (idmax_usuarios + 1, rut);
         -- la contraseña correspondera a los 4 primeros digitos del rut
-        insert into info_Usuarios (rut, nombre, edad, clave) values (rut, nombre, edad, SUBSTRING(rut, 1, 4));
+        INSERT INTO info_Usuarios (rut, nombre, edad, clave) values (rut, nombre, edad, SUBSTRING(rut, 1, 4));
 
         -- actualizamos la relacion de usuarios con direcciones, asumimos que, como se
         -- indico en las issues, no se ingresaran direcciones que no se encuentren registradas

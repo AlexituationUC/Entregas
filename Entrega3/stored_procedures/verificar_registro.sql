@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_rut (nombre varchar, rut varchar, edad int, direccion varchar)
+verificar_rut (nombre varchar(255), rut varchar(255), edad int, direccion varchar)
 
 -- declaramos que retorna un booleano
 RETURNS BOOLEAN AS $$
