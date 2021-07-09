@@ -33,10 +33,18 @@ $array_info_usuario = $resultado_info_usuario -> fetchAll();
 </div>
 <!-- En caso de ser jefe de una unidad de despachos -->
 <?php
+// obtendremos el rut a partir del id
+$query_rut = "SELECT rut FROM usuarios WHERE id = $id;";
+$res_rut = $db -> prepare($query_rut);
+$res_rut -> execute();
+$array_rut = $res_rut -> fetchAll();
+$rut = $array_rut[0][0];
+
+
 // Ahora veremos si el usuario es un jefe
 $query_es_jefe = "SELECT Unidades.id_jefe
-FROM Unidades
-WHERE Unidades.id_jefe = $id;";  // Podemos tener el problema de que $id_usuario es string
+FROM Personal, Unidades
+WHERE Personal.id = Unidades.id_jefe AND Personal.rut = $rut;"; // Podemos tener el problema de que $id_usuario es string
 $resultado_es_jefe = $db2 -> prepare($query_es_jefe);
 $resultado_es_jefe -> execute();
 $array_es_jefe = $resultado_es_jefe -> fetchAll();
