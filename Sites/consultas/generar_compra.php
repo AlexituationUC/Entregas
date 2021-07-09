@@ -14,7 +14,6 @@
     $resultado_compra = $db -> prepare($query_compra);
     $resultado_compra -> execute();
     $compra = $resultado_compra -> fetchAll();
-    echo $compra[0][0];
 
     if ($compra[0][0] == "Producto no disponible en esta tienda"){
         echo "<div class='row h-100 justify-content-center align-items-center'>

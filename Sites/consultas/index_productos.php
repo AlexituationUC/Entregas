@@ -77,5 +77,17 @@
 		}
 	?>
  </table>
+ 
+<br><br><br>
+<form align='center' action='show_tiendas.php' method='post'>
+    <div class='form-floating'>
+        <?php echo "<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>" ?>
+    </div>
+    <?php if (!empty($_POST)){echo "<div class='form-floating'>
+                                        <input type='hidden' name='id' value=$id class='form-control'>
+                                    </div>";} ?>
+
+    <button type='submit' class='btn btn-primary'> Regresar a la tienda </button>
+</form>
 
 <?php include('../templates_html/footer.html'); ?>

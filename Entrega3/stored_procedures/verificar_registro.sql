@@ -16,11 +16,8 @@ d record;
 BEGIN
 
     -- si el rut ya esta registrado en la BD retorna FALSE
-    SELECT u.rut
-    FROM Usuarios as u
-    WHERE u.rut = rut
 
-    IF NOT FOUND THEN
+    IF rut NOT IN (SELECT Usuarios.rut FROM Usuarios) THEN
         RETURN FALSE;
 
     END IF;
@@ -37,7 +34,7 @@ BEGIN
     -- actualizamos la relacion de usuarios con direcciones, asumimos que, como se
     -- indico en las issues, no se ingresaran direcciones que no se encuentren previamente
     -- en las bases de datos
-    FOR d in SELECT id, direccion FROM Direcciones
+    FOR d in SELECT Direcciones.id, Direcciones.direccion FROM Direcciones
     LOOP
         IF direccion = d.direccion THEN
             insert into pide_a values(idmax_usuarios + 1, d.id);
