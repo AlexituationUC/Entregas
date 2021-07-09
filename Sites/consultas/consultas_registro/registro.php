@@ -84,7 +84,7 @@
 
                 <br>
                 <form align="center" action="<?php echo $ir ?>" method="post">
-                    <input type="hidden" name="id" value="<?php echo $id ?>">
+                    <?php echo "<input type='hidden' name='id' value=$id class='form-control'>" ?>
                     <button type="submit" class="btn btn-primary"><?php echo $boton ?></button>
                 </form>
 
