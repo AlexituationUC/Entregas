@@ -1,3 +1,10 @@
+<?php
+
+if (!empty($_POST)) {
+  $id = $_POST["id"];
+
+}?>
+
 <!DOCTYPE html>
 <html>
 
@@ -22,6 +29,7 @@
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
     <form class="d-flex" action="../index_logged.php" method="post">
+      <?php if (!empty($_POST)){echo "<input type='hidden' name='id' value=$id class='form-control'>";} ?>
       <button class="btn btn-primary" type="submit">Home</button>
     </form>
   </div>
