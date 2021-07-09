@@ -44,7 +44,6 @@
     $result -> execute();
 
     $registrado = $result -> fetchAll();
-    echo $registrado[0][0];
 
 ?>
 
@@ -61,16 +60,16 @@
                 <!-- Aqui se elige que mostrar en la pagina dependiendo de si
                      si se logro registrar correctamente o no -->
                 <h3 align="center"><?php
-                if ($registrado){
+                if ($registrado[0][0]){
                     echo "Registro exitoso";
-                    $rut_usr = $_POST['rut'];
                     // Esto nos da el id del usuario que se acaba de logear
-                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$rut_usr';";
+                    $query = "SELECT id FROM Usuarios as u WHERE u.rut = '$posted_rut';";
                     $result = $db -> prepare($query);
                     $result -> execute();
                     $tabla = $result -> fetchAll();
                     foreach ($tabla as $tab){
                       $id = $tab[0];
+                      echo $id;
                     }
                     // define a donde redigira la pagina una vez presionado el boton
                     $ir = "../perfil.php";
