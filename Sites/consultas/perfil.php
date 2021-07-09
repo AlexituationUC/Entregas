@@ -39,7 +39,7 @@ $res_rut = $db -> prepare($query_rut);
 $res_rut -> execute();
 $array_rut = $res_rut -> fetchAll();
 $rut = $array_rut[0][0];
-echo "el rut del jefe es = $rut, array rut -> $array_rut";
+
 
 
 // Ahora veremos si el usuario es un jefe
