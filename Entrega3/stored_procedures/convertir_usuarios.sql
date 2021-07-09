@@ -31,7 +31,7 @@ BEGIN
         -- actualizamos la relacion de usuarios con direcciones, asumimos que, como se
         -- indico en las issues, no se ingresaran direcciones que no se encuentren registradas
         -- en las bases de datos
-        FOR d in SELECT id, direccion FROM Direcciones
+        FOR d in SELECT Direcciones.id, Direcciones.direccion FROM Direcciones
         LOOP
             IF direccion = d.direccion THEN
                 insert into pide_a (id_usuarios, id_direcciones) values (idmax_usuarios + 1, d.id);
