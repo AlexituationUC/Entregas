@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand">DCCompras</a>
-    <form class="d-flex" action="../../index.php" method="post">
+    <form class="d-flex" action="../index_logged.php" method="post">
       <button class="btn btn-primary" type="submit">Home</button>
     </form>
   </div>

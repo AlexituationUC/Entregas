@@ -8,22 +8,27 @@
   	$tipo_consulta = $_POST["tipo_consulta"];
   	$id_tienda = intval($_POST["id_tienda"]);
     $producto = $_POST["producto"];
-    $query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
-              FROM Productos, Tiendas, tienen
-              WHERE Productos.id = tienen.id_productos 
-              AND Tiendas.id = tienen.id_tiendas
-              AND LOWER(Productos.nombre) LIKE LOWER('%$producto%')
-              AND Tiendas.id = $id_tienda;";
-    $resultado = $db -> prepare($query);
-    $resultado -> execute();
-    $productos = $resultado -> fetchAll();
-    $query_comestible = "SELECT id FROM Comestibles";
-    $resultado_comestible = $db -> prepare($query_comestible);
-    $resultado_comestible -> execute();
-    $id_comestible = $resultado_comestible -> fetchAll();
-    $vacio = array("", "", "", "");
-    $comestibles = array($vacio);
-    $no_comestibles = array($vacio);
+    $query_comestibles = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
+                          FROM Productos, Tiendas, tienen, Comestibles
+                          WHERE Productos.id = tienen.id_productos 
+                          AND Productos.id = Comestibles.id
+                          AND Tiendas.id = tienen.id_tiendas
+                          AND LOWER(Productos.nombre) LIKE LOWER('%$producto%')
+                          AND Tiendas.id = $id_tienda;";
+    $resultado_comestibles = $db -> prepare($query_comestibles);
+    $resultado_comestibles -> execute();
+    $lista_comestibles = $resultado_comestibles -> fetchAll();
+    
+    $query_no_comestibles = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
+                             FROM Productos, Tiendas, tienen, No_Comestibles
+                             WHERE Productos.id = tienen.id_productos 
+                             AND Productos.id = No_Comestibles.id
+                             AND Tiendas.id = tienen.id_tiendas
+                             AND LOWER(Productos.nombre) LIKE LOWER('%$producto%')
+                             AND Tiendas.id = $id_tienda;";
+    $resultado_no_comestibles = $db -> prepare($query_no_comestibles);
+    $resultado_no_comestibles -> execute();
+    $lista_no_comestibles = $resultado_no_comestibles -> fetchAll();
 
 ?>
 
@@ -39,37 +44,32 @@
             </tr>
 
         <?php
-            foreach ($productos as $p) {
-                if ($p[0] == "") {
-                    $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td><td> </td></tr>";
-                } else {
-                    if (in_array($p[0], $id_comestible)) {
-                        $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>Comestible</td><td>
-                                    <form align='center' action='show_productos.php' method='post'>
-                                    <div class='form-floating'>
-                                    <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-                                    <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-                                    <input type='hidden' name='id' value=$id class='form-control'>
-                                    </div>
-                                    <button type='submit' class='btn btn-primary'> Ver Producto </button>
-                                    </form>
-                                    </td></tr>";
-                    } else {
-                        $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>No Comestible</td><td>
-                                    <form align='center' action='show_productos.php' method='post'>
-                                    <div class='form-floating'>
-                                    <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-                                    <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-                                    <input type='hidden' name='id' value=$id class='form-control'>
-                                    </div>
-                                    <button type='submit' class='btn btn-primary'> Ver Producto </button>
-                                    </form>
-                                    </td></tr>";
-                    }
-                }
-                echo $display;
+            foreach ($lista_comestibles as $com) {
+                echo "<tr><td>$com[0]</td><td>$com[1]</td><td>$com[2]</td><td>$com[3]</td><td>Comestible</td><td>
+                      <form align='center' action='show_productos.php' method='post'>
+                      <div class='form-floating'>
+                      <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+                      <input type='hidden' name='id_producto' value=$com[0] class='form-control'>
+                      <input type='hidden' name='id' value=$id class='form-control'>
+                      </div>
+                      <button type='submit' class='btn btn-primary'> Ver Producto </button>
+                      </form>
+                      </td>";
+            }
+            foreach ($lista_no_comestibles as $no_com) {
+                echo "<tr><td>$no_com[0]</td><td>$no_com[1]</td><td>$no_com[2]</td><td>$no_com[3]</td><td>No Comestible</td><td>
+                      <form align='center' action='show_productos.php' method='post'>
+                      <div class='form-floating'>
+                      <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+                      <input type='hidden' name='id_producto' value=$no_com[0] class='form-control'>
+                      <input type='hidden' name='id' value=$id class='form-control'>
+                      </div>
+                      <button type='submit' class='btn btn-primary'> Ver Producto </button>
+                      </form>
+                      </td>";
             }
         ?>
+        </tr>
     </table>
 </div>
 
