@@ -18,7 +18,6 @@
   		$no_comestibles = $resultado_no_comestible -> fetchAll();
   		$vacio = array("", "", "", "");
   		$productos = array($vacio);
-		echo "hola";
   	} else {
   		$producto = $_POST["producto"];
   		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
