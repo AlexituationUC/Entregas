@@ -9,7 +9,7 @@ require("../config/conexion.php");
 
 <!-- Info usuarios -->
 <?php
-// ASUMO mostrar todoas las direcciones si hay más de una por usuario
+// ASUMO mostrar todas las direcciones si hay más de una por usuario
 $query_info_usuario = "SELECT Info_Usuarios.nombre, Info_Usuarios.edad, Usuarios.rut, Direcciones.direccion
                        FROM Usuarios, Info_Usuarios, Direcciones, pide_a
                        WHERE Usuarios.rut = Info_Usuarios.rut AND Usuarios.id = pide_a.id_usuarios AND Direcciones.id = pide_a.id_direcciones
@@ -98,12 +98,9 @@ if(!empty($array_es_jefe)){
         if($clave_original == $clave_antigua){
             // realizamos el cambio de clave
             echo "<h3>Clave actualizada de manera exitosa</h3><br>";
-            $query_cambio = "UPDATE Info_Usuarios
-                             SET Info_Usuarios.clave = '$clave_nueva'
-                             WHERE Info_Usuarios.rut = '$rut';";
+            $query_cambio = "UPDATE info_usuarios SET clave = '$clave_nueva' WHERE rut = '$rut';";
             $resultado_query_cambio = $db -> prepare($query_cambio);
             $resultado_query_cambio -> execute();
-            $array_query_cambio = $resultado_query_cambio -> fetchAll();
         } else{
             echo "<h3>Clave incorrecta, recuerda ingresar tu clave anterior primero</h3><br>";
         }
