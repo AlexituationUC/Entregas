@@ -21,7 +21,7 @@ BEGIN
     MAX(id)
     FROM Compras;
     
-    INSERT INTO Compras VALUES(id_compra_max + 1, id_usr, id_dir, id_tienda);
+    INSERT INTO Compras VALUES(id_compra_max + 1, id_dir, id_tienda, id_usr);
     INSERT INTO carritos VALUES(id_compra_max + 1, id_prod);
     RETURN 'Compra exitosa';
 
