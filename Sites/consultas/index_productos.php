@@ -20,65 +20,69 @@
 	$productos = array($vacio);
 
 ?>
+<div class="container h-100">
+	<table class="table table-dark table-hover">
+			<tr>
+				<th> ID </th>
+				<th> Nombre </th>
+				<th> Precio </th>
+				<th> Descripción </th>
+				<th> Ver producto </th>
+			</tr>
 
- <table class="table table-dark table-hover">
-        <tr>
-            <th> ID </th>
-      		<th> Nombre </th>
-			<th> Precio </th>
-			<th> Descripción </th>
-			<th> Ver producto </th>
-		</tr>
-
-	<?php
-		foreach ($comestibles as $p) {
-			if ($p[0] == "") {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
-			} else {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
-				  <form align='center' action='show_productos.php' method='post'>
-				  <div class='form-floating'>
-				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-				  <input type='hidden' name='id' value=$id class='form-control'>
-				  </div>
-				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
-				  </form>
-				  </td></tr>";
+		<?php
+			foreach ($comestibles as $p) {
+				if ($p[0] == "") {
+					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
+				} else {
+					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td>
+					<form align='center' action='show_productos.php' method='post'>
+					<div class='form-floating'>
+					<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+					<input type='hidden' name='id_producto' value=$p[0][0] class='form-control'>
+					<input type='hidden' name='id' value=$id class='form-control'>
+					</div>
+					<button type='submit' class='btn btn-primary'> Ver Producto </button>
+					</form>
+					</td></tr>";
+				}
 			}
-		}
-	?>
- </table>
- <table class="table table-dark table-hover">
-        <tr>
-            <th> ID </th>
-      		<th> Nombre </th>
-			<th> Precio </th>
-			<th> Descripción </th>
-			<th> Ver producto </th>
-		</tr>
+		?>
+	</table>
+</div>
 
-	<?php
-		foreach ($no_comestibles as $p) {
-			if ($p[0] == "") {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
-			} else {
-				echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
-				  <form align='center' action='show_productos.php' method='post'>
-				  <div class='form-floating'>
-				  <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-				  <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-				  <input type='hidden' name='id' value=$id class='form-control'>
-				  </div>
-				  <button type='submit' class='btn btn-primary'> Ver Producto </button>
-				  </form>
-				  </td></tr>";
+<div class="container h-100">
+	<table class="table table-dark table-hover">
+			<tr>
+				<th> ID </th>
+				<th> Nombre </th>
+				<th> Precio </th>
+				<th> Descripción </th>
+				<th> Ver producto </th>
+			</tr>
+
+		<?php
+			foreach ($no_comestibles as $p) {
+				if ($p[0] == "") {
+					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
+				} else {
+					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td>
+					<form align='center' action='show_productos.php' method='post'>
+					<div class='form-floating'>
+					<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+					<input type='hidden' name='id_producto' value=$p[0][0] class='form-control'>
+					<input type='hidden' name='id' value=$id class='form-control'>
+					</div>
+					<button type='submit' class='btn btn-primary'> Ver Producto </button>
+					</form>
+					</td></tr>";
+				}
 			}
-		}
 	?>
  </table>
  
 <br><br><br>
+
 <form align='center' action='show_tiendas.php' method='post'>
     <div class='form-floating'>
         <?php echo "<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>" ?>
