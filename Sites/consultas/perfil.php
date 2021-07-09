@@ -108,7 +108,7 @@ if(!empty($array_es_jefe)){
 ?>
 <!-- Botón para efectual el cambio de clave -->
 <div class="row h-100 justify-content-center align-items-center">
-    <h3> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
+    <h3 align="center"> Para cambiar su clave ingrese su clave actual y luego la nueva </h3>
     <div class="col-10 col-md-8 col-lg-6"> 
         <form align="center" method="post">
             <div class="input-group mb-3">
