@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION
 convertir_usuarios (rut varchar, nombre varchar, edad int, direccion varchar)
 
 -- declaramos que la funcion no retorna nada
-RETURNS BOOLEAN AS $$
+RETURNS varchar AS $$
 
 -- declaramos la id maxima de los usuarios
 DECLARE
@@ -42,9 +42,9 @@ BEGIN
             END IF;
 
         END LOOP;
-        RETURN FALSE;
+        RETURN "funciona";
     END IF;
-    RETURN TRUE;
+    RETURN "nofunciona";
 
 END
 $$ language plpgsql
