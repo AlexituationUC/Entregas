@@ -14,8 +14,9 @@
     $resultado_compra = $db -> prepare($query_compra);
     $resultado_compra -> execute();
     $compra = $resultado_compra -> fetchAll();
+    echo $compra[0];
 
-    if ($compra == "Producto no disponible en esta tienda"){
+    if ($compra[0] == "Producto no disponible en esta tienda"){
         echo "<div class='row h-100 justify-content-center align-items-center'>
               <div class='col-10 col-md-8 col-lg-6'>
               <h3>Producto no disponible en esta tienda</h3>
@@ -23,7 +24,7 @@
               </div>
               <br><br>";
 
-    } elseif ($compra == "Tienda no reparte a su comuna"){
+    } elseif ($compra[0] == "Tienda no reparte a su comuna"){
         echo "<div class='row h-100 justify-content-center align-items-center'>
               <div class='col-10 col-md-8 col-lg-6'>
               <h3>Tienda no reparte a su comuna</h3>
