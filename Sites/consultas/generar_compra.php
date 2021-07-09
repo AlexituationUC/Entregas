@@ -33,7 +33,7 @@
     } else {
         echo "<div class='row h-100 justify-content-center align-items-center'>
               <div class='col-10 col-md-8 col-lg-6'>
-              <h3>Felicidadez! Compra realizada de forma exitosa</h3>
+              <h3>Felicidades! Compra realizada de forma exitosa</h3>
               </div>
               </div>
               <br><br>";
