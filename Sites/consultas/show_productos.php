@@ -29,7 +29,19 @@
 	}
   	if ($is_comestible){
   		$special_attributes[] = "Fecha de expiración";
-  		if (in_array($product_id, $id_conserva)) {
+  		$is_conserva = False;
+  		foreach ($id_conserva as $elemento) {	
+			if ($elemento[0] == $product_id){
+				$is_conserva = True;
+			}
+		}
+		$is_fresco = False;
+		foreach ($id_fresco as $elemento) {
+			if ($elemento[0] == $product_id){
+				$is_fresco = True;
+			}
+		}
+  		if ($is_conserva) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
   						FROM Productos, Comestibles, Conserva
   						WHERE Productos.id = Comestibles.id
@@ -37,7 +49,7 @@
   						AND Productos.id = $product_id;";
   			$special_attributes[] = "Método";
   		}
-  		elseif (in_array($product_id, $id_fresco)) {
+  		elseif ($id_fresco) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Frescos.duracion
   					  FROM Productos, Comestibles, Frescos
   					  WHERE Productos.id = Comestibles.id 
