@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-vendidos_por_tienda(tienda integer, producto varchar)
+vendidos_por_tienda(tienda integer, producto varchar(255))
 RETURNS TABLE(
 			   id integer,
 			   nombre varchar,

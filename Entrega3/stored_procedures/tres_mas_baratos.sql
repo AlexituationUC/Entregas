@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-tres_mas_baratos(tipo varchar, tienda integer)
+tres_mas_baratos(tipo varchar(255), tienda integer)
 
 -- La idea es llamarla con "comestible" o "no comestible" y con el id de la tienda
 
