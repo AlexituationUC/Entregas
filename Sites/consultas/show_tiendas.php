@@ -97,7 +97,7 @@ if (!empty($_POST)) {
 
         <br>
 
-        <form align="center" action="index_productos.php" method="post">
+        <form align="center" action="index_productos2.php" method="post">
 
           <div class="form-floating">
             <input type="text" name="producto" class="form-control" placeholder="Nombre contiene">
