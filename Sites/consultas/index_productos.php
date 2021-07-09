@@ -34,15 +34,16 @@
 
 		<?php
 			foreach ($comestibles as $p) {
-				echo $p[0];
+				echo $p[1];
+				$p = $p[0];
 				if ($p[0] == "") {
-					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
+					echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
 				} else {
-					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td>
+					echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 					<form align='center' action='show_productos.php' method='post'>
 					<div class='form-floating'>
 					<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-					<input type='hidden' name='id_producto' value=$p[0][0] class='form-control'>
+					<input type='hidden' name='id_producto' value=$p[0] class='form-control'>
 					<input type='hidden' name='id' value=$id class='form-control'>
 					</div>
 					<button type='submit' class='btn btn-primary'> Ver Producto </button>
@@ -67,13 +68,13 @@
 		<?php
 			foreach ($no_comestibles as $p) {
 				if ($p[0] == "") {
-					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
+					echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td></tr>";
 				} else {
-					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td>
+					echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>
 					<form align='center' action='show_productos.php' method='post'>
 					<div class='form-floating'>
 					<input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-					<input type='hidden' name='id_producto' value=$p[0][0] class='form-control'>
+					<input type='hidden' name='id_producto' value=$p[0] class='form-control'>
 					<input type='hidden' name='id' value=$id class='form-control'>
 					</div>
 					<button type='submit' class='btn btn-primary'> Ver Producto </button>
