@@ -42,9 +42,9 @@ BEGIN
             END IF;
 
         END LOOP;
-        RETURN "funciona";
+        RETURN 'funciona';
     END IF;
-    RETURN "nofunciona";
+    RETURN 'nofunciona';
 
 END
 $$ language plpgsql
