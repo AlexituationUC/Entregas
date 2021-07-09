@@ -69,7 +69,6 @@
                     $tabla = $result -> fetchAll();
                     foreach ($tabla as $tab){
                       $id = $tab[0];
-                      echo $id;
                     }
                     // define a donde redigira la pagina una vez presionado el boton
                     $ir = "../perfil.php";
@@ -83,10 +82,12 @@
                 ?></h3>
 
                 <br>
-                <form align="center" action="<?php echo $ir ?>" method="post">
-                    <?php echo "<input type='hidden' name='id' value=$id class='form-control'>" ?>
-                    <button type="submit" class="btn btn-primary"><?php echo $boton ?></button>
-                </form>
+                <?php
+                  echo "<form align='center' action=$ir method='post'>
+                          <input type='hidden' name='id' value=$id class='form-control'>
+                        <button type='submit' class='btn btn-primary'> $boton </button>
+                  </form>";
+                ?>
 
             </div>
         </div>
