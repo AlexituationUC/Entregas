@@ -44,8 +44,7 @@
     $result -> execute();
 
     $registrado = $result -> fetchAll();
-    echo $registrado;
-    echo $registrado[0];
+    echo $registrado[0][0];
 
 ?>
 
