@@ -12,10 +12,12 @@
 	$resultado_comestible = $db -> prepare($query_comestible);
 	$resultado_comestible -> execute();
 	$comestibles = $resultado_comestible -> fetchAll();
+
 	$query_no_comestible = "SELECT tres_mas_baratos('no_comestible', $id_tienda);";
 	$resultado_no_comestible = $db -> prepare($query_no_comestible);
 	$resultado_no_comestible -> execute();
 	$no_comestibles = $resultado_no_comestible -> fetchAll();
+
 	$vacio = array("", "", "", "");
 	$productos = array($vacio);
 
@@ -32,6 +34,7 @@
 
 		<?php
 			foreach ($comestibles as $p) {
+				echo $p;
 				if ($p[0] == "") {
 					echo "<tr><td>$p[0][0]</td><td>$p[0][1]</td><td>$p[0][2]</td><td>$p[0][3]</td><td> </td></tr>";
 				} else {
