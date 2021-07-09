@@ -49,7 +49,7 @@
   						AND Productos.id = $product_id;";
   			$special_attributes[] = "Método";
   		}
-  		elseif ($id_fresco) {
+  		elseif ($is_fresco) {
   			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Frescos.duracion
   					  FROM Productos, Comestibles, Frescos
   					  WHERE Productos.id = Comestibles.id 
