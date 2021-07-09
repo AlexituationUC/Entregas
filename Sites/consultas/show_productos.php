@@ -42,7 +42,7 @@
 			}
 		}
   		if ($is_conserva) {
-  			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conservas.metodo
+  			$query = "SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio, Comestibles.fecha_expiracion, Conserva.metodo
   						FROM Productos, Comestibles, Conserva
   						WHERE Productos.id = Comestibles.id
   						AND Productos.id = Conserva.id
