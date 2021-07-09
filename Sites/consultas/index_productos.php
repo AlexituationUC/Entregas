@@ -20,6 +20,12 @@
   		$productos = array($vacio);
 		echo "$comestibles<br>";
 		echo "$no_comestibles<br>";
+		foreach ($comestibles as $com){
+			echo $com[0];
+		}
+		foreach ($no_comestibles as $no_com){
+			echo $no_com[0];
+		}
   	} else {
   		$producto = $_POST["producto"];
   		$query = "SELECT vendidos_por_tienda($id_tienda, $producto)";
