@@ -85,8 +85,8 @@
                 <?php
                   echo "<form align='center' action=$ir method='post'>
                           <input type='hidden' name='id' value=$id class='form-control'>
-                        <button type='submit' class='btn btn-primary'> $boton </button>
-                  </form>";
+                          <button type='submit' class='btn btn-primary'> $boton </button>
+                        </form>";
                 ?>
 
             </div>
