@@ -15,7 +15,7 @@ RETURN QUERY (
 	SELECT Productos.id, Productos.nombre, Productos.descripcion, Productos.precio
 	FROM Productos, Tiendas, tienen
 	WHERE Productos.id = tienen.id_productos 
-	AND Tiendas.id = tienen.id_tienda
+	AND Tiendas.id = tienen.id_tiendas
 	AND LOWER(Productos.nombre) LIKE LOWER(FORMAT('%s%', producto))
 	AND Tiendas.id = tienda
 	);
