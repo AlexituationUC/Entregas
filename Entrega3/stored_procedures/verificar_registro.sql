@@ -17,7 +17,7 @@ BEGIN
 
     -- si el rut ya esta registrado en la BD retorna FALSE
 
-    IF rut NOT IN (SELECT Usuarios.rut FROM Usuarios) THEN
+    IF rut IN (SELECT Usuarios.rut FROM Usuarios) THEN
         RETURN FALSE;
 
     END IF;

@@ -39,7 +39,7 @@
     $posted_rut = $_POST['rut'];
     $posted_edad = $_POST['edad'];
     $posted_direcciones = $_POST['direccion'];
-    $query = "SELECT verificar_registro($posted_nombre, $posted_rut, $posted_edad, $posted_direcciones);";
+    $query = "SELECT verificar_rut('$posted_nombre', '$posted_rut', $posted_edad, '$posted_direcciones');";
     $result = $db -> prepare($query);
     $result -> execute();
 
