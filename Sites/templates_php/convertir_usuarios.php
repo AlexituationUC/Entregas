@@ -20,7 +20,7 @@
     // Agregamos al personal como usuario a la base de datos del grupo impar
     foreach ($personal as $persona){
         // usamos el procesamiento almacenado para cada integrante del personal
-        $query = "SELECT convertir_usuarios('$persona[0]', '$persona[1]', $persona[2], '$persona[3]');";
+        $query = "CALL convertir_usuarios('$persona[0]', '$persona[1]', $persona[2], '$persona[3]');";
         $result = $db -> prepare($query);
         $result -> execute();
         $logrado = $result -> fetchAll();
