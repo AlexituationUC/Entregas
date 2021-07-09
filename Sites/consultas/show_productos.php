@@ -80,7 +80,9 @@
   	$producto = $result -> fetchAll();
 
 ?>
- <table class="table table-dark table-hover">
+
+<div class="container h-100">
+ 	<table class="table table-dark table-hover">
         <tr>
             <th> ID </th>
       		<th> Nombre </th>
@@ -106,4 +108,5 @@
 		?>
       
     </table>
+</div>
 <?php include('../templates_html/footer.html'); ?>

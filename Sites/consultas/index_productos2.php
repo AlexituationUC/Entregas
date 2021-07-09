@@ -27,50 +27,51 @@
 
 ?>
 
+<div class="container h-100">
+    <table class="table table-dark table-hover">
+            <tr>
+                <th> ID </th>
+                <th> Nombre </th>
+                <th> Descripción </th>
+                <th> Precio </th>
+                <th> Tipo </th>
+                <th> Ver producto </th>
+            </tr>
 
- <table class="table table-dark table-hover">
-        <tr>
-            <th> ID </th>
-      		<th> Nombre </th>
-			<th> Descripción </th>
-			<th> Precio </th>
-			<th> Tipo </th>
-			<th> Ver producto </th>
-		</tr>
-
-	<?php
-		foreach ($productos as $p) {
-			if ($p[0] == "") {
-				$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td><td> </td></tr>";
-			} else {
-				if (in_array($p[0], $id_comestible)) {
-					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>Comestible</td><td>
-								 <form align='center' action='show_productos.php' method='post'>
-								 <div class='form-floating'>
-								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-								 <input type='hidden' name='id' value=$id class='form-control'>
-								 </div>
-								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
-								 </form>
-								 </td></tr>";
-				} else {
-					$display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>No Comestible</td><td>
-								 <form align='center' action='show_productos.php' method='post'>
-								 <div class='form-floating'>
-								 <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
-								 <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
-								 <input type='hidden' name='id' value=$id class='form-control'>
-								 </div>
-								 <button type='submit' class='btn btn-primary'> Ver Producto </button>
-								 </form>
-								 </td></tr>";
-				}
-			}
-			echo $display;
-		}
-	?>
- </table>
+        <?php
+            foreach ($productos as $p) {
+                if ($p[0] == "") {
+                    $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td> </td><td> </td></tr>";
+                } else {
+                    if (in_array($p[0], $id_comestible)) {
+                        $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>Comestible</td><td>
+                                    <form align='center' action='show_productos.php' method='post'>
+                                    <div class='form-floating'>
+                                    <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+                                    <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+                                    <input type='hidden' name='id' value=$id class='form-control'>
+                                    </div>
+                                    <button type='submit' class='btn btn-primary'> Ver Producto </button>
+                                    </form>
+                                    </td></tr>";
+                    } else {
+                        $display = "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>No Comestible</td><td>
+                                    <form align='center' action='show_productos.php' method='post'>
+                                    <div class='form-floating'>
+                                    <input type='hidden' name='id_tienda' value=$id_tienda class='form-control'>
+                                    <input type='hidden' name='id_producto' value=$p[0] class='form-control'>
+                                    <input type='hidden' name='id' value=$id class='form-control'>
+                                    </div>
+                                    <button type='submit' class='btn btn-primary'> Ver Producto </button>
+                                    </form>
+                                    </td></tr>";
+                    }
+                }
+                echo $display;
+            }
+        ?>
+    </table>
+</div>
 
 <br><br><br>
 
