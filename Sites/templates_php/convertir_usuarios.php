@@ -23,15 +23,9 @@
         $query = "SELECT convertir_usuarios($persona[0], $persona[1], $persona[2], $persona[3]);";
         $result = $db -> prepare($query);
         $result -> execute();
-        $result -> fetchAll();
-        $logrado = $result;
+        $logrado = $result -> fetchAll();
         echo $persona[0];
         echo $logrado;
-        if ($logrado) {
-            echo ' pulento ';
-        } else {
-            echo ' pulentont ';
-        }
     }
 
 ?>
