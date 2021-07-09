@@ -25,7 +25,8 @@
         $result -> execute();
         $logrado = $result -> fetchAll();
         echo $persona[0];
-        echo $logrado[0];
+        echo 'espacio';
+        echo $logrado[0][0];
     }
 
 ?>
