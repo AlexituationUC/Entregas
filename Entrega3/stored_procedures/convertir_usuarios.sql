@@ -17,11 +17,7 @@ BEGIN
     -- si el personal ya se encuentra registrado como usuari entonces no se
     -- vuelve a registrar, de esta formo evitamos duplicados
 
-    SELECT u.rut
-    FROM Usuarios as u
-    WHERE u.rut = rut
-
-    IF NOT FOUND THEN
+    IF rut NOT IN (SELECT Usuarios.rut FROM Usuarios) THEN
         -- guardamos la maxima id de los usuarios registrados en la BD
         SELECT INTO idmax_usuarios
         MAX(id)
