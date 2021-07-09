@@ -38,7 +38,7 @@ $query_rut = "SELECT rut FROM usuarios WHERE id = $id;";
 $res_rut = $db -> prepare($query_rut);
 $res_rut -> execute();
 $array_rut = $res_rut -> fetchAll();
-$rut = $array_rut[0][0]; 
+$rut = $array_rut[0][0];
 
 
 // Ahora veremos si el usuario es un jefe
